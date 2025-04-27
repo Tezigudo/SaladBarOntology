@@ -29,6 +29,14 @@ def extract_base_and_info(portion_name):
     else:
         return portion_name, None, None
 
+def normalize_unit(unit):
+    unit = unit.lower()
+    if unit == "g":
+        return "grams"
+    elif unit == "ml":
+        return "millilitres"
+    return unit
+
 # Step 1: Identify IngredientPortion and DressingPortion
 ingredient_portions = []
 dressing_portions = []
@@ -59,7 +67,8 @@ for portion_uri in ingredient_portions:
     if amount:
         g.add((portion_uri, HAS_AMOUNT, Literal(int(amount))))
     if unit:
-        g.add((portion_uri, HAS_UNIT, Literal(unit)))
+        normalized_unit = normalize_unit(unit)
+        g.add((portion_uri, HAS_UNIT, Literal(normalized_unit)))
 
 for portion_uri in dressing_portions:
     portion_name = get_local_name(portion_uri)
@@ -73,7 +82,8 @@ for portion_uri in dressing_portions:
     if amount:
         g.add((portion_uri, HAS_AMOUNT, Literal(int(amount))))
     if unit:
-        g.add((portion_uri, HAS_UNIT, Literal(unit)))
+        normalized_unit = normalize_unit(unit)
+        g.add((portion_uri, HAS_UNIT, Literal(normalized_unit)))
 
 # Step 3: Save back to original RDF file
 g.serialize(destination="salad_ontology.rdf", format="xml")
