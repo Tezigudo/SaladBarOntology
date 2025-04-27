@@ -1,0 +1,2760 @@
+BaconCalcium
+    Amount: 10
+    Unit: mg/100g
+BaconCarbohydrate
+    Amount: 1430
+    Unit: mg/100g
+BaconCholesterol
+    Amount: 110
+    Unit: mg/100g
+BaconFat
+    Amount: 42000
+    Unit: mg/100g
+BaconFoodEnergy
+    Amount: 541
+    Unit: cal/100g
+BaconIron
+    Amount: 0.82
+    Unit: mg/100g
+BaconPotassium
+    Amount: 565
+    Unit: mg/100g
+BaconProtein
+    Amount: 37000
+    Unit: mg/100g
+BaconSodium
+    Amount: 1717
+    Unit: mg/100g
+BaconVitaminA
+    Amount: 0.0039
+    Unit: mg/100g
+DeliHamCalcium
+    Amount: 6
+    Unit: mg/100g
+DeliHamCarbohydrate
+    Amount: 2280
+    Unit: mg/100g
+DeliHamCholesterol
+    Amount: 30
+    Unit: mg/100g
+DeliHamFat
+    Amount: 8390
+    Unit: mg/100g
+DeliHamFoodEnergy
+    Amount: 162
+    Unit: cal/100g
+DeliHamIron
+    Amount: 0.8
+    Unit: mg/100g
+DeliHamPotassium
+    Amount: 250
+    Unit: mg/100g
+DeliHamProtein
+    Amount: 18260
+    Unit: mg/100g
+DeliHamSodium
+    Amount: 1200
+    Unit: mg/100g
+DicedChickenCalcium
+    Amount: 12
+    Unit: mg/100g
+DicedChickenCholesterol
+    Amount: 48
+    Unit: mg/100g
+DicedChickenFat
+    Amount: 1100
+    Unit: mg/100g
+DicedChickenFoodEnergy
+    Amount: 110
+    Unit: cal/100g
+DicedChickenIron
+    Amount: 0.9
+    Unit: mg/100g
+DicedChickenPotassium
+    Amount: 256
+    Unit: mg/100g
+DicedChickenProtein
+    Amount: 22000
+    Unit: mg/100g
+DicedChickenSodium
+    Amount: 560
+    Unit: mg/100g
+CookedChickenCalcium
+    Amount: 6
+    Unit: mg/100g
+CookedChickenCholesterol
+    Amount: 116
+    Unit: mg/100g
+CookedChickenFat
+    Amount: 3200
+    Unit: mg/100g
+CookedChickenFoodEnergy
+    Amount: 157
+    Unit: cal/100g
+CookedChickenIron
+    Amount: 0.5
+    Unit: mg/100g
+CookedChickenPotassium
+    Amount: 343
+    Unit: mg/100g
+CookedChickenProtein
+    Amount: 32100
+    Unit: mg/100g
+CookedChickenSodium
+    Amount: 47
+    Unit: mg/100g
+DeliTurkeyCalcium
+    Amount: 10
+    Unit: mg/100g
+DeliTurkeyCarbohydrate
+    Amount: 4210
+    Unit: mg/100g
+DeliTurkeyCholesterol
+    Amount: 30
+    Unit: mg/100g
+DeliTurkeyFat
+    Amount: 1660
+    Unit: mg/100g
+DeliTurkeyFoodEnergy
+    Amount: 104
+    Unit: cal/100g
+DeliTurkeyIron
+    Amount: 0.7
+    Unit: mg/100g
+DeliTurkeyPotassium
+    Amount: 250
+    Unit: mg/100g
+DeliTurkeyProtein
+    Amount: 17070
+    Unit: mg/100g
+DeliTurkeySodium
+    Amount: 1000
+    Unit: mg/100g
+CookedTurkeyCalcium
+    Amount: 11
+    Unit: mg/100g
+CookedTurkeyCholesterol
+    Amount: 109
+    Unit: mg/100g
+CookedTurkeyFat
+    Amount: 4970
+    Unit: mg/100g
+CookedTurkeyFoodEnergy
+    Amount: 170
+    Unit: cal/100g
+CookedTurkeyIron
+    Amount: 1.1
+    Unit: mg/100g
+CookedTurkeyPotassium
+    Amount: 239
+    Unit: mg/100g
+CookedTurkeyProtein
+    Amount: 29320
+    Unit: mg/100g
+CookedTurkeySodium
+    Amount: 90
+    Unit: mg/100g
+TunaCalcium
+    Amount: 4
+    Unit: mg/100g
+TunaCholesterol
+    Amount: 45
+    Unit: mg/100g
+TunaFat
+    Amount: 600
+    Unit: mg/100g
+TunaFoodEnergy
+    Amount: 130
+    Unit: cal/100g
+TunaIron
+    Amount: 1.0
+    Unit: mg/100g
+TunaPotassium
+    Amount: 252
+    Unit: mg/100g
+TunaProtein
+    Amount: 29000
+    Unit: mg/100g
+TunaSodium
+    Amount: 50
+    Unit: mg/100g
+ CrabCalcium
+    Amount: 91
+    Unit: mg/100g
+CrabCholesterol
+    Amount: 55
+    Unit: mg/100g
+CrabFat
+    Amount: 700
+    Unit: mg/100g
+CrabFoodEnergy
+    Amount: 83
+    Unit: cal/100g
+CrabIron
+    Amount: 0.8
+    Unit: mg/100g
+CrabPotassium
+    Amount: 259
+    Unit: mg/100g
+CrabProtein
+    Amount: 18000
+    Unit: mg/100g
+CrabSodium
+    Amount: 911
+    Unit: mg/100g
+HardCookedEggsCalcium
+    Amount: 50
+    Unit: mg/100g
+HardCookedEggsCarbohydrate
+    Amount: 1120
+    Unit: mg/100g
+HardCookedEggsCholesterol
+    Amount: 186
+    Unit: mg/100g
+HardCookedEggsFat
+    Amount: 10610
+    Unit: mg/100g
+HardCookedEggsFoodEnergy
+    Amount: 155
+    Unit: cal/100g
+HardCookedEggsIron
+    Amount: 1.2
+    Unit: mg/100g
+HardCookedEggsPotassium
+    Amount: 126
+    Unit: mg/100g
+HardCookedEggsProtein
+    Amount: 12580
+    Unit: mg/100g
+HardCookedEggsSodium
+    Amount: 124
+    Unit: mg/100g
+HardCookedEggsVitaminA
+    Amount: 0.64
+    Unit: mg/100g
+HardBoiledEggsCalcium
+    Amount: 50
+    Unit: mg/100g
+HardBoiledEggsCarbohydrate
+    Amount: 1120
+    Unit: mg/100g
+HardBoiledEggsCholesterol
+    Amount: 186
+    Unit: mg/100g
+HardBoiledEggsFat
+    Amount: 10610
+    Unit: mg/100g
+HardBoiledEggsFoodEnergy
+    Amount: 155
+    Unit: cal/100g
+HardBoiledEggsIron
+    Amount: 1.2
+    Unit: mg/100g
+HardBoiledEggsPotassium
+    Amount: 126
+    Unit: mg/100g
+HardBoiledEggsProtein
+    Amount: 12580
+    Unit: mg/100g
+HardBoiledEggsSodium
+    Amount: 124
+    Unit: mg/100g
+HardBoiledEggsVitaminA
+    Amount: 0.64
+    Unit: mg/100g
+AppleCalcium
+    Amount: 6
+    Unit: mg/100g
+AppleCarbohydrate
+    Amount: 13.81
+    Unit: g/100g
+AppleFat
+    Amount: 0.17
+    Unit: g/100g
+AppleFoodEnergy
+    Amount: 52
+    Unit: cal/100g
+AppleIron
+    Amount: 0.12
+    Unit: mg/100g
+ApplePotassium
+    Amount: 107
+    Unit: mg/100g
+AppleProtein
+    Amount: 0.26
+    Unit: g/100g
+AppleSodium
+    Amount: 1
+    Unit: mg/100g
+AppleVitaminA
+    Amount: 54
+    Unit: IU/100g
+AppleVitaminC
+    Amount: 4.6
+    Unit: mg/100g
+PineappleCalcium
+    Amount: 13
+    Unit: mg/100g
+PineappleCarbohydrate
+    Amount: 13.12
+    Unit: g/100g
+PineappleFat
+    Amount: 0.12
+    Unit: g/100g
+PineappleFoodEnergy
+    Amount: 50
+    Unit: cal/100g
+PineappleIron
+    Amount: 0.29
+    Unit: mg/100g
+PineapplePotassium
+    Amount: 109
+    Unit: mg/100g
+PineappleProtein
+    Amount: 0.54
+    Unit: g/100g
+PineappleSodium
+    Amount: 1
+    Unit: mg/100g
+PineappleVitaminA
+    Amount: 58
+    Unit: IU/100g
+PineappleVitaminC
+    Amount: 47.8
+    Unit: mg/100g
+StrawberriesCalcium
+    Amount: 16
+    Unit: mg/100g
+StrawberriesCarbohydrate
+    Amount: 7.68
+    Unit: g/100g
+StrawberriesFat
+    Amount: 0.3
+    Unit: g/100g
+StrawberriesFoodEnergy
+    Amount: 32
+    Unit: cal/100g
+StrawberriesIron
+    Amount: 0.41
+    Unit: mg/100g
+StrawberriesPotassium
+    Amount: 153
+    Unit: mg/100g
+StrawberriesProtein
+    Amount: 0.67
+    Unit: g/100g
+StrawberriesSodium
+    Amount: 1
+    Unit: mg/100g
+StrawberriesVitaminA
+    Amount: 12
+    Unit: IU/100g
+StrawberriesVitaminC
+    Amount: 58.8
+    Unit: mg/100g
+BlueberriesCalcium
+    Amount: 6
+    Unit: mg/100g
+BlueberriesCarbohydrate
+    Amount: 14.49
+    Unit: g/100g
+BlueberriesCholesterol
+    Amount: 0
+    Unit: mg/100g
+BlueberriesFat
+    Amount: 0.33
+    Unit: g/100g
+BlueberriesFoodEnergy
+    Amount: 57
+    Unit: cal/100g
+BlueberriesIron
+    Amount: 0.28
+    Unit: mg/100g
+BlueberriesPotassium
+    Amount: 77
+    Unit: mg/100g
+BlueberriesProtein
+    Amount: 0.74
+    Unit: g/100g
+BlueberriesSodium
+    Amount: 1
+    Unit: mg/100g
+BlueberriesVitaminA
+    Amount: 54
+    Unit: IU/100g
+BlueberriesVitaminC
+    Amount: 9.7
+    Unit: mg/100g
+KiwiCalcium
+    Amount: 34
+    Unit: mg/100g
+KiwiCarbohydrate
+    Amount: 14.66
+    Unit: g/100g
+KiwiFat
+    Amount: 0.52
+    Unit: g/100g
+KiwiFoodEnergy
+    Amount: 61
+    Unit: cal/100g
+KiwiIron
+    Amount: 0.31
+    Unit: mg/100g
+KiwiPotassium
+    Amount: 312
+    Unit: mg/100g
+KiwiProtein
+    Amount: 1.14
+    Unit: g/100g
+KiwiSodium
+    Amount: 3
+    Unit: mg/100g
+KiwiVitaminA
+    Amount: 87
+    Unit: IU/100g
+KiwiVitaminC
+    Amount: 92.7
+    Unit: mg/100g
+MandarinOrangesCalcium
+    Amount: 37
+    Unit: mg/100g
+MandarinOrangesCarbohydrate
+    Amount: 13.34
+    Unit: g/100g
+MandarinOrangesFat
+    Amount: 0.3
+    Unit: g/100g
+MandarinOrangesFoodEnergy
+    Amount: 53
+    Unit: cal/100g
+MandarinOrangesIron
+    Amount: 0.15
+    Unit: mg/100g
+MandarinOrangesPotassium
+    Amount: 166
+    Unit: mg/100g
+MandarinOrangesProtein
+    Amount: 0.81
+    Unit: g/100g
+MandarinOrangesSodium
+    Amount: 2
+    Unit: mg/100g
+MandarinOrangesVitaminA
+    Amount: 681
+    Unit: IU/100g
+MandarinOrangesVitaminC
+    Amount: 26.7
+    Unit: mg/100g
+RaisinsCalcium
+    Amount: 50
+    Unit: mg/100g
+RaisinsCarbohydrate
+    Amount: 79.32
+    Unit: g/100g
+RaisinsFat
+    Amount: 0.25
+    Unit: g/100g
+RaisinsFoodEnergy
+    Amount: 299
+    Unit: cal/100g
+RaisinsIron
+    Amount: 1.88
+    Unit: mg/100g
+RaisinsPotassium
+    Amount: 749
+    Unit: mg/100g
+RaisinsProtein
+    Amount: 3.07
+    Unit: g/100g
+RaisinsSodium
+    Amount: 11
+    Unit: mg/100g
+RaisinsVitaminA
+    Amount: 0
+    Unit: IU/100g
+RaisinsVitaminC
+    Amount: 2.3
+    Unit: mg/100g
+MangoCalcium
+    Amount: 11
+    Unit: mg/100g
+MangoCarbohydrate
+    Amount: 14.98
+    Unit: g/100g
+MangoCholesterol
+    Amount: 0
+    Unit: mg/100g
+MangoFat
+    Amount: 0.38
+    Unit: g/100g
+MangoFoodEnergy
+    Amount: 60
+    Unit: cal/100g
+MangoIron
+    Amount: 0.16
+    Unit: mg/100g
+MangoPotassium
+    Amount: 168
+    Unit: mg/100g
+MangoProtein
+    Amount: 0.82
+    Unit: g/100g
+MangoSodium
+    Amount: 1
+    Unit: mg/100g
+MangoVitaminA
+    Amount: 1082
+    Unit: IU/100g
+MangoVitaminC
+    Amount: 36.4
+    Unit: mg/100g
+FigsCalcium
+    Amount: 35
+    Unit: mg/100g
+FigsCarbohydrate
+    Amount: 19.18
+    Unit: g/100g
+FigsCholesterol
+    Amount: 0
+    Unit: mg/100g
+FigsFat
+    Amount: 0.3
+    Unit: g/100g
+FigsFoodEnergy
+    Amount: 74
+    Unit: cal/100g
+FigsIron
+    Amount: 0.37
+    Unit: mg/100g
+FigsPotassium
+    Amount: 232
+    Unit: mg/100g
+FigsProtein
+    Amount: 0.75
+    Unit: g/100g
+FigsSodium
+    Amount: 1
+    Unit: mg/100g
+FigsVitaminA
+    Amount: 142
+    Unit: IU/100g
+FigsVitaminC
+    Amount: 2
+    Unit: mg/100g
+MaraschinoCherriesCalcium
+    Amount: 3
+    Unit: mg/100g
+MaraschinoCherriesCarbohydrate
+    Amount: 40
+    Unit: g/100g
+MaraschinoCherriesFat
+    Amount: 0.1
+    Unit: g/100g
+MaraschinoCherriesFoodEnergy
+    Amount: 160
+    Unit: cal/100g
+MaraschinoCherriesIron
+    Amount: 0.02
+    Unit: mg/100g
+MaraschinoCherriesPotassium
+    Amount: 1
+    Unit: mg/100g
+MaraschinoCherriesProtein
+    Amount: 0.1
+    Unit: g/100g
+MaraschinoCherriesSodium
+    Amount: 0.2
+    Unit: mg/100g
+MaraschinoCherriesVitaminA
+    Amount: 0.001
+    Unit: mg/100g
+BlueCheeseCrumblesCalcium
+    Amount: 150
+    Unit: mg/100g
+BlueCheeseCrumblesCarbohydrate
+    Amount: 0.7
+    Unit: g/100g
+BlueCheeseCrumblesCholesterol
+    Amount: 89
+    Unit: mg/100g
+BlueCheeseCrumblesFat
+    Amount: 29
+    Unit: g/100g
+BlueCheeseCrumblesFoodEnergy
+    Amount: 357
+    Unit: cal/100g
+BlueCheeseCrumblesPotassium
+    Amount: 22
+    Unit: mg/100g
+BlueCheeseCrumblesProtein
+    Amount: 21
+    Unit: g/100g
+BlueCheeseCrumblesSodium
+    Amount: 929
+    Unit: mg/100g
+BlueCheeseCrumblesVitaminA
+    Amount: 0.056
+    Unit: mg/100g
+FetaCubesOrCrumblesCalcium
+    Amount: 493
+    Unit: mg/100g
+FetaCubesOrCrumblesCarbohydrate
+    Amount: 4.09
+    Unit: g/100g
+FetaCubesOrCrumblesCholesterol
+    Amount: 89
+    Unit: mg/100g
+FetaCubesOrCrumblesFat
+    Amount: 21.28
+    Unit: g/100g
+FetaCubesOrCrumblesFoodEnergy
+    Amount: 264
+    Unit: cal/100g
+FetaCubesOrCrumblesIron
+    Amount: 0.36
+    Unit: mg/100g
+FetaCubesOrCrumblesPotassium
+    Amount: 62
+    Unit: mg/100g
+FetaCubesOrCrumblesProtein
+    Amount: 14.21
+    Unit: g/100g
+FetaCubesOrCrumblesSodium
+    Amount: 1139
+    Unit: mg/100g
+FetaCubesOrCrumblesVitaminA
+    Amount: 0.125
+    Unit: mg/100g
+FetaCubesOrCrumblesVitaminC
+    Amount: 0
+    Unit: mg/100g
+FetaCubesOrCrumblesCalcium
+    Amount: 493
+    Unit: mg/100g
+FetaCubesOrCrumblesCarbohydrate
+    Amount: 4.09
+    Unit: g/100g
+FetaCubesOrCrumblesCholesterol
+    Amount: 89
+    Unit: mg/100g
+FetaCubesOrCrumblesFat
+    Amount: 21.28
+    Unit: g/100g
+FetaCubesOrCrumblesFoodEnergy
+    Amount: 264
+    Unit: cal/100g
+FetaCubesOrCrumblesIron
+    Amount: 0.36
+    Unit: mg/100g
+FetaCubesOrCrumblesPotassium
+    Amount: 62
+    Unit: mg/100g
+FetaCubesOrCrumblesProtein
+    Amount: 14.21
+    Unit: g/100g
+FetaCubesOrCrumblesSodium
+    Amount: 1139
+    Unit: mg/100g
+FetaCubesOrCrumblesVitaminA
+    Amount: 0.125
+    Unit: mg/100g
+MozzarellaCalcium
+    Amount: 505
+    Unit: mg/100g
+MozzarellaCarbohydrate
+    Amount: 3.83
+    Unit: g/100g
+MozzarellaCholesterol
+    Amount: 79
+    Unit: mg/100g
+MozzarellaFat
+    Amount: 20.03
+    Unit: g/100g
+MozzarellaFoodEnergy
+    Amount: 302
+    Unit: cal/100g
+MozzarellaIron
+    Amount: 0.38
+    Unit: mg/100g
+MozzarellaPotassium
+    Amount: 95
+    Unit: mg/100g
+MozzarellaProtein
+    Amount: 25.96
+    Unit: g/100g
+MozzarellaSodium
+    Amount: 627
+    Unit: mg/100g
+MozzarellaVitaminA
+    Amount: 0.143
+    Unit: mg/100g
+CheddarCheeseCalcium
+    Amount: 721
+    Unit: mg/100g
+CheddarCheeseCarbohydrate
+    Amount: 1.28
+    Unit: g/100g
+CheddarCheeseCholesterol
+    Amount: 105
+    Unit: mg/100g
+CheddarCheeseFat
+    Amount: 33.14
+    Unit: g/100g
+CheddarCheeseFoodEnergy
+    Amount: 403
+    Unit: cal/100g
+CheddarCheeseIron
+    Amount: 0.68
+    Unit: mg/100g
+CheddarCheesePotassium
+    Amount: 98
+    Unit: mg/100g
+CheddarCheeseProtein
+    Amount: 24.9
+    Unit: g/100g
+CheddarCheeseSodium
+    Amount: 621
+    Unit: mg/100g
+CheddarCheeseVitaminA
+    Amount: 0.265
+    Unit: mg/100g
+FreshMozzarellaCalcium
+    Amount: 505
+    Unit: mg/100g
+FreshMozzarellaCarbohydrate
+    Amount: 3.83
+    Unit: g/100g
+FreshMozzarellaCholesterol
+    Amount: 79
+    Unit: mg/100g
+FreshMozzarellaFat
+    Amount: 20.03
+    Unit: g/100g
+FreshMozzarellaFoodEnergy
+    Amount: 302
+    Unit: cal/100g
+FreshMozzarellaIron
+    Amount: 0.38
+    Unit: mg/100g
+FreshMozzarellaPotassium
+    Amount: 95
+    Unit: mg/100g
+FreshMozzarellaProtein
+    Amount: 25.96
+    Unit: g/100g
+FreshMozzarellaSodium
+    Amount: 627
+    Unit: mg/100g
+FreshMozzarellaVitaminA
+    Amount: 0.143
+    Unit: mg/100g
+ParmesanCheeseCalcium
+    Amount: 1155
+    Unit: mg/100g
+ParmesanCheeseCarbohydrate
+    Amount: 0
+    Unit: g/100g
+ParmesanCheeseCholesterol
+    Amount: 80
+    Unit: mg/100g
+ParmesanCheeseFat
+    Amount: 29.7
+    Unit: g/100g
+ParmesanCheeseFoodEnergy
+    Amount: 402
+    Unit: cal/100g
+ParmesanCheeseIron
+    Amount: 0.82
+    Unit: mg/100g
+ParmesanCheesePotassium
+    Amount: 125
+    Unit: mg/100g
+ParmesanCheeseProtein
+    Amount: 32.4
+    Unit: g/100g
+ParmesanCheeseSodium
+    Amount: 1600
+    Unit: mg/100g
+ParmesanCheeseVitaminA
+    Amount: 0.26
+    Unit: mg/100g
+LettuceCalcium
+    Amount: 36
+    Unit: mg/100g
+LettuceCarbohydrate
+    Amount: 2.97
+    Unit: g/100g
+LettuceFat
+    Amount: 0.14
+    Unit: g/100g
+LettuceFoodEnergy
+    Amount: 14
+    Unit: cal/100g
+LettuceIron
+    Amount: 0.5
+    Unit: mg/100g
+LettucePotassium
+    Amount: 194
+    Unit: mg/100g
+LettuceProtein
+    Amount: 0.9
+    Unit: g/100g
+LettuceSodium
+    Amount: 28
+    Unit: mg/100g
+LettuceVitaminA
+    Amount: 0.370
+    Unit: mg/100g
+LettuceVitaminC
+    Amount: 9.2
+    Unit: mg/100g
+WhiteCabbageCalcium
+    Amount: 40
+    Unit: mg/100g
+WhiteCabbageCarbohydrate
+    Amount: 4.8
+    Unit: g/100g
+WhiteCabbageFat
+    Amount: 0.1
+    Unit: g/100g
+WhiteCabbageFoodEnergy
+    Amount: 24
+    Unit: cal/100g
+WhiteCabbageIron
+    Amount: 0.5
+    Unit: mg/100g
+WhiteCabbagePotassium
+    Amount: 170
+    Unit: mg/100g
+WhiteCabbageProtein
+    Amount: 1.2
+    Unit: g/100g
+WhiteCabbageSodium
+    Amount: 18
+    Unit: mg/100g
+WhiteCabbageVitaminA
+    Amount: 0.005
+    Unit: mg/100g
+WhiteCabbageVitaminC
+    Amount: 36.6
+    Unit: mg/100g
+RedCabbageCalcium
+    Amount: 45
+    Unit: mg/100g
+RedCabbageCarbohydrate
+    Amount: 7.37
+    Unit: g/100g
+RedCabbageCholesterol
+    Amount: 0
+    Unit: mg/100g
+RedCabbageFat
+    Amount: 0.16
+    Unit: g/100g
+RedCabbageFoodEnergy
+    Amount: 31
+    Unit: cal/100g
+RedCabbageIron
+    Amount: 0.8
+    Unit: mg/100g
+RedCabbagePotassium
+    Amount: 243
+    Unit: mg/100g
+RedCabbageProtein
+    Amount: 1.43
+    Unit: g/100g
+RedCabbageSodium
+    Amount: 27
+    Unit: mg/100g
+RedCabbageVitaminA
+    Amount: 0.015
+    Unit: mg/100g
+RedCabbageVitaminC
+    Amount: 57
+    Unit: mg/100g
+NapaCabbageCalcium
+    Amount: 77
+    Unit: mg/100g
+NapaCabbageCarbohydrate
+    Amount: 2.2
+    Unit: g/100g
+NapaCabbageCholesterol
+    Amount: 0
+    Unit: mg/100g
+NapaCabbageFat
+    Amount: 0.2
+    Unit: g/100g
+NapaCabbageFoodEnergy
+    Amount: 12
+    Unit: cal/100g
+NapaCabbageIron
+    Amount: 0.8
+    Unit: mg/100g
+NapaCabbagePotassium
+    Amount: 230
+    Unit: mg/100g
+NapaCabbageProtein
+    Amount: 1.1
+    Unit: g/100g
+NapaCabbageSodium
+    Amount: 4
+    Unit: mg/100g
+NapaCabbageVitaminA
+    Amount: 0.014
+    Unit: mg/100g
+NapaCabbageVitaminC
+    Amount: 27
+    Unit: mg/100g
+GreenCabbageCalcium
+    Amount: 40
+    Unit: mg/100g
+GreenCabbageCarbohydrate
+    Amount: 5.58
+    Unit: g/100g
+GreenCabbageCholesterol
+    Amount: 0
+    Unit: mg/100g
+GreenCabbageFat
+    Amount: 0.12
+    Unit: g/100g
+GreenCabbageFoodEnergy
+    Amount: 24
+    Unit: cal/100g
+GreenCabbageIron
+    Amount: 0.47
+    Unit: mg/100g
+GreenCabbagePotassium
+    Amount: 170
+    Unit: mg/100g
+GreenCabbageProtein
+    Amount: 1.44
+    Unit: g/100g
+GreenCabbageSodium
+    Amount: 18
+    Unit: mg/100g
+GreenCabbageVitaminA
+    Amount: 0.005
+    Unit: mg/100g
+GreenCabbageVitaminC
+    Amount: 36.6
+    Unit: mg/100g
+ParsleyCalcium
+    Amount: 138
+    Unit: mg/100g
+ParsleyCarbohydrate
+    Amount: 6.33
+    Unit: g/100g
+ParsleyCholesterol
+    Amount: 0
+    Unit: mg/100g
+ParsleyFat
+    Amount: 0.79
+    Unit: g/100g
+ParsleyFoodEnergy
+    Amount: 36
+    Unit: cal/100g
+ParsleyIron
+    Amount: 6.2
+    Unit: mg/100g
+ParsleyPotassium
+    Amount: 554
+    Unit: mg/100g
+ParsleyProtein
+    Amount: 2.97
+    Unit: g/100g
+ParsleySodium
+    Amount: 56
+    Unit: mg/100g
+ParsleyVitaminA
+    Amount: 0.421
+    Unit: mg/100g
+ParsleyVitaminC
+    Amount: 133
+    Unit: mg/100g
+MintCalcium
+    Amount: 199
+    Unit: mg/100g
+MintCarbohydrate
+    Amount: 14.89
+    Unit: g/100g
+MintCholesterol
+    Amount: 0
+    Unit: mg/100g
+MintFat
+    Amount: 0.94
+    Unit: g/100g
+MintFoodEnergy
+    Amount: 70
+    Unit: cal/100g
+MintIron
+    Amount: 5.08
+    Unit: mg/100g
+MintPotassium
+    Amount: 569
+    Unit: mg/100g
+MintProtein
+    Amount: 3.75
+    Unit: g/100g
+MintSodium
+    Amount: 31
+    Unit: mg/100g
+MintVitaminA
+    Amount: 0.424
+    Unit: mg/100g
+MintVitaminC
+    Amount: 31.8
+    Unit: mg/100g
+BasilCalcium
+    Amount: 177
+    Unit: mg/100g
+BasilCarbohydrate
+    Amount: 4.34
+    Unit: g/100g
+BasilFat
+    Amount: 0.61
+    Unit: g/100g
+BasilFoodEnergy
+    Amount: 27
+    Unit: cal/100g
+BasilIron
+    Amount: 3.17
+    Unit: mg/100g
+BasilPotassium
+    Amount: 295
+    Unit: mg/100g
+BasilProtein
+    Amount: 2.54
+    Unit: g/100g
+BasilSodium
+    Amount: 4
+    Unit: mg/100g
+BasilVitaminA
+    Amount: 0.527
+    Unit: mg/100g
+BasilVitaminC
+    Amount: 18
+    Unit: mg/100g
+CeleryLeavesCalcium
+    Amount: 80
+    Unit: mg/100g
+CeleryLeavesCarbohydrate
+    Amount: 2
+    Unit: g/100g
+CeleryLeavesCholesterol
+    Amount: 0
+    Unit: mg/100g
+CeleryLeavesFat
+    Amount: 0
+    Unit: g/100g
+CeleryLeavesFoodEnergy
+    Amount: 12
+    Unit: cal/100g
+CeleryLeavesPotassium
+    Amount: 600
+    Unit: mg/100g
+CeleryLeavesProtein
+    Amount: 1
+    Unit: g/100g
+CeleryLeavesSodium
+    Amount: 80
+    Unit: mg/100g
+CeleryLeavesVitaminA
+    Amount: 0.022
+    Unit: mg/100g
+CeleryLeavesVitaminC
+    Amount: 60
+    Unit: mg/100g
+RomaineLettuceCalcium
+    Amount: 33
+    Unit: mg/100g
+RomaineLettuceCarbohydrate
+    Amount: 3.28
+    Unit: g/100g
+RomaineLettuceCholesterol
+    Amount: 0
+    Unit: mg/100g
+RomaineLettuceFat
+    Amount: 0.3
+    Unit: g/100g
+RomaineLettuceFoodEnergy
+    Amount: 17
+    Unit: cal/100g
+RomaineLettuceIron
+    Amount: 0.97
+    Unit: mg/100g
+RomaineLettucePotassium
+    Amount: 247
+    Unit: mg/100g
+RomaineLettuceProtein
+    Amount: 1.23
+    Unit: g/100g
+RomaineLettuceSodium
+    Amount: 8
+    Unit: mg/100g
+RomaineLettuceVitaminA
+    Amount: 0.29
+    Unit: mg/100g
+RomaineLettuceVitaminC
+    Amount: 24
+    Unit: mg/100g
+IcebergLettuceCalcium
+    Amount: 18
+    Unit: mg/100g
+IcebergLettuceCarbohydrate
+    Amount: 2.97
+    Unit: g/100g
+IcebergLettuceCholesterol
+    Amount: 0
+    Unit: mg/100g
+IcebergLettuceFat
+    Amount: 0.14
+    Unit: g/100g
+IcebergLettuceFoodEnergy
+    Amount: 14
+    Unit: cal/100g
+IcebergLettuceIron
+    Amount: 0.41
+    Unit: mg/100g
+IcebergLettucePotassium
+    Amount: 141
+    Unit: mg/100g
+IcebergLettuceProtein
+    Amount: 0.9
+    Unit: g/100g
+IcebergLettuceSodium
+    Amount: 10
+    Unit: mg/100g
+IcebergLettuceVitaminA
+    Amount: 0.025
+    Unit: mg/100g
+IcebergLettuceVitaminC
+    Amount: 2.8
+    Unit: mg/100g
+BostonLettuceCalcium
+    Amount: 36
+    Unit: mg/100g
+BostonLettuceCarbohydrate
+    Amount: 2.23
+    Unit: g/100g
+BostonLettuceCholesterol
+    Amount: 0
+    Unit: mg/100g
+BostonLettuceFat
+    Amount: 0.22
+    Unit: g/100g
+BostonLettuceFoodEnergy
+    Amount: 13
+    Unit: cal/100g
+BostonLettuceIron
+    Amount: 0.86
+    Unit: mg/100g
+BostonLettucePotassium
+    Amount: 238
+    Unit: mg/100g
+BostonLettuceProtein
+    Amount: 1.35
+    Unit: g/100g
+BostonLettuceSodium
+    Amount: 28
+    Unit: mg/100g
+BostonLettuceVitaminA
+    Amount: 0.370
+    Unit: mg/100g
+BostonLettuceVitaminC
+    Amount: 3.7
+    Unit: mg/100g
+ChivesCalcium
+    Amount: 92
+    Unit: mg/100g
+ChivesCarbohydrate
+    Amount: 4.35
+    Unit: g/100g
+ChivesCholesterol
+    Amount: 0
+    Unit: mg/100g
+ChivesFat
+    Amount: 0.73
+    Unit: g/100g
+ChivesFoodEnergy
+    Amount: 30
+    Unit: cal/100g
+ChivesIron
+    Amount: 1.6
+    Unit: mg/100g
+ChivesPotassium
+    Amount: 296
+    Unit: mg/100g
+ChivesProtein
+    Amount: 3.27
+    Unit: g/100g
+ChivesSodium
+    Amount: 3
+    Unit: mg/100g
+ChivesVitaminA
+    Amount: 0.435
+    Unit: mg/100g
+ChivesVitaminC
+    Amount: 58.1
+    Unit: mg/100g
+CarrotsCalcium
+    Amount: 33
+    Unit: mg/100g
+CarrotsCarbohydrate
+    Amount: 9.58
+    Unit: g/100g
+CarrotsCholesterol
+    Amount: 0
+    Unit: mg/100g
+CarrotsFat
+    Amount: 0.24
+    Unit: g/100g
+CarrotsFoodEnergy
+    Amount: 41
+    Unit: cal/100g
+CarrotsIron
+    Amount: 0.3
+    Unit: mg/100g
+CarrotsPotassium
+    Amount: 320
+    Unit: mg/100g
+CarrotsProtein
+    Amount: 0.93
+    Unit: g/100g
+CarrotsSodium
+    Amount: 69
+    Unit: mg/100g
+CarrotsVitaminA
+    Amount: 0.835
+    Unit: mg/100g
+CarrotsVitaminC
+    Amount: 5.9
+    Unit: mg/100g
+RadishesCalcium
+    Amount: 25
+    Unit: mg/100g
+RadishesCarbohydrate
+    Amount: 3.4
+    Unit: g/100g
+RadishesCholesterol
+    Amount: 0
+    Unit: mg/100g
+RadishesFat
+    Amount: 0.1
+    Unit: g/100g
+RadishesFoodEnergy
+    Amount: 16
+    Unit: cal/100g
+RadishesIron
+    Amount: 0.34
+    Unit: mg/100g
+RadishesPotassium
+    Amount: 233
+    Unit: mg/100g
+RadishesProtein
+    Amount: 0.68
+    Unit: g/100g
+RadishesSodium
+    Amount: 39
+    Unit: mg/100g
+RadishesVitaminA
+    Amount: 0.007
+    Unit: mg/100g
+RadishesVitaminC
+    Amount: 14.8
+    Unit: mg/100g
+RedOnionCalcium
+    Amount: 23
+    Unit: mg/100g
+RedOnionCarbohydrate
+    Amount: 10.11
+    Unit: g/100g
+RedOnionCholesterol
+    Amount: 0
+    Unit: mg/100g
+RedOnionFat
+    Amount: 0.08
+    Unit: g/100g
+RedOnionFoodEnergy
+    Amount: 42
+    Unit: cal/100g
+RedOnionIron
+    Amount: 0.21
+    Unit: mg/100g
+RedOnionPotassium
+    Amount: 146
+    Unit: mg/100g
+RedOnionProtein
+    Amount: 0.92
+    Unit: g/100g
+RedOnionSodium
+    Amount: 4
+    Unit: mg/100g
+RedOnionVitaminA
+    Amount: 0
+    Unit: mg/100g
+RedOnionVitaminC
+    Amount: 7.4
+    Unit: mg/100g
+WhiteOnionCalcium
+    Amount: 23
+    Unit: mg/100g
+WhiteOnionCarbohydrate
+    Amount: 9.34
+    Unit: g/100g
+WhiteOnionCholesterol
+    Amount: 0
+    Unit: mg/100g
+WhiteOnionFat
+    Amount: 0.1
+    Unit: g/100g
+WhiteOnionFoodEnergy
+    Amount: 40
+    Unit: cal/100g
+WhiteOnionIron
+    Amount: 0.21
+    Unit: mg/100g
+WhiteOnionPotassium
+    Amount: 146
+    Unit: mg/100g
+WhiteOnionProtein
+    Amount: 1.1
+    Unit: g/100g
+WhiteOnionSodium
+    Amount: 4
+    Unit: mg/100g
+WhiteOnionVitaminA
+    Amount: 0
+    Unit: mg/100g
+WhiteOnionVitaminC
+    Amount: 7.4
+    Unit: mg/100g
+GreenOnionsCalcium
+    Amount: 72
+    Unit: mg/100g
+GreenOnionsCarbohydrate
+    Amount: 7.34
+    Unit: g/100g
+GreenOnionsCholesterol
+    Amount: 0
+    Unit: mg/100g
+GreenOnionsFat
+    Amount: 0.19
+    Unit: g/100g
+GreenOnionsFoodEnergy
+    Amount: 32
+    Unit: cal/100g
+GreenOnionsIron
+    Amount: 1.48
+    Unit: mg/100g
+GreenOnionsPotassium
+    Amount: 276
+    Unit: mg/100g
+GreenOnionsProtein
+    Amount: 1.83
+    Unit: g/100g
+GreenOnionsSodium
+    Amount: 16
+    Unit: mg/100g
+GreenOnionsVitaminA
+    Amount: 0.050
+    Unit: mg/100g
+GreenOnionsVitaminC
+    Amount: 18.8
+    Unit: mg/100g
+CeleryCalcium
+    Amount: 40
+    Unit: mg/100g
+CeleryCarbohydrate
+    Amount: 2.97
+    Unit: g/100g
+CeleryFat
+    Amount: 0.17
+    Unit: g/100g
+CeleryFoodEnergy
+    Amount: 14
+    Unit: cal/100g
+CeleryIron
+    Amount: 0.2
+    Unit: mg/100g
+CeleryPotassium
+    Amount: 260
+    Unit: mg/100g
+CeleryProtein
+    Amount: 0.69
+    Unit: g/100g
+CelerySodium
+    Amount: 80
+    Unit: mg/100g
+CeleryVitaminA
+    Amount: 0.022
+    Unit: mg/100g
+CeleryVitaminC
+    Amount: 3.1
+    Unit: mg/100g
+ShallotsCalcium
+    Amount: 37
+    Unit: mg/100g
+ShallotsCarbohydrate
+    Amount: 16.8
+    Unit: g/100g
+ShallotsFat
+    Amount: 0.1
+    Unit: g/100g
+ShallotsFoodEnergy
+    Amount: 72
+    Unit: cal/100g
+ShallotsIron
+    Amount: 1.2
+    Unit: mg/100g
+ShallotsPotassium
+    Amount: 334
+    Unit: mg/100g
+ShallotsProtein
+    Amount: 2.5
+    Unit: g/100g
+ShallotsSodium
+    Amount: 12
+    Unit: mg/100g
+ShallotsVitaminA
+    Amount: 0.06
+    Unit: mg/100g
+ShallotsVitaminC
+    Amount: 8
+    Unit: mg/100g
+GarlicCalcium
+    Amount: 181
+    Unit: mg/100g
+GarlicCarbohydrate
+    Amount: 33.06
+    Unit: g/100g
+GarlicFat
+    Amount: 0.5
+    Unit: g/100g
+GarlicFoodEnergy
+    Amount: 149
+    Unit: cal/100g
+GarlicIron
+    Amount: 1.7
+    Unit: mg/100g
+GarlicPotassium
+    Amount: 401
+    Unit: mg/100g
+GarlicProtein
+    Amount: 6.36
+    Unit: g/100g
+GarlicSodium
+    Amount: 17
+    Unit: mg/100g
+GarlicVitaminA
+    Amount: 0
+    Unit: mg/100g
+GarlicVitaminC
+    Amount: 31
+    Unit: mg/100g
+TomatoCalcium
+    Amount: 10
+    Unit: mg/100g
+TomatoCarbohydrate
+    Amount: 3.9
+    Unit: g/100g
+TomatoFat
+    Amount: 0.2
+    Unit: g/100g
+TomatoFoodEnergy
+    Amount: 18
+    Unit: cal/100g
+TomatoIron
+    Amount: 0.5
+    Unit: mg/100g
+TomatoPotassium
+    Amount: 237
+    Unit: mg/100g
+TomatoProtein
+    Amount: 0.9
+    Unit: g/100g
+TomatoSodium
+    Amount: 5
+    Unit: mg/100g
+TomatoVitaminA
+    Amount: 0.833
+    Unit: mg/100g
+TomatoVitaminC
+    Amount: 13.7
+    Unit: mg/100g
+CherryTomatoCalcium
+    Amount: 14.9
+    Unit: mg/100g
+CherryTomatoCarbohydrate
+    Amount: 3.92
+    Unit: g/100g
+CherryTomatoCholesterol
+    Amount: 0
+    Unit: mg/100g
+CherryTomatoFat
+    Amount: 0.2
+    Unit: g/100g
+CherryTomatoFoodEnergy
+    Amount: 18
+    Unit: cal/100g
+CherryTomatoIron
+    Amount: 0.4
+    Unit: mg/100g
+CherryTomatoPotassium
+    Amount: 353
+    Unit: mg/100g
+CherryTomatoProtein
+    Amount: 0.88
+    Unit: g/100g
+CherryTomatoSodium
+    Amount: 7.45
+    Unit: mg/100g
+CherryTomatoVitaminA
+    Amount: 0.86
+    Unit: mg/100g
+CherryTomatoVitaminC
+    Amount: 14
+    Unit: mg/100g
+CucumberCalcium
+    Amount: 16
+    Unit: mg/100g
+CucumberCarbohydrate
+    Amount: 3.63
+    Unit: g/100g
+CucumberFat
+    Amount: 0.11
+    Unit: g/100g
+CucumberFoodEnergy
+    Amount: 15
+    Unit: cal/100g
+CucumberIron
+    Amount: 0.28
+    Unit: mg/100g
+CucumberPotassium
+    Amount: 147
+    Unit: mg/100g
+CucumberProtein
+    Amount: 0.65
+    Unit: g/100g
+CucumberSodium
+    Amount: 2
+    Unit: mg/100g
+CucumberVitaminA
+    Amount: 0.105
+    Unit: mg/100g
+CucumberVitaminC
+    Amount: 2.8
+    Unit: mg/100g
+OlivesCalcium
+    Amount: 88
+    Unit: mg/100g
+OlivesCarbohydrate
+    Amount: 6.04
+    Unit: g/100g
+OlivesFat
+    Amount: 10.9
+    Unit: g/100g
+OlivesFoodEnergy
+    Amount: 116
+    Unit: cal/100g
+OlivesIron
+    Amount: 6.28
+    Unit: mg/100g
+OlivesPotassium
+    Amount: 8
+    Unit: mg/100g
+OlivesProtein
+    Amount: 0.84
+    Unit: g/100g
+OlivesSodium
+    Amount: 735
+    Unit: mg/100g
+OlivesVitaminA
+    Amount: 0.393
+    Unit: mg/100g
+OlivesVitaminC
+    Amount: 0
+    Unit: mg/100g
+AvocadoCalcium
+    Amount: 12
+    Unit: mg/100g
+AvocadoCarbohydrate
+    Amount: 8.53
+    Unit: g/100g
+AvocadoFat
+    Amount: 14.66
+    Unit: g/100g
+AvocadoFoodEnergy
+    Amount: 160
+    Unit: cal/100g
+AvocadoIron
+    Amount: 0.55
+    Unit: mg/100g
+AvocadoPotassium
+    Amount: 485
+    Unit: mg/100g
+AvocadoProtein
+    Amount: 2
+    Unit: g/100g
+AvocadoSodium
+    Amount: 7
+    Unit: mg/100g
+AvocadoVitaminA
+    Amount: 0.007
+    Unit: mg/100g
+AvocadoVitaminC
+    Amount: 10
+    Unit: mg/100g
+RedBellPepperCalcium
+    Amount: 7
+    Unit: mg/100g
+RedBellPepperCarbohydrate
+    Amount: 6.0
+    Unit: g/100g
+RedBellPepperCholesterol
+    Amount: 0
+    Unit: mg/100g
+RedBellPepperFat
+    Amount: 0.3
+    Unit: g/100g
+RedBellPepperFoodEnergy
+    Amount: 26
+    Unit: cal/100g
+RedBellPepperIron
+    Amount: 0.43
+    Unit: mg/100g
+RedBellPepperPotassium
+    Amount: 211
+    Unit: mg/100g
+RedBellPepperProtein
+    Amount: 0.99
+    Unit: g/100g
+RedBellPepperSodium
+    Amount: 4
+    Unit: mg/100g
+RedBellPepperVitaminA
+    Amount: 0.157
+    Unit: mg/100g
+RedBellPepperVitaminC
+    Amount: 127.7
+    Unit: mg/100g
+GreenBellPepperCalcium
+    Amount: 10
+    Unit: mg/100g
+GreenBellPepperCarbohydrate
+    Amount: 4.64
+    Unit: g/100g
+GreenBellPepperCholesterol
+    Amount: 0
+    Unit: mg/100g
+GreenBellPepperFat
+    Amount: 0.17
+    Unit: g/100g
+GreenBellPepperFoodEnergy
+    Amount: 20
+    Unit: cal/100g
+GreenBellPepperIron
+    Amount: 0.34
+    Unit: mg/100g
+GreenBellPepperPotassium
+    Amount: 175
+    Unit: mg/100g
+GreenBellPepperProtein
+    Amount: 0.86
+    Unit: g/100g
+GreenBellPepperSodium
+    Amount: 3
+    Unit: mg/100g
+GreenBellPepperVitaminA
+    Amount: 0.018
+    Unit: mg/100g
+GreenBellPepperVitaminC
+    Amount: 80.4
+    Unit: mg/100g
+YellowBellPepperCalcium
+    Amount: 11
+    Unit: mg/100g
+YellowBellPepperCarbohydrate
+    Amount: 6.32
+    Unit: g/100g
+YellowBellPepperCholesterol
+    Amount: 0
+    Unit: mg/100g
+YellowBellPepperFat
+    Amount: 0.21
+    Unit: g/100g
+YellowBellPepperFoodEnergy
+    Amount: 27
+    Unit: cal/100g
+YellowBellPepperIron
+    Amount: 0.46
+    Unit: mg/100g
+YellowBellPepperPotassium
+    Amount: 212
+    Unit: mg/100g
+YellowBellPepperProtein
+    Amount: 1.0
+    Unit: g/100g
+YellowBellPepperSodium
+    Amount: 2
+    Unit: mg/100g
+YellowBellPepperVitaminA
+    Amount: 0.010
+    Unit: mg/100g
+YellowBellPepperVitaminC
+    Amount: 183
+    Unit: mg/100g
+BlackOlivesCalcium
+    Amount: 90
+    Unit: mg/100g
+BlackOlivesCarbohydrate
+    Amount: 6.06
+    Unit: g/100g
+BlackOlivesCholesterol
+    Amount: 0
+    Unit: mg/100g
+BlackOlivesFat
+    Amount: 9.54
+    Unit: g/100g
+BlackOlivesFoodEnergy
+    Amount: 105
+    Unit: cal/100g
+BlackOlivesIron
+    Amount: 3.31
+    Unit: mg/100g
+BlackOlivesPotassium
+    Amount: 8
+    Unit: mg/100g
+BlackOlivesProtein
+    Amount: 0.88
+    Unit: g/100g
+BlackOlivesSodium
+    Amount: 880
+    Unit: mg/100g
+BlackOlivesVitaminA
+    Amount: 0.019
+    Unit: mg/100g
+BlackOlivesVitaminC
+    Amount: 1.1
+    Unit: mg/100g
+KalamataOlivesCalcium
+    Amount: 0
+    Unit: mg/100g
+KalamataOlivesCarbohydrate
+    Amount: 13.33
+    Unit: g/100g
+KalamataOlivesCholesterol
+    Amount: 0
+    Unit: mg/100g
+KalamataOlivesFat
+    Amount: 30.0
+    Unit: g/100g
+KalamataOlivesFoodEnergy
+    Amount: 300
+    Unit: cal/100g
+KalamataOlivesSodium
+    Amount: 1733
+    Unit: mg/100g
+AsparagusCalcium
+    Amount: 20
+    Unit: mg/100g
+AsparagusCarbohydrate
+    Amount: 3.88
+    Unit: g/100g
+AsparagusCholesterol
+    Amount: 0
+    Unit: mg/100g
+AsparagusFat
+    Amount: 0.12
+    Unit: g/100g
+AsparagusFoodEnergy
+    Amount: 20
+    Unit: cal/100g
+AsparagusIron
+    Amount: 0.82
+    Unit: mg/100g
+AsparagusPotassium
+    Amount: 202
+    Unit: mg/100g
+AsparagusProtein
+    Amount: 2.2
+    Unit: g/100g
+AsparagusSodium
+    Amount: 12
+    Unit: mg/100g
+AsparagusVitaminA
+    Amount: 0.275
+    Unit: mg/100g
+AsparagusVitaminC
+    Amount: 5.6
+    Unit: mg/100g
+GarbanzoBeansCalcium
+    Amount: 49
+    Unit: mg/100g
+GarbanzoBeansCarbohydrate
+    Amount: 27.42
+    Unit: g/100g
+GarbanzoBeansCholesterol
+    Amount: 0
+    Unit: mg/100g
+GarbanzoBeansFat
+    Amount: 2.59
+    Unit: g/100g
+GarbanzoBeansFoodEnergy
+    Amount: 164
+    Unit: cal/100g
+GarbanzoBeansIron
+    Amount: 2.89
+    Unit: mg/100g
+GarbanzoBeansPotassium
+    Amount: 291
+    Unit: mg/100g
+GarbanzoBeansProtein
+    Amount: 8.86
+    Unit: g/100g
+GarbanzoBeansSodium
+    Amount: 24
+    Unit: mg/100g
+GarbanzoBeansVitaminA
+    Amount: 0.003
+    Unit: mg/100g
+GarbanzoBeansVitaminC
+    Amount: 1.3
+    Unit: mg/100g
+BlackBeansCalcium
+    Amount: 27
+    Unit: mg/100g
+BlackBeansCarbohydrate
+    Amount: 23.71
+    Unit: g/100g
+BlackBeansCholesterol
+    Amount: 0
+    Unit: mg/100g
+BlackBeansFat
+    Amount: 0.54
+    Unit: g/100g
+BlackBeansFoodEnergy
+    Amount: 132
+    Unit: cal/100g
+BlackBeansIron
+    Amount: 2.1
+    Unit: mg/100g
+BlackBeansPotassium
+    Amount: 355
+    Unit: mg/100g
+BlackBeansProtein
+    Amount: 8.86
+    Unit: g/100g
+BlackBeansSodium
+    Amount: 1
+    Unit: mg/100g
+KidneyBeansCalcium
+    Amount: 28
+    Unit: mg/100g
+KidneyBeansCarbohydrate
+    Amount: 22.8
+    Unit: g/100g
+KidneyBeansCholesterol
+    Amount: 0
+    Unit: mg/100g
+KidneyBeansFat
+    Amount: 0.5
+    Unit: g/100g
+KidneyBeansFoodEnergy
+    Amount: 127
+    Unit: cal/100g
+KidneyBeansIron
+    Amount: 2.94
+    Unit: mg/100g
+KidneyBeansPotassium
+    Amount: 403
+    Unit: mg/100g
+KidneyBeansProtein
+    Amount: 8.67
+    Unit: g/100g
+KidneyBeansSodium
+    Amount: 2
+    Unit: mg/100g
+FarfallePastaCalcium
+    Amount: 0
+    Unit: mg/100g
+FarfallePastaCarbohydrate
+    Amount: 71
+    Unit: g/100g
+FarfallePastaCholesterol
+    Amount: 0
+    Unit: mg/100g
+FarfallePastaFat
+    Amount: 1.2
+    Unit: g/100g
+FarfallePastaFoodEnergy
+    Amount: 351
+    Unit: cal/100g
+FarfallePastaProtein
+    Amount: 14
+    Unit: g/100g
+OrzoPastaCarbohydrate
+    Amount: 71
+    Unit: g/100g
+OrzoPastaFat
+    Amount: 3.5
+    Unit: g/100g
+OrzoPastaFoodEnergy
+    Amount: 357
+    Unit: cal/100g
+OrzoPastaProtein
+    Amount: 10.7
+    Unit: g/100g
+BulgurCalcium
+    Amount: 18
+    Unit: mg/100g
+BulgurCarbohydrate
+    Amount: 18.58
+    Unit: g/100g
+BulgurFat
+    Amount: 0.24
+    Unit: g/100g
+BulgurFoodEnergy
+    Amount: 83
+    Unit: cal/100g
+BulgurIron
+    Amount: 1.44
+    Unit: mg/100g
+BulgurPotassium
+    Amount: 68
+    Unit: mg/100g
+BulgurProtein
+    Amount: 3.08
+    Unit: g/100g
+BulgurSodium
+    Amount: 5
+    Unit: mg/100g
+GreenBeansCalcium
+    Amount: 37
+    Unit: mg/100g
+GreenBeansCarbohydrate
+    Amount: 7
+    Unit: g/100g
+GreenBeansFat
+    Amount: 0.1
+    Unit: g/100g
+GreenBeansFoodEnergy
+    Amount: 31
+    Unit: cal/100g
+GreenBeansIron
+    Amount: 1
+    Unit: mg/100g
+GreenBeansPotassium
+    Amount: 209
+    Unit: mg/100g
+GreenBeansProtein
+    Amount: 1.8
+    Unit: g/100g
+GreenBeansSodium
+    Amount: 6
+    Unit: mg/100g
+GreenBeansVitaminA
+    Amount: 0.004
+    Unit: mg/100g
+GreenBeansVitaminC
+    Amount: 14
+    Unit: mg/100g
+WaxBeansCalcium
+    Amount: 37
+    Unit: mg/100g
+WaxBeansCarbohydrate
+    Amount: 7.1
+    Unit: g/100g
+WaxBeansCholesterol
+    Amount: 0
+    Unit: mg/100g
+WaxBeansFat
+    Amount: 0.1
+    Unit: g/100g
+WaxBeansFoodEnergy
+    Amount: 31
+    Unit: cal/100g
+WaxBeansIron
+    Amount: 1
+    Unit: mg/100g
+WaxBeansPotassium
+    Amount: 209
+    Unit: mg/100g
+WaxBeansProtein
+    Amount: 1.8
+    Unit: g/100g
+WaxBeansSodium
+    Amount: 6
+    Unit: mg/100g
+WaxBeansVitaminA
+    Amount: 0.004
+    Unit: mg/100g
+WaxBeansVitaminC
+    Amount: 14
+    Unit: mg/100g
+CookedPastaCalcium
+    Amount: 7
+    Unit: mg/100g
+CookedPastaCarbohydrate
+    Amount: 24.93
+    Unit: g/100g
+CookedPastaFat
+    Amount: 1.05
+    Unit: g/100g
+CookedPastaFoodEnergy
+    Amount: 131
+    Unit: cal/100g
+CookedPastaIron
+    Amount: 0.63
+    Unit: mg/100g
+CookedPastaPotassium
+    Amount: 44
+    Unit: mg/100g
+CookedPastaProtein
+    Amount: 5.15
+    Unit: g/100g
+CookedPastaSodium
+    Amount: 1
+    Unit: mg/100g
+CelerySeedsCalcium
+    Amount: 1240
+    Unit: mg/100g
+CelerySeedsCarbohydrate
+    Amount: 41.35
+    Unit: g/100g
+CelerySeedsCholesterol
+    Amount: 0
+    Unit: mg/100g
+CelerySeedsFat
+    Amount: 25.27
+    Unit: g/100g
+CelerySeedsFoodEnergy
+    Amount: 392
+    Unit: cal/100g
+CelerySeedsIron
+    Amount: 17.1
+    Unit: mg/100g
+CelerySeedsPotassium
+    Amount: 1400
+    Unit: mg/100g
+CelerySeedsProtein
+    Amount: 18.07
+    Unit: g/100g
+CelerySeedsSodium
+    Amount: 160
+    Unit: mg/100g
+CelerySeedsVitaminA
+    Amount: 0.003
+    Unit: mg/100g
+CelerySeedsVitaminC
+    Amount: 17.1
+    Unit: mg/100g
+PickleRelishCalcium
+    Amount: 3
+    Unit: mg/100g
+PickleRelishCarbohydrate
+    Amount: 35.06
+    Unit: g/100g
+PickleRelishCholesterol
+    Amount: 0
+    Unit: mg/100g
+PickleRelishFat
+    Amount: 0.47
+    Unit: g/100g
+PickleRelishFoodEnergy
+    Amount: 130
+    Unit: cal/100g
+PickleRelishIron
+    Amount: 0.87
+    Unit: mg/100g
+PickleRelishPotassium
+    Amount: 25
+    Unit: mg/100g
+PickleRelishProtein
+    Amount: 0.37
+    Unit: g/100g
+PickleRelishSodium
+    Amount: 811
+    Unit: mg/100g
+PickleRelishVitaminA
+    Amount: 0.042
+    Unit: mg/100g
+PickleRelishVitaminC
+    Amount: 1
+    Unit: mg/100g
+DijonMustardCalcium
+    Amount: 58
+    Unit: mg/100g
+DijonMustardCarbohydrate
+    Amount: 7.78
+    Unit: g/100g
+DijonMustardCholesterol
+    Amount: 0
+    Unit: mg/100g
+DijonMustardFat
+    Amount: 3.11
+    Unit: g/100g
+DijonMustardFoodEnergy
+    Amount: 66
+    Unit: cal/100g
+DijonMustardIron
+    Amount: 1.6
+    Unit: mg/100g
+DijonMustardPotassium
+    Amount: 152
+    Unit: mg/100g
+DijonMustardProtein
+    Amount: 3.95
+    Unit: g/100g
+DijonMustardSodium
+    Amount: 1,200
+    Unit: mg/100g
+DijonMustardVitaminA
+    Amount: 0.02
+    Unit: mg/100g
+DijonMustardVitaminC
+    Amount: 0.3
+    Unit: mg/100g
+PowderedSugarCalcium
+    Amount: 0.4
+    Unit: mg/100g
+PowderedSugarCarbohydrate
+    Amount: 99.6
+    Unit: g/100g
+PowderedSugarCholesterol
+    Amount: 0
+    Unit: mg/100g
+PowderedSugarFat
+    Amount: 0.1
+    Unit: g/100g
+PowderedSugarFoodEnergy
+    Amount: 389
+    Unit: cal/100g
+PowderedSugarIron
+    Amount: 0
+    Unit: mg/100g
+PowderedSugarPotassium
+    Amount: 0.3
+    Unit: mg/100g
+PowderedSugarSodium
+    Amount: 1.1
+    Unit: mg/100g
+HorseradishCalcium
+    Amount: 56
+    Unit: mg/100g
+HorseradishCarbohydrate
+    Amount: 11.29
+    Unit: g/100g
+HorseradishFat
+    Amount: 0.69
+    Unit: g/100g
+HorseradishFoodEnergy
+    Amount: 48
+    Unit: cal/100g
+HorseradishIron
+    Amount: 0.42
+    Unit: mg/100g
+HorseradishPotassium
+    Amount: 246
+    Unit: mg/100g
+HorseradishProtein
+    Amount: 1.18
+    Unit: g/100g
+HorseradishSodium
+    Amount: 420
+    Unit: mg/100g
+HorseradishVitaminA
+    Amount: 0.002
+    Unit: mg/100g
+HorseradishVitaminC
+    Amount: 24.9
+    Unit: mg/100g
+PaprikaCalcium
+    Amount: 229
+    Unit: mg/100g
+PaprikaCarbohydrate
+    Amount: 55.74
+    Unit: g/100g
+PaprikaCholesterol
+    Amount: 0
+    Unit: mg/100g
+PaprikaFat
+    Amount: 12.89
+    Unit: g/100g
+PaprikaFoodEnergy
+    Amount: 282
+    Unit: cal/100g
+PaprikaIron
+    Amount: 21.14
+    Unit: mg/100g
+PaprikaPotassium
+    Amount: 2280
+    Unit: mg/100g
+PaprikaProtein
+    Amount: 14.14
+    Unit: g/100g
+PaprikaSodium
+    Amount: 68
+    Unit: mg/100g
+PaprikaVitaminA
+    Amount: 0.524
+    Unit: mg/100g
+PaprikaVitaminC
+    Amount: 0.9
+    Unit: mg/100g
+SumacCalcium
+    Amount: 96
+    Unit: mg/100g
+SumacCarbohydrate
+    Amount: 48.1
+    Unit: g/100g
+SumacCholesterol
+    Amount: 0
+    Unit: mg/100g
+SumacFat
+    Amount: 14.4
+    Unit: g/100g
+SumacFoodEnergy
+    Amount: 281
+    Unit: cal/100g
+SumacIron
+    Amount: 0
+    Unit: mg/100g
+SumacPotassium
+    Amount: 1962
+    Unit: mg/100g
+SumacProtein
+    Amount: 13.3
+    Unit: g/100g
+SumacSodium
+    Amount: 2850
+    Unit: mg/100g
+SumacVitaminA
+    Amount: 0.011
+    Unit: mg/100g
+SumacVitaminC
+    Amount: 25.5
+    Unit: mg/100g
+CroutonsCalcium
+    Amount: 50
+    Unit: mg/100g
+CroutonsCarbohydrate
+    Amount: 63.5
+    Unit: g/100g
+CroutonsCholesterol
+    Amount: 0
+    Unit: mg/100g
+CroutonsFat
+    Amount: 18.3
+    Unit: g/100g
+CroutonsFoodEnergy
+    Amount: 465
+    Unit: cal/100g
+CroutonsIron
+    Amount: 3.6
+    Unit: mg/100g
+CroutonsPotassium
+    Amount: 150
+    Unit: mg/100g
+CroutonsProtein
+    Amount: 10.8
+    Unit: g/100g
+CroutonsSodium
+    Amount: 698
+    Unit: mg/100g
+CroutonsVitaminA
+    Amount: 0.01
+    Unit: mg/100g
+MiniMarshmallowsCalcium
+    Amount: 0
+    Unit: mg/100g
+MiniMarshmallowsCarbohydrate
+    Amount: 96.667
+    Unit: g/100g
+MiniMarshmallowsFoodEnergy
+    Amount: 400
+    Unit: cal/100g
+MiniMarshmallowsProtein
+    Amount: 3.333
+    Unit: g/100g
+MiniMarshmallowsSodium
+    Amount: 67
+    Unit: mg/100g
+BreadCalcium
+    Amount: 144
+    Unit: mg/100g
+BreadCarbohydrate
+    Amount: 49
+    Unit: g/100g
+BreadFat
+    Amount: 3.3
+    Unit: g/100g
+BreadFoodEnergy
+    Amount: 266
+    Unit: cal/100g
+BreadIron
+    Amount: 3.6
+    Unit: mg/100g
+BreadPotassium
+    Amount: 115
+    Unit: mg/100g
+BreadProtein
+    Amount: 8.9
+    Unit: g/100g
+BreadSodium
+    Amount: 491
+    Unit: mg/100g
+HeavyWhippingCreamCalcium
+    Amount: 66
+    Unit: mg/100g
+HeavyWhippingCreamCarbohydrate
+    Amount: 3.0
+    Unit: g/100g
+HeavyWhippingCreamCholesterol
+    Amount: 113
+    Unit: mg/100g
+HeavyWhippingCreamFat
+    Amount: 43.0
+    Unit: g/100g
+HeavyWhippingCreamFoodEnergy
+    Amount: 408
+    Unit: cal/100g
+HeavyWhippingCreamIron
+    Amount: 0.0
+    Unit: mg/100g
+HeavyWhippingCreamPotassium
+    Amount: 0.0
+    Unit: mg/100g
+HeavyWhippingCreamProtein
+    Amount: 3.0
+    Unit: g/100g
+HeavyWhippingCreamSodium
+    Amount: 35
+    Unit: mg/100g
+HeavyWhippingCreamVitaminA
+    Amount: 0.55
+    Unit: mg/100g
+GreekYogurtCalcium
+    Amount: 100
+    Unit: mg/100g
+GreekYogurtCarbohydrate
+    Amount: 4.0
+    Unit: g/100g
+GreekYogurtCholesterol
+    Amount: 13
+    Unit: mg/100g
+GreekYogurtFat
+    Amount: 5.0
+    Unit: g/100g
+GreekYogurtFoodEnergy
+    Amount: 97
+    Unit: cal/100g
+GreekYogurtIron
+    Amount: 0.0
+    Unit: mg/100g
+GreekYogurtPotassium
+    Amount: 141
+    Unit: mg/100g
+GreekYogurtProtein
+    Amount: 9.0
+    Unit: g/100g
+GreekYogurtSodium
+    Amount: 35
+    Unit: mg/100g
+GreekYogurtVitaminA
+    Amount: 0.003
+    Unit: mg/100g
+YogurtCalcium
+    Amount: 121
+    Unit: mg/100g
+YogurtCarbohydrate
+    Amount: 4.7
+    Unit: g/100g
+YogurtCholesterol
+    Amount: 13
+    Unit: mg/100g
+YogurtFat
+    Amount: 3.3
+    Unit: g/100g
+YogurtFoodEnergy
+    Amount: 61
+    Unit: cal/100g
+YogurtPotassium
+    Amount: 155
+    Unit: mg/100g
+YogurtProtein
+    Amount: 3.5
+    Unit: g/100g
+YogurtSodium
+    Amount: 46
+    Unit: mg/100g
+YogurtVitaminA
+    Amount: 0.003
+    Unit: mg/100g
+MayonnaiseCalcium
+    Amount: 0
+    Unit: mg/100g
+MayonnaiseCarbohydrate
+    Amount: 23.9
+    Unit: g/100g
+MayonnaiseCholesterol
+    Amount: 42
+    Unit: mg/100g
+MayonnaiseFat
+    Amount: 33.4
+    Unit: g/100g
+MayonnaiseFoodEnergy
+    Amount: 390
+    Unit: cal/100g
+MayonnaiseIron
+    Amount: 0.3
+    Unit: mg/100g
+MayonnaisePotassium
+    Amount: 20
+    Unit: mg/100g
+MayonnaiseProtein
+    Amount: 0.9
+    Unit: g/100g
+MayonnaiseSodium
+    Amount: 635
+    Unit: mg/100g
+DijonMustardCalcium
+    Amount: 58
+    Unit: mg/100g
+DijonMustardCarbohydrate
+    Amount: 7.78
+    Unit: g/100g
+DijonMustardCholesterol
+    Amount: 0
+    Unit: mg/100g
+DijonMustardFat
+    Amount: 3.11
+    Unit: g/100g
+DijonMustardFoodEnergy
+    Amount: 66
+    Unit: cal/100g
+DijonMustardIron
+    Amount: 1.6
+    Unit: mg/100g
+DijonMustardPotassium
+    Amount: 152
+    Unit: mg/100g
+DijonMustardProtein
+    Amount: 3.95
+    Unit: g/100g
+DijonMustardSodium
+    Amount: 2383
+    Unit: mg/100g
+DijonMustardVitaminA
+    Amount: 0.02
+    Unit: mg/100g
+DijonMustardVitaminC
+    Amount: 0.3
+    Unit: mg/100g
+ItalianDressingCarbohydrate
+    Amount: 10.43
+    Unit: g/100g
+ItalianDressingFat
+    Amount: 28.37
+    Unit: g/100g
+ItalianDressingFoodEnergy
+    Amount: 291
+    Unit: cal/100g
+ItalianDressingIron
+    Amount: 0.2
+    Unit: mg/100g
+ItalianDressingPotassium
+    Amount: 9
+    Unit: mg/100g
+ItalianDressingProtein
+    Amount: 0.38
+    Unit: g/100g
+ItalianDressingSodium
+    Amount: 1120
+    Unit: mg/100g
+SaladDressingCalcium
+    Amount: 0
+    Unit: mg/100g
+SaladDressingCarbohydrate
+    Amount: 14.78
+    Unit: g/100g
+SaladDressingCholesterol
+    Amount: 3
+    Unit: mg/100g
+SaladDressingFat
+    Amount: 21.6
+    Unit: g/100g
+SaladDressingFoodEnergy
+    Amount: 250
+    Unit: cal/100g
+SaladDressingIron
+    Amount: 0.2
+    Unit: mg/100g
+SaladDressingPotassium
+    Amount: 10
+    Unit: mg/100g
+SaladDressingProtein
+    Amount: 0.5
+    Unit: g/100g
+SaladDressingSodium
+    Amount: 640
+    Unit: mg/100g
+WorcestershireSauceCarbohydrate
+    Amount: 19.46
+    Unit: g/100g
+WorcestershireSauceFoodEnergy
+    Amount: 67
+    Unit: cal/100g
+WorcestershireSauceIron
+    Amount: 0.2
+    Unit: mg/100g
+WorcestershireSaucePotassium
+    Amount: 100
+    Unit: mg/100g
+WorcestershireSauceSodium
+    Amount: 1300
+    Unit: mg/100g
+LemonJuiceCalcium
+    Amount: 6
+    Unit: mg/100g
+LemonJuiceCarbohydrate
+    Amount: 8.63
+    Unit: g/100g
+LemonJuiceFoodEnergy
+    Amount: 25
+    Unit: cal/100g
+LemonJuiceIron
+    Amount: 0.08
+    Unit: mg/100g
+LemonJuicePotassium
+    Amount: 103
+    Unit: mg/100g
+LemonJuiceProtein
+    Amount: 0.38
+    Unit: g/100g
+LemonJuiceSodium
+    Amount: 1
+    Unit: mg/100g
+LemonJuiceVitaminC
+    Amount: 38.7
+    Unit: mg/100g
+LimeJuiceCalcium
+    Amount: 33
+    Unit: mg/100g
+LimeJuiceCarbohydrate
+    Amount: 8.42
+    Unit: g/100g
+LimeJuiceFat
+    Amount: 0.07
+    Unit: g/100g
+LimeJuiceFoodEnergy
+    Amount: 25
+    Unit: cal/100g
+LimeJuiceIron
+    Amount: 0.6
+    Unit: mg/100g
+LimeJuicePotassium
+    Amount: 102
+    Unit: mg/100g
+LimeJuiceProtein
+    Amount: 0.42
+    Unit: g/100g
+LimeJuiceSodium
+    Amount: 2
+    Unit: mg/100g
+LimeJuiceVitaminC
+    Amount: 29.1
+    Unit: mg/100g
+OilFat
+    Amount: 100
+    Unit: g/100g
+OilFoodEnergy
+    Amount: 884
+    Unit: cal/100g
+OliveOilCalcium
+    Amount: 1
+    Unit: mg/100g
+OliveOilCholesterol
+    Amount: 0
+    Unit: mg/100g
+OliveOilFat
+    Amount: 100
+    Unit: g/100g
+OliveOilFoodEnergy
+    Amount: 884
+    Unit: cal/100g
+OliveOilIron
+    Amount: 0.56
+    Unit: mg/100g
+OliveOilPotassium
+    Amount: 1
+    Unit: mg/100g
+OliveOilSodium
+    Amount: 2
+    Unit: mg/100g
+HoneyCalcium
+    Amount: 6
+    Unit: mg/100g
+HoneyCarbohydrate
+    Amount: 82.4
+    Unit: g/100g
+HoneyFoodEnergy
+    Amount: 304
+    Unit: cal/100g
+HoneyIron
+    Amount: 0.42
+    Unit: mg/100g
+HoneyPotassium
+    Amount: 52
+    Unit: mg/100g
+HoneyProtein
+    Amount: 0.3
+    Unit: g/100g
+HoneySodium
+    Amount: 4
+    Unit: mg/100g
+HoneyVitaminC
+    Amount: 0.5
+    Unit: mg/100g
+MapleSyrupCalcium
+    Amount: 102
+    Unit: mg/100g
+MapleSyrupCarbohydrate
+    Amount: 67.04
+    Unit: g/100g
+MapleSyrupFat
+    Amount: 0.06
+    Unit: g/100g
+MapleSyrupFoodEnergy
+    Amount: 260
+    Unit: cal/100g
+MapleSyrupIron
+    Amount: 0.11
+    Unit: mg/100g
+MapleSyrupPotassium
+    Amount: 212
+    Unit: mg/100g
+MapleSyrupProtein
+    Amount: 0.04
+    Unit: g/100g
+MapleSyrupSodium
+    Amount: 12
+    Unit: mg/100g
+KetchupCalcium
+    Amount: 15
+    Unit: mg/100g
+KetchupCarbohydrate
+    Amount: 25.08
+    Unit: g/100g
+KetchupFat
+    Amount: 0.38
+    Unit: g/100g
+KetchupFoodEnergy
+    Amount: 97
+    Unit: cal/100g
+KetchupIron
+    Amount: 0.26
+    Unit: mg/100g
+KetchupPotassium
+    Amount: 321
+    Unit: mg/100g
+KetchupProtein
+    Amount: 1.74
+    Unit: g/100g
+KetchupSodium
+    Amount: 907
+    Unit: mg/100g
+KetchupVitaminA
+    Amount: 0.015
+    Unit: mg/100g
+KetchupVitaminC
+    Amount: 15.1
+    Unit: mg/100g
+BalsamicVinaigretteCarbohydrate
+    Amount: 5
+    Unit: g/100g
+BalsamicVinaigretteFat
+    Amount: 71.3
+    Unit: g/100g
+BalsamicVinaigretteFoodEnergy
+    Amount: 628
+    Unit: cal/100g
+BalsamicVinaigretteProtein
+    Amount: 4
+    Unit: g/100g
+RedWineVinaigretteCarbohydrate
+    Amount: 7
+    Unit: g/100g
+RedWineVinaigretteFat
+    Amount: 64
+    Unit: g/100g
+RedWineVinaigretteFoodEnergy
+    Amount: 643
+    Unit: cal/100g
+AppleCiderVinaigretteCarbohydrate
+    Amount: 7
+    Unit: g/100g
+AppleCiderVinaigretteFat
+    Amount: 64
+    Unit: g/100g
+AppleCiderVinaigretteFoodEnergy
+    Amount: 571
+    Unit: cal/100g
+VinegarCalcium
+    Amount: 1.05
+    Unit: mg/100g
+VinegarCarbohydrate
+    Amount: 0.1
+    Unit: g/100g
+VinegarFoodEnergy
+    Amount: 3.2
+    Unit: cal/100g
+VinegarIron
+    Amount: 0.03
+    Unit: mg/100g
+VinegarPotassium
+    Amount: 11
+    Unit: mg/100g
+VinegarSodium
+    Amount: 0.8
+    Unit: mg/100g
+BalsamicGlazeCarbohydrate
+    Amount: 47
+    Unit: g/100g
+BalsamicGlazeFoodEnergy
+    Amount: 233
+    Unit: cal/100g
+RanchDressingCarbohydrate
+    Amount: 5.9
+    Unit: g/100g
+RanchDressingFat
+    Amount: 45
+    Unit: g/100g
+RanchDressingFoodEnergy
+    Amount: 430
+    Unit: cal/100g
+RanchDressingProtein
+    Amount: 1.3
+    Unit: g/100g
+RanchDressingSodium
+    Amount: 901
+    Unit: mg/100g
+RanchDressingVitaminA
+    Amount: 0.015
+    Unit: mg/100g
+CaesarDressingCarbohydrate
+    Amount: 3.3
+    Unit: g/100g
+CaesarDressingFat
+    Amount: 58
+    Unit: g/100g
+CaesarDressingFoodEnergy
+    Amount: 542
+    Unit: cal/100g
+CaesarDressingProtein
+    Amount: 2.2
+    Unit: g/100g
+CaesarDressingVitaminA
+    Amount: 0.009
+    Unit: mg/100g
+CaesarDressingVitaminC
+    Amount: 0.3
+    Unit: mg/100g
