@@ -2255,6 +2255,18 @@ MayonnaiseProtein
 MayonnaiseSodium
     Amount: 635
     Unit: mg/100g
+MayonnaiseVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+MayonnaiseLutein
+    Amount: 0.004
+    Unit: mg/100g
+MayonnaiseZeaxanthin
+    Amount: 0.004
+    Unit: mg/100g
+MayonnaiseVitaminB9
+    Amount: 0.00069
+    Unit: mg/100g
 DijonMustardCalcium
     Amount: 58
     Unit: mg/100g
@@ -2285,6 +2297,18 @@ DijonMustardVitaminA
 DijonMustardVitaminC
     Amount: 0.3
     Unit: mg/100g
+DijonMustardVitaminE
+    Amount: 0.3
+    Unit: mg/100g
+DijonMustardZinc
+    Amount: 1.0
+    Unit: mg/100g
+DijonMustardOmega-3
+    Amount: 100
+    Unit: mg/100g
+DijonMustardVitaminB9
+    Amount: 0.015
+    Unit: mg/100g
 ItalianDressingCarbohydrate
     Amount: 10.43
     Unit: g/100g
@@ -2305,6 +2329,18 @@ ItalianDressingProtein
     Unit: g/100g
 ItalianDressingSodium
     Amount: 1120
+    Unit: mg/100g
+ItalianDressingVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+ItalianDressingLutein
+    Amount: 0.004
+    Unit: mg/100g
+ItalianDressingZeaxanthin
+    Amount: 0.004
+    Unit: mg/100g
+ItalianDressingOmega-3
+    Amount: 440
     Unit: mg/100g
 SaladDressingCarbohydrate
     Amount: 14.78
@@ -2330,6 +2366,18 @@ SaladDressingProtein
 SaladDressingSodium
     Amount: 640
     Unit: mg/100g
+SaladDressingVitaminE
+    Amount: 0.5
+    Unit: mg/100g
+SaladDressingZinc
+    Amount: 0.2
+    Unit: mg/100g
+SaladDressingOmega-3
+    Amount: 300
+    Unit: mg/100g
+SaladDressingVitaminB9
+    Amount: 0.01
+    Unit: mg/100g
 WorcestershireSauceCarbohydrate
     Amount: 19.46
     Unit: g/100g
@@ -2344,6 +2392,12 @@ WorcestershireSaucePotassium
     Unit: mg/100g
 WorcestershireSauceSodium
     Amount: 1300
+    Unit: mg/100g
+WorcestershireSauceVitaminE
+    Amount: 0.1
+    Unit: mg/100g
+WorcestershireSauceZinc
+    Amount: 0.03
     Unit: mg/100g
 LemonJuiceCalcium
     Amount: 6
@@ -2368,6 +2422,21 @@ LemonJuiceSodium
     Unit: mg/100g
 LemonJuiceVitaminC
     Amount: 38.7
+    Unit: mg/100g
+LemonJuiceVitaminE
+    Amount: 0.15
+    Unit: mg/100g
+LemonJuiceLutein
+    Amount: 0.0366
+    Unit: mg/100g
+LemonJuiceZeaxanthin
+    Amount: 0.0366
+    Unit: mg/100g
+LemonJuiceZinc
+    Amount: 0.02
+    Unit: mg/100g
+LemonJuiceVitaminB9
+    Amount: 0.003
     Unit: mg/100g
 LimeJuiceCalcium
     Amount: 33
@@ -2396,6 +2465,21 @@ LimeJuiceSodium
 LimeJuiceVitaminC
     Amount: 29.1
     Unit: mg/100g
+LimeJuiceVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+LimeJuiceLutein
+    Amount: 0.04
+    Unit: mg/100g
+LimeJuiceZeaxanthin
+    Amount: 0.04
+    Unit: mg/100g
+LimeJuiceZinc
+    Amount: 0.03
+    Unit: mg/100g
+LimeJuiceVitaminB9
+    Amount: 0.005
+    Unit: mg/100g
 OilFat
     Amount: 100
     Unit: g/100g
@@ -2419,6 +2503,12 @@ OliveOilPotassium
     Unit: mg/100g
 OliveOilSodium
     Amount: 2
+    Unit: mg/100g
+OliveOilVitaminE
+    Amount: 14.35
+    Unit: mg/100g
+OliveOilOmega-3
+    Amount: 760
     Unit: mg/100g
 HoneyCalcium
     Amount: 6
@@ -2444,6 +2534,9 @@ HoneySodium
 HoneyVitaminC
     Amount: 0.5
     Unit: mg/100g
+HoneyVitaminB9
+    Amount: 0.002
+    Unit: mg/100g
 MapleSyrupCalcium
     Amount: 102
     Unit: mg/100g
@@ -2467,6 +2560,9 @@ MapleSyrupProtein
     Unit: g/100g
 MapleSyrupSodium
     Amount: 12
+    Unit: mg/100g
+MapleSyrupZinc
+    Amount: 1.0
     Unit: mg/100g
 KetchupCalcium
     Amount: 15
@@ -2497,6 +2593,12 @@ KetchupVitaminA
     Unit: mg/100g
 KetchupVitaminC
     Amount: 15.1
+    Unit: mg/100g
+KetchupZinc
+    Amount: 0.2
+    Unit: mg/100g
+KetchupVitaminB9
+    Amount: 0.004
     Unit: mg/100g
 BalsamicVinaigretteCarbohydrate
     Amount: 5
@@ -2570,6 +2672,24 @@ RanchDressingSodium
 RanchDressingVitaminA
     Amount: 0.015
     Unit: mg/100g
+RanchDressingVitaminE
+    Amount: 2.2
+    Unit: mg/100g
+RanchDressingLutein
+    Amount: 0.004
+    Unit: mg/100g
+RanchDressingZeaxanthin
+    Amount: 0.004
+    Unit: mg/100g
+RanchDressingZinc
+    Amount: 0.17
+    Unit: mg/100g
+RanchDressingOmega-3
+    Amount: 490
+    Unit: mg/100g
+RanchDressingVitaminB9
+    Amount: 0.004
+    Unit: mg/100g
 CaesarDressingCarbohydrate
     Amount: 3.3
     Unit: g/100g
@@ -2587,4 +2707,22 @@ CaesarDressingVitaminA
     Unit: mg/100g
 CaesarDressingVitaminC
     Amount: 0.3
+    Unit: mg/100g
+CaesarDressingVitaminE
+    Amount: 0.45
+    Unit: mg/100g
+CaesarDressingLutein
+    Amount: 0.004
+    Unit: mg/100g
+CaesarDressingZeaxanthin
+    Amount: 0.004
+    Unit: mg/100g
+CaesarDressingZinc
+    Amount: 0.1
+    Unit: mg/100g
+CaesarDressingOmega-3
+    Amount: 10
+    Unit: mg/100g
+CaesarDressingVitaminB9
+    Amount: 0.012
     Unit: mg/100g
