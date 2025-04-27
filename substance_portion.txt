@@ -358,9 +358,6 @@ BlueberriesCalcium
 BlueberriesCarbohydrate
     Amount: 14.49
     Unit: g/100g
-BlueberriesCholesterol
-    Amount: 0
-    Unit: mg/100g
 BlueberriesFat
     Amount: 0.33
     Unit: g/100g
@@ -469,9 +466,6 @@ RaisinsProtein
 RaisinsSodium
     Amount: 11
     Unit: mg/100g
-RaisinsVitaminA
-    Amount: 0
-    Unit: IU/100g
 RaisinsVitaminC
     Amount: 2.3
     Unit: mg/100g
@@ -481,9 +475,6 @@ MangoCalcium
 MangoCarbohydrate
     Amount: 14.98
     Unit: g/100g
-MangoCholesterol
-    Amount: 0
-    Unit: mg/100g
 MangoFat
     Amount: 0.38
     Unit: g/100g
@@ -514,9 +505,6 @@ FigsCalcium
 FigsCarbohydrate
     Amount: 19.18
     Unit: g/100g
-FigsCholesterol
-    Amount: 0
-    Unit: mg/100g
 FigsFat
     Amount: 0.3
     Unit: g/100g
@@ -624,9 +612,6 @@ FetaCubesOrCrumblesSodium
     Unit: mg/100g
 FetaCubesOrCrumblesVitaminA
     Amount: 0.125
-    Unit: mg/100g
-FetaCubesOrCrumblesVitaminC
-    Amount: 0
     Unit: mg/100g
 FetaCubesOrCrumblesCalcium
     Amount: 493
@@ -751,9 +736,6 @@ FreshMozzarellaVitaminA
 ParmesanCheeseCalcium
     Amount: 1155
     Unit: mg/100g
-ParmesanCheeseCarbohydrate
-    Amount: 0
-    Unit: g/100g
 ParmesanCheeseCholesterol
     Amount: 80
     Unit: mg/100g
@@ -844,9 +826,6 @@ RedCabbageCalcium
 RedCabbageCarbohydrate
     Amount: 7.37
     Unit: g/100g
-RedCabbageCholesterol
-    Amount: 0
-    Unit: mg/100g
 RedCabbageFat
     Amount: 0.16
     Unit: g/100g
@@ -877,9 +856,6 @@ NapaCabbageCalcium
 NapaCabbageCarbohydrate
     Amount: 2.2
     Unit: g/100g
-NapaCabbageCholesterol
-    Amount: 0
-    Unit: mg/100g
 NapaCabbageFat
     Amount: 0.2
     Unit: g/100g
@@ -910,9 +886,6 @@ GreenCabbageCalcium
 GreenCabbageCarbohydrate
     Amount: 5.58
     Unit: g/100g
-GreenCabbageCholesterol
-    Amount: 0
-    Unit: mg/100g
 GreenCabbageFat
     Amount: 0.12
     Unit: g/100g
@@ -943,9 +916,6 @@ ParsleyCalcium
 ParsleyCarbohydrate
     Amount: 6.33
     Unit: g/100g
-ParsleyCholesterol
-    Amount: 0
-    Unit: mg/100g
 ParsleyFat
     Amount: 0.79
     Unit: g/100g
@@ -976,9 +946,6 @@ MintCalcium
 MintCarbohydrate
     Amount: 14.89
     Unit: g/100g
-MintCholesterol
-    Amount: 0
-    Unit: mg/100g
 MintFat
     Amount: 0.94
     Unit: g/100g
@@ -1039,12 +1006,6 @@ CeleryLeavesCalcium
 CeleryLeavesCarbohydrate
     Amount: 2
     Unit: g/100g
-CeleryLeavesCholesterol
-    Amount: 0
-    Unit: mg/100g
-CeleryLeavesFat
-    Amount: 0
-    Unit: g/100g
 CeleryLeavesFoodEnergy
     Amount: 12
     Unit: cal/100g
@@ -1069,9 +1030,6 @@ RomaineLettuceCalcium
 RomaineLettuceCarbohydrate
     Amount: 3.28
     Unit: g/100g
-RomaineLettuceCholesterol
-    Amount: 0
-    Unit: mg/100g
 RomaineLettuceFat
     Amount: 0.3
     Unit: g/100g
@@ -1102,9 +1060,6 @@ IcebergLettuceCalcium
 IcebergLettuceCarbohydrate
     Amount: 2.97
     Unit: g/100g
-IcebergLettuceCholesterol
-    Amount: 0
-    Unit: mg/100g
 IcebergLettuceFat
     Amount: 0.14
     Unit: g/100g
@@ -1135,9 +1090,6 @@ BostonLettuceCalcium
 BostonLettuceCarbohydrate
     Amount: 2.23
     Unit: g/100g
-BostonLettuceCholesterol
-    Amount: 0
-    Unit: mg/100g
 BostonLettuceFat
     Amount: 0.22
     Unit: g/100g
@@ -1168,9 +1120,6 @@ ChivesCalcium
 ChivesCarbohydrate
     Amount: 4.35
     Unit: g/100g
-ChivesCholesterol
-    Amount: 0
-    Unit: mg/100g
 ChivesFat
     Amount: 0.73
     Unit: g/100g
@@ -1201,9 +1150,6 @@ CarrotsCalcium
 CarrotsCarbohydrate
     Amount: 9.58
     Unit: g/100g
-CarrotsCholesterol
-    Amount: 0
-    Unit: mg/100g
 CarrotsFat
     Amount: 0.24
     Unit: g/100g
@@ -1234,9 +1180,6 @@ RadishesCalcium
 RadishesCarbohydrate
     Amount: 3.4
     Unit: g/100g
-RadishesCholesterol
-    Amount: 0
-    Unit: mg/100g
 RadishesFat
     Amount: 0.1
     Unit: g/100g
@@ -1267,9 +1210,6 @@ RedOnionCalcium
 RedOnionCarbohydrate
     Amount: 10.11
     Unit: g/100g
-RedOnionCholesterol
-    Amount: 0
-    Unit: mg/100g
 RedOnionFat
     Amount: 0.08
     Unit: g/100g
@@ -1288,9 +1228,6 @@ RedOnionProtein
 RedOnionSodium
     Amount: 4
     Unit: mg/100g
-RedOnionVitaminA
-    Amount: 0
-    Unit: mg/100g
 RedOnionVitaminC
     Amount: 7.4
     Unit: mg/100g
@@ -1300,9 +1237,6 @@ WhiteOnionCalcium
 WhiteOnionCarbohydrate
     Amount: 9.34
     Unit: g/100g
-WhiteOnionCholesterol
-    Amount: 0
-    Unit: mg/100g
 WhiteOnionFat
     Amount: 0.1
     Unit: g/100g
@@ -1321,9 +1255,6 @@ WhiteOnionProtein
 WhiteOnionSodium
     Amount: 4
     Unit: mg/100g
-WhiteOnionVitaminA
-    Amount: 0
-    Unit: mg/100g
 WhiteOnionVitaminC
     Amount: 7.4
     Unit: mg/100g
@@ -1333,9 +1264,6 @@ GreenOnionsCalcium
 GreenOnionsCarbohydrate
     Amount: 7.34
     Unit: g/100g
-GreenOnionsCholesterol
-    Amount: 0
-    Unit: mg/100g
 GreenOnionsFat
     Amount: 0.19
     Unit: g/100g
@@ -1444,9 +1372,6 @@ GarlicProtein
 GarlicSodium
     Amount: 17
     Unit: mg/100g
-GarlicVitaminA
-    Amount: 0
-    Unit: mg/100g
 GarlicVitaminC
     Amount: 31
     Unit: mg/100g
@@ -1486,9 +1411,6 @@ CherryTomatoCalcium
 CherryTomatoCarbohydrate
     Amount: 3.92
     Unit: g/100g
-CherryTomatoCholesterol
-    Amount: 0
-    Unit: mg/100g
 CherryTomatoFat
     Amount: 0.2
     Unit: g/100g
@@ -1570,9 +1492,6 @@ OlivesSodium
 OlivesVitaminA
     Amount: 0.393
     Unit: mg/100g
-OlivesVitaminC
-    Amount: 0
-    Unit: mg/100g
 AvocadoCalcium
     Amount: 12
     Unit: mg/100g
@@ -1609,9 +1528,6 @@ RedBellPepperCalcium
 RedBellPepperCarbohydrate
     Amount: 6.0
     Unit: g/100g
-RedBellPepperCholesterol
-    Amount: 0
-    Unit: mg/100g
 RedBellPepperFat
     Amount: 0.3
     Unit: g/100g
@@ -1642,9 +1558,6 @@ GreenBellPepperCalcium
 GreenBellPepperCarbohydrate
     Amount: 4.64
     Unit: g/100g
-GreenBellPepperCholesterol
-    Amount: 0
-    Unit: mg/100g
 GreenBellPepperFat
     Amount: 0.17
     Unit: g/100g
@@ -1675,9 +1588,6 @@ YellowBellPepperCalcium
 YellowBellPepperCarbohydrate
     Amount: 6.32
     Unit: g/100g
-YellowBellPepperCholesterol
-    Amount: 0
-    Unit: mg/100g
 YellowBellPepperFat
     Amount: 0.21
     Unit: g/100g
@@ -1708,9 +1618,6 @@ BlackOlivesCalcium
 BlackOlivesCarbohydrate
     Amount: 6.06
     Unit: g/100g
-BlackOlivesCholesterol
-    Amount: 0
-    Unit: mg/100g
 BlackOlivesFat
     Amount: 9.54
     Unit: g/100g
@@ -1735,15 +1642,9 @@ BlackOlivesVitaminA
 BlackOlivesVitaminC
     Amount: 1.1
     Unit: mg/100g
-KalamataOlivesCalcium
-    Amount: 0
-    Unit: mg/100g
 KalamataOlivesCarbohydrate
     Amount: 13.33
     Unit: g/100g
-KalamataOlivesCholesterol
-    Amount: 0
-    Unit: mg/100g
 KalamataOlivesFat
     Amount: 30.0
     Unit: g/100g
@@ -1759,9 +1660,6 @@ AsparagusCalcium
 AsparagusCarbohydrate
     Amount: 3.88
     Unit: g/100g
-AsparagusCholesterol
-    Amount: 0
-    Unit: mg/100g
 AsparagusFat
     Amount: 0.12
     Unit: g/100g
@@ -1792,9 +1690,6 @@ GarbanzoBeansCalcium
 GarbanzoBeansCarbohydrate
     Amount: 27.42
     Unit: g/100g
-GarbanzoBeansCholesterol
-    Amount: 0
-    Unit: mg/100g
 GarbanzoBeansFat
     Amount: 2.59
     Unit: g/100g
@@ -1825,9 +1720,6 @@ BlackBeansCalcium
 BlackBeansCarbohydrate
     Amount: 23.71
     Unit: g/100g
-BlackBeansCholesterol
-    Amount: 0
-    Unit: mg/100g
 BlackBeansFat
     Amount: 0.54
     Unit: g/100g
@@ -1852,9 +1744,7 @@ KidneyBeansCalcium
 KidneyBeansCarbohydrate
     Amount: 22.8
     Unit: g/100g
-KidneyBeansCholesterol
-    Amount: 0
-    Unit: mg/100g
+
 KidneyBeansFat
     Amount: 0.5
     Unit: g/100g
@@ -1873,15 +1763,9 @@ KidneyBeansProtein
 KidneyBeansSodium
     Amount: 2
     Unit: mg/100g
-FarfallePastaCalcium
-    Amount: 0
-    Unit: mg/100g
 FarfallePastaCarbohydrate
     Amount: 71
     Unit: g/100g
-FarfallePastaCholesterol
-    Amount: 0
-    Unit: mg/100g
 FarfallePastaFat
     Amount: 1.2
     Unit: g/100g
@@ -1963,9 +1847,6 @@ WaxBeansCalcium
 WaxBeansCarbohydrate
     Amount: 7.1
     Unit: g/100g
-WaxBeansCholesterol
-    Amount: 0
-    Unit: mg/100g
 WaxBeansFat
     Amount: 0.1
     Unit: g/100g
@@ -2020,9 +1901,6 @@ CelerySeedsCalcium
 CelerySeedsCarbohydrate
     Amount: 41.35
     Unit: g/100g
-CelerySeedsCholesterol
-    Amount: 0
-    Unit: mg/100g
 CelerySeedsFat
     Amount: 25.27
     Unit: g/100g
@@ -2053,9 +1931,6 @@ PickleRelishCalcium
 PickleRelishCarbohydrate
     Amount: 35.06
     Unit: g/100g
-PickleRelishCholesterol
-    Amount: 0
-    Unit: mg/100g
 PickleRelishFat
     Amount: 0.47
     Unit: g/100g
@@ -2086,9 +1961,6 @@ DijonMustardCalcium
 DijonMustardCarbohydrate
     Amount: 7.78
     Unit: g/100g
-DijonMustardCholesterol
-    Amount: 0
-    Unit: mg/100g
 DijonMustardFat
     Amount: 3.11
     Unit: g/100g
@@ -2119,18 +1991,12 @@ PowderedSugarCalcium
 PowderedSugarCarbohydrate
     Amount: 99.6
     Unit: g/100g
-PowderedSugarCholesterol
-    Amount: 0
-    Unit: mg/100g
 PowderedSugarFat
     Amount: 0.1
     Unit: g/100g
 PowderedSugarFoodEnergy
     Amount: 389
     Unit: cal/100g
-PowderedSugarIron
-    Amount: 0
-    Unit: mg/100g
 PowderedSugarPotassium
     Amount: 0.3
     Unit: mg/100g
@@ -2173,9 +2039,6 @@ PaprikaCalcium
 PaprikaCarbohydrate
     Amount: 55.74
     Unit: g/100g
-PaprikaCholesterol
-    Amount: 0
-    Unit: mg/100g
 PaprikaFat
     Amount: 12.89
     Unit: g/100g
@@ -2206,18 +2069,12 @@ SumacCalcium
 SumacCarbohydrate
     Amount: 48.1
     Unit: g/100g
-SumacCholesterol
-    Amount: 0
-    Unit: mg/100g
 SumacFat
     Amount: 14.4
     Unit: g/100g
 SumacFoodEnergy
     Amount: 281
     Unit: cal/100g
-SumacIron
-    Amount: 0
-    Unit: mg/100g
 SumacPotassium
     Amount: 1962
     Unit: mg/100g
@@ -2239,9 +2096,6 @@ CroutonsCalcium
 CroutonsCarbohydrate
     Amount: 63.5
     Unit: g/100g
-CroutonsCholesterol
-    Amount: 0
-    Unit: mg/100g
 CroutonsFat
     Amount: 18.3
     Unit: g/100g
@@ -2262,9 +2116,6 @@ CroutonsSodium
     Unit: mg/100g
 CroutonsVitaminA
     Amount: 0.01
-    Unit: mg/100g
-MiniMarshmallowsCalcium
-    Amount: 0
     Unit: mg/100g
 MiniMarshmallowsCarbohydrate
     Amount: 96.667
@@ -2317,12 +2168,6 @@ HeavyWhippingCreamFat
 HeavyWhippingCreamFoodEnergy
     Amount: 408
     Unit: cal/100g
-HeavyWhippingCreamIron
-    Amount: 0.0
-    Unit: mg/100g
-HeavyWhippingCreamPotassium
-    Amount: 0.0
-    Unit: mg/100g
 HeavyWhippingCreamProtein
     Amount: 3.0
     Unit: g/100g
@@ -2347,9 +2192,6 @@ GreekYogurtFat
 GreekYogurtFoodEnergy
     Amount: 97
     Unit: cal/100g
-GreekYogurtIron
-    Amount: 0.0
-    Unit: mg/100g
 GreekYogurtPotassium
     Amount: 141
     Unit: mg/100g
@@ -2389,9 +2231,6 @@ YogurtSodium
 YogurtVitaminA
     Amount: 0.003
     Unit: mg/100g
-MayonnaiseCalcium
-    Amount: 0
-    Unit: mg/100g
 MayonnaiseCarbohydrate
     Amount: 23.9
     Unit: g/100g
@@ -2422,9 +2261,6 @@ DijonMustardCalcium
 DijonMustardCarbohydrate
     Amount: 7.78
     Unit: g/100g
-DijonMustardCholesterol
-    Amount: 0
-    Unit: mg/100g
 DijonMustardFat
     Amount: 3.11
     Unit: g/100g
@@ -2469,9 +2305,6 @@ ItalianDressingProtein
     Unit: g/100g
 ItalianDressingSodium
     Amount: 1120
-    Unit: mg/100g
-SaladDressingCalcium
-    Amount: 0
     Unit: mg/100g
 SaladDressingCarbohydrate
     Amount: 14.78
@@ -2571,9 +2404,6 @@ OilFoodEnergy
     Unit: cal/100g
 OliveOilCalcium
     Amount: 1
-    Unit: mg/100g
-OliveOilCholesterol
-    Amount: 0
     Unit: mg/100g
 OliveOilFat
     Amount: 100
