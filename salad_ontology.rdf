@@ -1126,9 +1126,7 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilLeaves15g -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilLeaves15g">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilLeaves15g"/>
     
 
 
@@ -1188,11 +1186,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPeppers100g -->
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepper100g -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPeppers100g">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepper100g">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPeppers100g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPeppers100g"/>
     
 
 
@@ -1376,6 +1380,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesVitaminC">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackPepper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackPepper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
     </owl:NamedIndividual>
     
 
@@ -1580,6 +1592,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BoiledPotatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BoiledPotatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BoiledPotatoes300g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BoiledPotatoes300g">
@@ -1695,6 +1715,14 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Bread140g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Bread140g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Bread60g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Bread60g">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
     </owl:NamedIndividual>
     
@@ -2620,6 +2648,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Coconut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Coconut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NutAndSeeds"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Coconut85g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Coconut85g">
@@ -2720,6 +2756,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenSodium">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pork"/>
     </owl:NamedIndividual>
     
 
@@ -2968,6 +3012,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabSodium">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Crabmeat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Crabmeat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Seafood"/>
     </owl:NamedIndividual>
     
 
@@ -3577,6 +3629,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Fattoush">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCheese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCheese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
     </owl:NamedIndividual>
     
 
@@ -6895,6 +6955,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion75g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion75g">
@@ -7461,14 +7529,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pineapples">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshFruit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PitaBread2pcs -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PitaBread2pcs">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
     </owl:NamedIndividual>
     
 
@@ -8073,6 +8133,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoes450g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoes450g">
@@ -8321,10 +8389,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Condiments"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salt4g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salt4g">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Scallions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Scallions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
     </owl:NamedIndividual>
     
 
@@ -8537,6 +8621,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sugar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sugar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Condiments"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sugar150g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sugar150g">
@@ -8649,6 +8741,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato1000g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato1000g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato100g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato100g">
@@ -8668,6 +8768,14 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato300g -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato300g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato680g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato680g">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
     </owl:NamedIndividual>
     
@@ -8755,41 +8863,31 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes1000g -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes1000g">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes1000g"/>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes100g -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes100g">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes100g"/>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes150g -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes150g">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes150g"/>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes300g -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes300g">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes300g"/>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes680g -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes680g">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomatoes680g"/>
     
 
 
@@ -9483,9 +9581,7 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Green/ScallionsOnion -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Green/ScallionsOnion">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Green/ScallionsOnion"/>
     
 
 
