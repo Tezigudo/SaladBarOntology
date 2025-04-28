@@ -3631,3 +3631,60 @@ FetaCheeseZinc
 FetaCheeseVitaminB9
     Amount: 0.05
     Unit: mg/100g
+RedPotatoCarbohydrate
+    Amount: 15900
+    Unit: mg/100g
+RedPotatoFat
+    Amount: 140
+    Unit: mg/100g
+RedPotatoFoodEnergy
+    Amount: 72
+    Unit: cal/100g
+RedPotatoIron
+    Amount: 0.73
+    Unit: mg/100g
+RedPotatoPotassium
+    Amount: 455
+    Unit: mg/100g
+RedPotatoProtein
+    Amount: 1890
+    Unit: mg/100g
+RedPotatoSodium
+    Amount: 6
+    Unit: mg/100g
+RedPotatoVitaminC
+    Amount: 19.7
+    Unit: mg/100g
+RedPotatoZinc
+    Amount: 0.3
+    Unit: mg/100g
+RedPotatoVitaminB9
+    Amount: 0.018
+    Unit: mg/100g
+CookedHamCarbohydrate
+    Amount: 260
+    Unit: mg/100g
+CookedHamCholesterol
+    Amount: 58
+    Unit: mg/100g
+CookedHamFat
+    Amount: 8340
+    Unit: mg/100g
+CookedHamFoodEnergy
+    Amount: 172
+    Unit: cal/100g
+CookedHamIron
+    Amount: 1.37
+    Unit: mg/100g
+CookedHamPotassium
+    Amount: 386
+    Unit: mg/100g
+CookedHamProtein
+    Amount: 22300
+    Unit: mg/100g
+CookedHamSodium
+    Amount: 1442
+    Unit: mg/100g
+CookedHamZinc
+    Amount: 2.61
+    Unit: mg/100g

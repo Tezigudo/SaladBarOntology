@@ -26,15 +26,15 @@ def get_local_name(uri):
     return normalize_name(uri.split("#")[-1])
 
 def extract_base_and_info(portion_name):
-    portion_name = normalize_name(portion_name)
-    match = re.search(r'(\d+)([a-zA-Z]*)$', portion_name)
+    portion_name = portion_name.replace('\u200b', '').replace('\xa0', '').replace(' ', '').strip()
+    match = re.search(r'(\d+(\.\d+)?)([a-zA-Z]*)$', portion_name)
     if match:
         amount = match.group(1)
-        unit = match.group(2)
+        unit = match.group(3)
         base = portion_name[:match.start()]
-        return normalize_name(base), amount, unit
+        return base, amount, unit
     else:
-        return normalize_name(portion_name), None, None
+        return portion_name, None, None
 
 def normalize_unit(unit):
     unit = unit.lower()
