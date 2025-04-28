@@ -1864,34 +1864,34 @@ CookedPastaProtein
 CookedPastaSodium
     Amount: 1
     Unit: mg/100g
-CelerySeedsCalcium
+CelerySeedCalcium
     Amount: 1240
     Unit: mg/100g
-CelerySeedsCarbohydrate
+CelerySeedCarbohydrate
     Amount: 41.35
     Unit: g/100g
-CelerySeedsFat
+CelerySeedFat
     Amount: 25.27
     Unit: g/100g
-CelerySeedsFoodEnergy
+CelerySeedFoodEnergy
     Amount: 392
     Unit: cal/100g
-CelerySeedsIron
+CelerySeedIron
     Amount: 17.1
     Unit: mg/100g
-CelerySeedsPotassium
+CelerySeedPotassium
     Amount: 1400
     Unit: mg/100g
-CelerySeedsProtein
+CelerySeedProtein
     Amount: 18.07
     Unit: g/100g
-CelerySeedsSodium
+CelerySeedSodium
     Amount: 160
     Unit: mg/100g
-CelerySeedsVitaminA
+CelerySeedVitaminA
     Amount: 0.003
     Unit: mg/100g
-CelerySeedsVitaminC
+CelerySeedVitaminC
     Amount: 17.1
     Unit: mg/100g
 PickleRelishCalcium
@@ -3504,4 +3504,130 @@ RedGrapeZinc
     Unit: mg/100g
 RedGrapeVitaminB9
     Amount: 0.002
+    Unit: mg/100g
+WhiteWineVinaigretteCarbohydrate
+    Amount: 4000
+    Unit: mg/100g
+WhiteWineVinaigretteFat
+    Amount: 28000
+    Unit: mg/100g
+WhiteWineVinaigretteFoodEnergy
+    Amount: 275
+    Unit: cal/100g
+WhiteWineVinaigretteIron
+    Amount: 0.2
+    Unit: mg/100g
+WhiteWineVinaigrettePotassium
+    Amount: 20
+    Unit: mg/100g
+WhiteWineVinaigretteProtein
+    Amount: 100
+    Unit: mg/100g
+WhiteWineVinaigretteSodium
+    Amount: 500
+    Unit: mg/100g
+WhiteWineVinaigretteVitaminE
+    Amount: 1
+    Unit: mg/100g
+WhiteWineVinaigretteZinc
+    Amount: 0.1
+    Unit: mg/100g
+WhiteWineVinaigretteOmega-3
+    Amount: 300
+    Unit: mg/100g
+RedPotatoCarbohydrate
+    Amount: 15900
+    Unit: mg/100g
+RedPotatoFat
+    Amount: 140
+    Unit: mg/100g
+RedPotatoFoodEnergy
+    Amount: 72
+    Unit: cal/100g
+RedPotatoIron
+    Amount: 0.73
+    Unit: mg/100g
+RedPotatoPotassium
+    Amount: 455
+    Unit: mg/100g
+RedPotatoProtein
+    Amount: 1890
+    Unit: mg/100g
+RedPotatoSodium
+    Amount: 6
+    Unit: mg/100g
+RedPotatoVitaminC
+    Amount: 19.7
+    Unit: mg/100g
+RedPotatoZinc
+    Amount: 0.3
+    Unit: mg/100g
+RedPotatoVitaminB9
+    Amount: 0.031
+    Unit: mg/100g
+OnionCarbohydrate
+    Amount: 9100
+    Unit: mg/100g
+OnionFat
+    Amount: 100
+    Unit: mg/100g
+OnionFoodEnergy
+    Amount: 40
+    Unit: cal/100g
+OnionIron
+    Amount: 0.19
+    Unit: mg/100g
+OnionPotassium
+    Amount: 146
+    Unit: mg/100g
+OnionProtein
+    Amount: 920
+    Unit: mg/100g
+OnionSodium
+    Amount: 3
+    Unit: mg/100g
+OnionVitaminC
+    Amount: 6.4
+    Unit: mg/100g
+OnionZinc
+    Amount: 0.17
+    Unit: mg/100g
+OnionVitaminB9
+    Amount: 0.02
+    Unit: mg/100g
+FetaCheeseCarbohydrate
+    Amount: 4090
+    Unit: mg/100g
+FetaCheeseCholesterol
+    Amount: 89
+    Unit: mg/100g
+FetaCheeseFat
+    Amount: 21280
+    Unit: mg/100g
+FetaCheeseFoodEnergy
+    Amount: 264
+    Unit: cal/100g
+FetaCheeseIron
+    Amount: 0.65
+    Unit: mg/100g
+FetaCheesePotassium
+    Amount: 62
+    Unit: mg/100g
+FetaCheeseProtein
+    Amount: 14210
+    Unit: mg/100g
+FetaCheeseSodium
+    Amount: 1116
+    Unit: mg/100g
+FetaCheeseVitaminA
+    Amount: 0.125
+    Unit: mg/100g
+FetaCheeseVitaminE
+    Amount: 0.3
+    Unit: mg/100g
+FetaCheeseZinc
+    Amount: 4.3
+    Unit: mg/100g
+FetaCheeseVitaminB9
+    Amount: 0.05
     Unit: mg/100g
