@@ -429,7 +429,7 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PreparedFruit -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PreparedFruit">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DriedFruit"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Fruit"/>
     </owl:Class>
     
 
@@ -582,6 +582,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Apple">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ApplePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleVitaminE"/>
     </owl:NamedIndividual>
     
 
@@ -788,6 +799,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Asparagus">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Stem"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusZinc"/>
     </owl:NamedIndividual>
     
 
@@ -972,6 +998,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Avocado">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoZinc"/>
     </owl:NamedIndividual>
     
 
@@ -1156,6 +1197,19 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Bacon">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pork"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconOmega-3"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconZinc"/>
     </owl:NamedIndividual>
     
 
@@ -1429,6 +1483,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Basil">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BasilVitaminC"/>
     </owl:NamedIndividual>
     
 
@@ -1579,6 +1643,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepper">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepperLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepperVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepperVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepperZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepperZinc"/>
     </owl:NamedIndividual>
     
 
@@ -1792,6 +1861,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlives">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlivesVitaminC"/>
     </owl:NamedIndividual>
     
 
@@ -2134,6 +2213,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Blueberries">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesOmega-3"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesZinc"/>
     </owl:NamedIndividual>
     
 
@@ -2307,6 +2400,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuce">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettucePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceZinc"/>
     </owl:NamedIndividual>
     
 
@@ -2491,6 +2599,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Bread">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Toppings"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadOmega-3"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadVitaminE"/>
     </owl:NamedIndividual>
     
 
@@ -3033,6 +3152,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Carrots">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsZinc"/>
     </owl:NamedIndividual>
     
 
@@ -3228,6 +3362,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Celery">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CelerySodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryZinc"/>
     </owl:NamedIndividual>
     
 
@@ -3335,6 +3484,19 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeaves">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesZinc"/>
     </owl:NamedIndividual>
     
 
@@ -3941,6 +4103,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomato">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoZinc"/>
     </owl:NamedIndividual>
     
 
@@ -4196,6 +4373,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chives">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChivesVitaminC"/>
     </owl:NamedIndividual>
     
 
@@ -4366,6 +4553,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChicken">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chicken"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedChickenSodium"/>
     </owl:NamedIndividual>
     
 
@@ -4484,6 +4679,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHam">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pork"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamZinc"/>
     </owl:NamedIndividual>
     
 
@@ -4777,6 +4981,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkey">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chicken"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeySodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyZinc"/>
     </owl:NamedIndividual>
     
 
@@ -4906,6 +5120,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Crab">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Seafood"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabOmega-3"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabZinc"/>
     </owl:NamedIndividual>
     
 
@@ -5060,6 +5285,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Crabmeat">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Seafood"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatZinc"/>
     </owl:NamedIndividual>
     
 
@@ -5167,6 +5403,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Croutons">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Toppings"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsZinc"/>
     </owl:NamedIndividual>
     
 
@@ -5307,6 +5554,19 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cucumber">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberZinc"/>
     </owl:NamedIndividual>
     
 
@@ -5480,6 +5740,18 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHam">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pork"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamZinc"/>
     </owl:NamedIndividual>
     
 
@@ -5620,6 +5892,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkey">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chicken"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeySodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyZinc"/>
     </owl:NamedIndividual>
     
 
@@ -5749,6 +6032,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChicken">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chicken"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenZinc"/>
     </owl:NamedIndividual>
     
 
@@ -6090,14 +6384,6 @@
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Celery30g"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chives10g"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HardBoiledEggs300g"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSalad_i -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSalad_i">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
     </owl:NamedIndividual>
     
 
@@ -6524,6 +6810,19 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Figs">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DriedFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsZinc"/>
     </owl:NamedIndividual>
     
 
@@ -7012,6 +7311,18 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Garlic">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicZinc"/>
     </owl:NamedIndividual>
     
 
@@ -7659,6 +7970,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepper">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBellPepperVitaminC"/>
     </owl:NamedIndividual>
     
 
@@ -7810,6 +8131,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbage">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbagePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageZinc"/>
     </owl:NamedIndividual>
     
 
@@ -8605,6 +8941,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCream">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dairy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamVitaminA"/>
     </owl:NamedIndividual>
     
 
@@ -8830,6 +9174,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Horseradish">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Condiments"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishVitaminC"/>
     </owl:NamedIndividual>
     
 
@@ -8959,6 +9313,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuce">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettucePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceZinc"/>
     </owl:NamedIndividual>
     
 
@@ -9313,6 +9682,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KalamataOlives">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KalamataOlivesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KalamataOlivesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KalamataOlivesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KalamataOlivesSodium"/>
     </owl:NamedIndividual>
     
 
@@ -9701,6 +10074,18 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Kiwi">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiZinc"/>
     </owl:NamedIndividual>
     
 
@@ -10049,6 +10434,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lettuce">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettucePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceZinc"/>
     </owl:NamedIndividual>
     
 
@@ -10427,6 +10827,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOranges">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesZeaxanthin"/>
     </owl:NamedIndividual>
     
 
@@ -10611,6 +11025,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mango">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DriedFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoZinc"/>
     </owl:NamedIndividual>
     
 
@@ -10902,6 +11331,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherries">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PreparedFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesVitaminA"/>
     </owl:NamedIndividual>
     
 
@@ -11252,6 +11690,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallows">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Toppings"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallowsCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallowsFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallowsProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallowsSodium"/>
     </owl:NamedIndividual>
     
 
@@ -11315,6 +11757,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mint">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MintVitaminC"/>
     </owl:NamedIndividual>
     
 
@@ -11661,6 +12113,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbage">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbagePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageZinc"/>
     </owl:NamedIndividual>
     
 
@@ -12047,6 +12514,18 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Olives">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesZinc"/>
     </owl:NamedIndividual>
     
 
@@ -12193,6 +12672,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OnionZinc"/>
     </owl:NamedIndividual>
     
 
@@ -12383,6 +12872,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Paprika">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Condiments"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaOmega-3"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaZinc"/>
     </owl:NamedIndividual>
     
 
@@ -12731,6 +13234,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Parsley">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleySodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyZinc"/>
     </owl:NamedIndividual>
     
 
@@ -13184,6 +13702,18 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pineapple">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineapplePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleZinc"/>
     </owl:NamedIndividual>
     
 
@@ -13368,6 +13898,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PowderedSugar">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Condiments"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PowderedSugarCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PowderedSugarCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PowderedSugarFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PowderedSugarFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PowderedSugarPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PowderedSugarSodium"/>
     </owl:NamedIndividual>
     
 
@@ -13461,6 +13997,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Radishes">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RadishesZinc"/>
     </owl:NamedIndividual>
     
 
@@ -13951,6 +14501,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepper">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedBellPepperVitaminC"/>
     </owl:NamedIndividual>
     
 
@@ -14080,6 +14640,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbage">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbagePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageZinc"/>
     </owl:NamedIndividual>
     
 
@@ -14264,6 +14839,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrape">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeZinc"/>
     </owl:NamedIndividual>
     
 
@@ -14404,6 +14990,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnion">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionZinc"/>
     </owl:NamedIndividual>
     
 
@@ -14599,6 +15199,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotato">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedPotatoZinc"/>
     </owl:NamedIndividual>
     
 
@@ -14807,6 +15417,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuce">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceOmega-3"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettucePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceZinc"/>
     </owl:NamedIndividual>
     
 
@@ -15192,6 +15818,19 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Shallots">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsZinc"/>
     </owl:NamedIndividual>
     
 
@@ -15362,6 +16001,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Strawberries">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshFruit"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesOmega-3"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesZinc"/>
     </owl:NamedIndividual>
     
 
@@ -15535,6 +16188,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sumac">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Condiments"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SumacVitaminC"/>
     </owl:NamedIndividual>
     
 
@@ -15669,6 +16331,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tomato">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoZinc"/>
     </owl:NamedIndividual>
     
 
@@ -15897,6 +16574,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tuna">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Fish"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaOmega-3"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaZinc"/>
     </owl:NamedIndividual>
     
 
@@ -16007,14 +16695,6 @@
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Protein"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29000.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaSalad -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaSalad">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
     </owl:NamedIndividual>
     
 
@@ -16535,6 +17215,21 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbage">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Leaf"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbagePotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageVitaminA"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageZinc"/>
     </owl:NamedIndividual>
     
 
@@ -16708,6 +17403,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnion">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionIron"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionLutein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionVitaminB9"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionVitaminC"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionVitaminE"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionZeaxanthin"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionZinc"/>
     </owl:NamedIndividual>
     
 
@@ -17222,6 +17931,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Yogurt">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dairy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtCalcium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtCarbohydrate"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtCholesterol"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtFat"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtFoodEnergy"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtPotassium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtProtein"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtSodium"/>
+        <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtVitaminA"/>
     </owl:NamedIndividual>
     
 
