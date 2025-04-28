@@ -2726,4 +2726,1092 @@ CaesarDressingOmega-3
 CaesarDressingVitaminB9
     Amount: 0.012
     Unit: mg/100g
-    
+MayonnaiseCarbohydrate
+    Amount: 23900
+    Unit: mg/100g
+MayonnaiseCholesterol
+    Amount: 420
+    Unit: mg/100g
+MayonnaiseFat
+    Amount: 33400
+    Unit: mg/100g
+MayonnaiseFoodEnergy
+    Amount: 390
+    Unit: cal/100g
+MayonnaiseIron
+    Amount: 0.3
+    Unit: mg/100g
+MayonnaisePotassium
+    Amount: 20
+    Unit: mg/100g
+MayonnaiseProtein
+    Amount: 900
+    Unit: mg/100g
+MayonnaiseSodium
+    Amount: 635
+    Unit: mg/100g
+MayonnaiseVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+MayonnaiseLutein
+    Amount: 0.004
+    Unit: mg/100g
+MayonnaiseZeaxanthin
+    Amount: 0.004
+    Unit: mg/100g
+MayonnaiseVitaminB9
+    Amount: 0.00069
+    Unit: mg/100g
+BaconVitaminE
+    Amount: 0.43
+    Unit: mg/100g
+BaconZinc
+    Amount: 1.2
+    Unit: mg/100g
+BaconOmega-3
+    Amount: 230
+    Unit: mg/100g
+DeliHamVitaminE
+    Amount: 0.24
+    Unit: mg/100g
+DeliHamZinc
+    Amount: 1.2
+    Unit: mg/100g
+DeliHamVitaminB9
+    Amount: 0.01
+    Unit: mg/100g
+DicedChickenVitaminE
+    Amount: 0.27
+    Unit: mg/100g
+DicedChickenZinc
+    Amount: 1.9
+    Unit: mg/100g
+DicedChickenVitaminB9
+    Amount: 0.004
+    Unit: mg/100g
+DeliTurkeyVitaminE
+    Amount: 0.1
+    Unit: mg/100g
+DeliTurkeyZinc
+    Amount: 2.38
+    Unit: mg/100g
+CookedTurkeyVitaminE
+    Amount: 0.09
+    Unit: mg/100g
+CookedTurkeyZinc
+    Amount: 2.38
+    Unit: mg/100g
+TunaVitaminE
+    Amount: 0.29
+    Unit: mg/100g
+TunaZinc
+    Amount: 0.45
+    Unit: mg/100g
+TunaOmega-3
+    Amount: 1000
+    Unit: mg/100g
+CrabZinc
+    Amount: 8
+    Unit: mg/100g
+CrabOmega-3
+    Amount: 300
+    Unit: mg/100g
+CrabVitaminB9
+    Amount: 0.1
+    Unit: mg/100g
+HardBoiledEggsVitaminE
+    Amount: 1.05
+    Unit: mg/100g
+HardBoiledEggsLutein
+    Amount: 0.3
+    Unit: mg/100g
+HardBoiledEggsZeaxanthin
+    Amount: 0.3
+    Unit: mg/100g
+HardBoiledEggsZinc
+    Amount: 1.29
+    Unit: mg/100g
+HardBoiledEggsOmega-3
+    Amount: 300
+    Unit: mg/100g
+HardBoiledEggsVitaminB9
+    Amount: 0.047
+    Unit: mg/100g
+AppleVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+PineappleVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+PineappleZinc
+    Amount: 1
+    Unit: mg/100g
+StrawberriesVitaminE
+    Amount: 0.29
+    Unit: mg/100g
+StrawberriesZinc
+    Amount: 0.14
+    Unit: mg/100g
+StrawberriesOmega-3
+    Amount: 65
+    Unit: mg/100g
+StrawberriesVitaminB9
+    Amount: 0.024
+    Unit: mg/100g
+BlueberriesVitaminE
+    Amount: 0.57
+    Unit: mg/100g
+BlueberriesZinc
+    Amount: 0.16
+    Unit: mg/100g
+BlueberriesOmega-3
+    Amount: 58
+    Unit: mg/100g
+BlueberriesVitaminB9
+    Amount: 0.006
+    Unit: mg/100g
+KiwiVitaminE
+    Amount: 1.5
+    Unit: mg/100g
+KiwiZinc
+    Amount: 0.14
+    Unit: mg/100g
+GrapesVitaminE
+    Amount: 0.17
+    Unit: mg/100g
+GrapesLutein
+    Amount: 0.066
+    Unit: mg/100g
+GrapesZeaxanthin
+    Amount: 0.066
+    Unit: mg/100g
+GrapesZinc
+    Amount: 0.07
+    Unit: mg/100g
+GrapesOmega-3
+    Amount: 11
+    Unit: mg/100g
+GrapesVitaminB9
+    Amount: 0.002
+    Unit: mg/100g
+MangoVitaminE
+    Amount: 2.46
+    Unit: mg/100g
+MangoLutein
+    Amount: 0.0375
+    Unit: mg/100g
+MangoZeaxanthin
+    Amount: 0.0375
+    Unit: mg/100g
+MangoZinc
+    Amount: 0.11
+    Unit: mg/100g
+MangoVitaminB9
+    Amount: 0.053
+    Unit: mg/100g
+FigsVitaminE
+    Amount: 0.11
+    Unit: mg/100g
+FigsZinc
+    Amount: 0.15
+    Unit: mg/100g
+FigsVitaminB9
+    Amount: 0.006
+    Unit: mg/100g
+BlueCheeseCrumblesVitaminE
+    Amount: 0.25
+    Unit: mg/100g
+BlueCheeseCrumblesZinc
+    Amount: 1.2
+    Unit: mg/100g
+BlueCheeseCrumblesOmega-3
+    Amount: 114
+    Unit: mg/100g
+BlueCheeseCrumblesVitaminB9
+    Amount: 0.002
+    Unit: mg/100g
+FetaCubesOrCrumblesVitaminE
+    Amount: 0.1
+    Unit: mg/100g
+FetaCubesOrCrumblesZinc
+    Amount: 1.09
+    Unit: mg/100g
+FetaCubesOrCrumblesVitaminB9
+    Amount: 0.002
+    Unit: mg/100g
+MozzarellaVitaminE
+    Amount: 0.05
+    Unit: mg/100g
+MozzarellaZinc
+    Amount: 2.92
+    Unit: mg/100g
+MozzarellaVitaminB9
+    Amount: 0.002
+    Unit: mg/100g
+CheddarCheeseVitaminE
+    Amount: 0.71
+    Unit: mg/100g
+CheddarCheeseZinc
+    Amount: 3.1
+    Unit: mg/100g
+CheddarCheeseOmega-3
+    Amount: 114
+    Unit: mg/100g
+CheddarCheeseVitaminB9
+    Amount: 0.002
+    Unit: mg/100g
+ParmesanCheeseVitaminE
+    Amount: 0.07
+    Unit: mg/100g
+ParmesanCheeseZinc
+    Amount: 3.2
+    Unit: mg/100g
+ParmesanCheeseVitaminB9
+    Amount: 0.003
+    Unit: mg/100g
+LettuceVitaminE
+    Amount: 0.22
+    Unit: mg/100g
+LettuceLutein
+    Amount: 1.73
+    Unit: mg/100g
+LettuceZeaxanthin
+    Amount: 1.73
+    Unit: mg/100g
+LettuceZinc
+    Amount: 0.18
+    Unit: mg/100g
+LettuceVitaminB9
+    Amount: 0.038
+    Unit: mg/100g
+MandarinOrangesVitaminE
+    Amount: 0.25
+    Unit: mg/100g
+MandarinOrangesLutein
+    Amount: 0.406
+    Unit: mg/100g
+MandarinOrangesZeaxanthin
+    Amount: 0.406
+    Unit: mg/100g
+MandarinOrangesVitaminB9
+    Amount: 0.012
+    Unit: mg/100g
+GrapesRaisinsVitaminE
+    Amount: 0.12
+    Unit: mg/100g
+GrapesRaisinsZinc
+    Amount: 0.18
+    Unit: mg/100g
+GrapesRaisinsVitaminB9
+    Amount: 0.003
+    Unit: mg/100g
+MangoVitaminE
+    Amount: 2.46
+    Unit: mg/100g
+MangoLutein
+    Amount: 0.038
+    Unit: mg/100g
+MangoZeaxanthin
+    Amount: 0.038
+    Unit: mg/100g
+MangoZinc
+    Amount: 0.11
+    Unit: mg/100g
+MangoVitaminB9
+    Amount: 0.053
+    Unit: mg/100g
+FigsVitaminE
+    Amount: 0.11
+    Unit: mg/100g
+FigsZinc
+    Amount: 0.15
+    Unit: mg/100g
+FigsVitaminB9
+    Amount: 0.006
+    Unit: mg/100g
+BlueCheeseCrumblesVitaminE
+    Amount: 0.25
+    Unit: mg/100g
+BlueCheeseCrumblesZinc
+    Amount: 2.66
+    Unit: mg/100g
+BlueCheeseCrumblesOmega-3
+    Amount: 0.083
+    Unit: mg/100g
+BlueCheeseCrumblesVitaminB9
+    Amount: 0.032
+    Unit: mg/100g
+FetaCubesOrCrumblesVitaminE
+    Amount: 0.18
+    Unit: mg/100g
+FetaCubesOrCrumblesZinc
+    Amount: 2.88
+    Unit: mg/100g
+FetaCubesOrCrumblesOmega-3
+    Amount: 0.083
+    Unit: mg/100g
+FetaCubesOrCrumblesVitaminB9
+    Amount: 0.032
+    Unit: mg/100g
+MozzarellaVitaminE
+    Amount: 0.05
+    Unit: mg/100g
+MozzarellaZinc
+    Amount: 2.83
+    Unit: mg/100g
+MozzarellaOmega-3
+    Amount: 0.083
+    Unit: mg/100g
+MozzarellaVitaminB9
+    Amount: 0.002
+    Unit: mg/100g
+CheddarCheeseVitaminE
+    Amount: 0.71
+    Unit: mg/100g
+CheddarCheeseZinc
+    Amount: 3.11
+    Unit: mg/100g
+CheddarCheeseOmega-3
+    Amount: 0.114
+    Unit: mg/100g
+CheddarCheeseVitaminB9
+    Amount: 0.007
+    Unit: mg/100g
+ParmesanCheeseVitaminE
+    Amount: 0.1
+    Unit: mg/100g
+ParmesanCheeseZinc
+    Amount: 3.93
+    Unit: mg/100g
+ParmesanCheeseOmega-3
+    Amount: 0.083
+    Unit: mg/100g
+ParmesanCheeseVitaminB9
+    Amount: 0.002
+    Unit: mg/100g
+LettuceVitaminE
+    Amount: 0.22
+    Unit: mg/100g
+LettuceLutein
+    Amount: 1.73
+    Unit: mg/100g
+LettuceZeaxanthin
+    Amount: 1.73
+    Unit: mg/100g
+LettuceZinc
+    Amount: 0.18
+    Unit: mg/100g
+LettuceVitaminB9
+    Amount: 0.038
+    Unit: mg/100g
+WhiteCabbageVitaminE
+    Amount: 0.15
+    Unit: mg/100g
+WhiteCabbageLutein
+    Amount: 0.03
+    Unit: mg/100g
+WhiteCabbageZeaxanthin
+    Amount: 0.03
+    Unit: mg/100g
+WhiteCabbageZinc
+    Amount: 0.18
+    Unit: mg/100g
+WhiteCabbageVitaminB9
+    Amount: 0.043
+    Unit: mg/100g
+RedCabbageVitaminE
+    Amount: 0.11
+    Unit: mg/100g
+RedCabbageLutein
+    Amount: 0.329
+    Unit: mg/100g
+RedCabbageZeaxanthin
+    Amount: 0.329
+    Unit: mg/100g
+RedCabbageZinc
+    Amount: 0.18
+    Unit: mg/100g
+RedCabbageVitaminB9
+    Amount: 0.043
+    Unit: mg/100g
+NapaCabbageVitaminE
+    Amount: 0.01
+    Unit: mg/100g
+NapaCabbageLutein
+    Amount: 0.0056
+    Unit: mg/100g
+NapaCabbageZeaxanthin
+    Amount: 0.0056
+    Unit: mg/100g
+NapaCabbageZinc
+    Amount: 0.18
+    Unit: mg/100g
+NapaCabbageVitaminB9
+    Amount: 0.079
+    Unit: mg/100g
+GreenCabbageVitaminE
+    Amount: 0.15
+    Unit: mg/100g
+GreenCabbageLutein
+    Amount: 0.03
+    Unit: mg/100g
+GreenCabbageZeaxanthin
+    Amount: 0.03
+    Unit: mg/100g
+GreenCabbageZinc
+    Amount: 0.18
+    Unit: mg/100g
+GreenCabbageVitaminB9
+    Amount: 0.043
+    Unit: mg/100g
+ParsleyVitaminE
+    Amount: 8.96
+    Unit: mg/100g
+ParsleyLutein
+    Amount: 2.428
+    Unit: mg/100g
+ParsleyZeaxanthin
+    Amount: 2.428
+    Unit: mg/100g
+ParsleyZinc
+    Amount: 1.07
+    Unit: mg/100g
+ParsleyVitaminB9
+    Amount: 0.152
+    Unit: mg/100g
+CeleryLeavesVitaminE
+    Amount: 0.27
+    Unit: mg/100g
+CeleryLeavesLutein
+    Amount: 0.2
+    Unit: mg/100g
+CeleryLeavesZeaxanthin
+    Amount: 0.2
+    Unit: mg/100g
+CeleryLeavesZinc
+    Amount: 0.13
+    Unit: mg/100g
+CeleryLeavesVitaminB9
+    Amount: 0.036
+    Unit: mg/100g
+RomaineLettuceVitaminE
+    Amount: 0.12
+    Unit: mg/100g
+RomaineLettuceLutein
+    Amount: 0.5465
+    Unit: mg/100g
+RomaineLettuceZeaxanthin
+    Amount: 0.5465
+    Unit: mg/100g
+RomaineLettuceZinc
+    Amount: 0.18
+    Unit: mg/100g
+RomaineLettuceOmega-3
+    Amount: 0.11
+    Unit: mg/100g
+RomaineLettuceVitaminB9
+    Amount: 0.136
+    Unit: mg/100g
+IcebergLettuceVitaminE
+    Amount: 0.18
+    Unit: mg/100g
+IcebergLettuceLutein
+    Amount: 0.1
+    Unit: mg/100g
+IcebergLettuceZeaxanthin
+    Amount: 0.1
+    Unit: mg/100g
+IcebergLettuceZinc
+    Amount: 0.18
+    Unit: mg/100g
+IcebergLettuceVitaminB9
+    Amount: 0.029
+    Unit: mg/100g
+BostonLettuceVitaminE
+    Amount: 0.01
+    Unit: mg/100g
+BostonLettuceLutein
+    Amount: 0.0917
+    Unit: mg/100g
+BostonLettuceZeaxanthin
+    Amount: 0.0917
+    Unit: mg/100g
+BostonLettuceZinc
+    Amount: 0.18
+    Unit: mg/100g
+BostonLettuceVitaminB9
+    Amount: 0.0055
+    Unit: mg/100g
+CarrotsVitaminE
+    Amount: 0.66
+    Unit: mg/100g
+CarrotsLutein
+    Amount: 0.184
+    Unit: mg/100g
+CarrotsZeaxanthin
+    Amount: 0.184
+    Unit: mg/100g
+CarrotsZinc
+    Amount: 0.17
+    Unit: mg/100g
+CarrotsVitaminB9
+    Amount: 0.019
+    Unit: mg/100g
+RadishesLutein
+    Amount: 0.01
+    Unit: mg/100g
+RadishesZeaxanthin
+    Amount: 0.01
+    Unit: mg/100g
+RadishesZinc
+    Amount: 0.08
+    Unit: mg/100g
+RadishesVitaminB9
+    Amount: 0.025
+    Unit: mg/100g
+RedOnionVitaminE
+    Amount: 0.03
+    Unit: mg/100g
+RedOnionLutein
+    Amount: 0.001
+    Unit: mg/100g
+RedOnionZeaxanthin
+    Amount: 0.001
+    Unit: mg/100g
+RedOnionZinc
+    Amount: 0.2
+    Unit: mg/100g
+RedOnionVitaminB9
+    Amount: 0.019
+    Unit: mg/100g
+WhiteOnionVitaminE
+    Amount: 0.02
+    Unit: mg/100g
+WhiteOnionLutein
+    Amount: 0.001
+    Unit: mg/100g
+WhiteOnionZeaxanthin
+    Amount: 0.001
+    Unit: mg/100g
+WhiteOnionZinc
+    Amount: 0.2
+    Unit: mg/100g
+WhiteOnionVitaminB9
+    Amount: 0.019
+    Unit: mg/100g
+GreenOnionsVitaminE
+    Amount: 0.55
+    Unit: mg/100g
+GreenOnionsLutein
+    Amount: 0.171
+    Unit: mg/100g
+GreenOnionsZeaxanthin
+    Amount: 0.171
+    Unit: mg/100g
+GreenOnionsZinc
+    Amount: 0.2
+    Unit: mg/100g
+GreenOnionsVitaminB9
+    Amount: 0.064
+    Unit: mg/100g
+CarrotsVitaminE
+    Amount: 0.48
+    Unit: mg/100g
+CarrotsLutein
+    Amount: 0.184
+    Unit: mg/100g
+CarrotsZeaxanthin
+    Amount: 0.184
+    Unit: mg/100g
+CarrotsZinc
+    Amount: 0.17
+    Unit: mg/100g
+CarrotsVitaminB9
+    Amount: 0.024
+    Unit: mg/100g
+RadishesLutein
+    Amount: 0.01
+    Unit: mg/100g
+RadishesZeaxanthin
+    Amount: 0.01
+    Unit: mg/100g
+RadishesZinc
+    Amount: 0.2
+    Unit: mg/100g
+RadishesVitaminB9
+    Amount: 0.025
+    Unit: mg/100g
+RedOnionVitaminE
+    Amount: 0.6
+    Unit: mg/100g
+RedOnionLutein
+    Amount: 0.01
+    Unit: mg/100g
+RedOnionZeaxanthin
+    Amount: 0.01
+    Unit: mg/100g
+RedOnionZinc
+    Amount: 2.97
+    Unit: mg/100g
+WhiteOnionVitaminE
+    Amount: 0.03
+    Unit: mg/100g
+WhiteOnionLutein
+    Amount: 0.01
+    Unit: mg/100g
+WhiteOnionZeaxanthin
+    Amount: 0.01
+    Unit: mg/100g
+WhiteOnionZinc
+    Amount: 0.2
+    Unit: mg/100g
+WhiteOnionVitaminB9
+    Amount: 0.019
+    Unit: mg/100g
+GreenOnionsVitaminE
+    Amount: 0.55
+    Unit: mg/100g
+GreenOnionsLutein
+    Amount: 0.1
+    Unit: mg/100g
+GreenOnionsZeaxanthin
+    Amount: 0.1
+    Unit: mg/100g
+GreenOnionsZinc
+    Amount: 0.39
+    Unit: mg/100g
+GreenOnionsVitaminB9
+    Amount: 0.064
+    Unit: mg/100g
+CeleryVitaminE
+    Amount: 0.27
+    Unit: mg/100g
+CeleryLutein
+    Amount: 0.1
+    Unit: mg/100g
+CeleryZeaxanthin
+    Amount: 0.1
+    Unit: mg/100g
+CeleryZinc
+    Amount: 0.13
+    Unit: mg/100g
+CeleryVitaminB9
+    Amount: 0.036
+    Unit: mg/100g
+GarlicVitaminE
+    Amount: 0.08
+    Unit: mg/100g
+GarlicZinc
+    Amount: 1.16
+    Unit: mg/100g
+GarlicVitaminB9
+    Amount: 0.003
+    Unit: mg/100g
+ShallotsVitaminE
+    Amount: 0.1
+    Unit: mg/100g
+ShallotsZinc
+    Amount: 0.4
+    Unit: mg/100g
+ShallotsVitaminB9
+    Amount: 0.034
+    Unit: mg/100g
+TomatoVitaminE
+    Amount: 0.54
+    Unit: mg/100g
+TomatoLutein
+    Amount: 0.123
+    Unit: mg/100g
+TomatoZeaxanthin
+    Amount: 0.123
+    Unit: mg/100g
+TomatoZinc
+    Amount: 0.17
+    Unit: mg/100g
+TomatoVitaminB9
+    Amount: 0.015
+    Unit: mg/100g
+CherryTomatoVitaminE
+    Amount: 0.54
+    Unit: mg/100g
+CherryTomatoLutein
+    Amount: 0.123
+    Unit: mg/100g
+CherryTomatoZeaxanthin
+    Amount: 0.123
+    Unit: mg/100g
+CherryTomatoZinc
+    Amount: 0.17
+    Unit: mg/100g
+CherryTomatoVitaminB9
+    Amount: 0.015
+    Unit: mg/100g
+CucumberVitaminE
+    Amount: 0.03
+    Unit: mg/100g
+CucumberZinc
+    Amount: 0.2
+    Unit: mg/100g
+CucumberVitaminB9
+    Amount: 0.007
+    Unit: mg/100g
+OlivesVitaminE
+    Amount: 3.81
+    Unit: mg/100g
+OlivesZinc
+    Amount: 0.22
+    Unit: mg/100g
+OlivesVitaminB9
+    Amount: 0.003
+    Unit: mg/100g
+AvocadoVitaminE
+    Amount: 2.66
+    Unit: mg/100g
+AvocadoLutein
+    Amount: 0.185
+    Unit: mg/100g
+AvocadoZeaxanthin
+    Amount: 0.185
+    Unit: mg/100g
+AvocadoZinc
+    Amount: 0.64
+    Unit: mg/100g
+AvocadoVitaminB9
+    Amount: 0.089
+    Unit: mg/100g
+BellPepperVitaminE
+    Amount: 0.37
+    Unit: mg/100g
+BellPepperLutein
+    Amount: 0.051
+    Unit: mg/100g
+BellPepperZeaxanthin
+    Amount: 0.051
+    Unit: mg/100g
+BellPepperZinc
+    Amount: 0.13
+    Unit: mg/100g
+BellPepperVitaminB9
+    Amount: 0.056
+    Unit: mg/100g
+AsparagusVitaminE
+    Amount: 1.5
+    Unit: mg/100g
+AsparagusLutein
+    Amount: 0.951
+    Unit: mg/100g
+AsparagusZeaxanthin
+    Amount: 0.951
+    Unit: mg/100g
+AsparagusZinc
+    Amount: 0.54
+    Unit: mg/100g
+AsparagusVitaminB9
+    Amount: 0.07
+    Unit: mg/100g
+ChickpeasVitaminE
+    Amount: 1
+    Unit: mg/100g
+ChickpeasZinc
+    Amount: 3
+    Unit: mg/100g
+ChickpeasVitaminB9
+    Amount: 0.172
+    Unit: mg/100g
+BlackBeansZinc
+    Amount: 1.12
+    Unit: mg/100g
+BlackBeansVitaminB9
+    Amount: 0.149
+    Unit: mg/100g
+KidneyBeansVitaminE
+    Amount: 1.54
+    Unit: mg/100g
+KidneyBeansZinc
+    Amount: 1.07
+    Unit: mg/100g
+KidneyBeansOmega-3
+    Amount: 0.36
+    Unit: mg/100g
+KidneyBeansVitaminB9
+    Amount: 0.131
+    Unit: mg/100g
+PastaZinc
+    Amount: 1.1
+    Unit: mg/100g
+PastaVitaminB9
+    Amount: 0.026
+    Unit: mg/100g
+BulgurVitaminE
+    Amount: 0.01
+    Unit: mg/100g
+BulgurZinc
+    Amount: 0.57
+    Unit: mg/100g
+BulgurVitaminB9
+    Amount: 0.027
+    Unit: mg/100g
+GreenBeansVitaminE
+    Amount: 0.46
+    Unit: mg/100g
+GreenBeansLutein
+    Amount: 0.641
+    Unit: mg/100g
+GreenBeansZeaxanthin
+    Amount: 0.641
+    Unit: mg/100g
+GreenBeansZinc
+    Amount: 0.24
+    Unit: mg/100g
+GreenBeansVitaminB9
+    Amount: 0.041
+    Unit: mg/100g
+WaxBeansVitaminE
+    Amount: 0.94
+    Unit: mg/100g
+WaxBeansZinc
+    Amount: 1.1
+    Unit: mg/100g
+CookedPastaVitaminE
+    Amount: 0.06
+    Unit: mg/100g
+CookedPastaLutein
+    Amount: 0.007
+    Unit: mg/100g
+CookedPastaZeaxanthin
+    Amount: 0.007
+    Unit: mg/100g
+CookedPastaZinc
+    Amount: 0.27
+    Unit: mg/100g
+CookedPastaVitaminB9
+    Amount: 0.007
+    Unit: mg/100g
+BulgurLutein
+    Amount: 0.054
+    Unit: mg/100g
+BulgurZeaxanthin
+    Amount: 0.054
+    Unit: mg/100g
+BulgurZinc
+    Amount: 1.04
+    Unit: mg/100g
+BulgurOmega-3
+    Amount: 0.004
+    Unit: mg/100g
+BulgurVitaminB9
+    Amount: 0.018
+    Unit: mg/100g
+GarbanzoBeansVitaminE
+    Amount: 1
+    Unit: mg/100g
+GarbanzoBeansZinc
+    Amount: 3
+    Unit: mg/100g
+GarbanzoBeansVitaminB9
+    Amount: 0.172
+    Unit: mg/100g
+PickleRelishVitaminE
+    Amount: 0.58
+    Unit: mg/100g
+PickleRelishLutein
+    Amount: 0.059
+    Unit: mg/100g
+PickleRelishZeaxanthin
+    Amount: 0.059
+    Unit: mg/100g
+PickleRelishZinc
+    Amount: 0.14
+    Unit: mg/100g
+PickleRelishVitaminB9
+    Amount: 0.001
+    Unit: mg/100g
+DijonMustardVitaminE
+    Amount: 0.1
+    Unit: mg/100g
+DijonMustardZinc
+    Amount: 0.1
+    Unit: mg/100g
+PaprikaVitaminE
+    Amount: 29
+    Unit: mg/100g
+PaprikaZinc
+    Amount: 4
+    Unit: mg/100g
+PaprikaOmega-3
+    Amount: 500
+    Unit: mg/100g
+PaprikaVitaminB9
+    Amount: 0.049
+    Unit: mg/100g
+CroutonsVitaminE
+    Amount: 0.4
+    Unit: mg/100g
+CroutonsZinc
+    Amount: 0.94
+    Unit: mg/100g
+BreadVitaminE
+    Amount: 1.7
+    Unit: mg/100g
+BreadOmega-3
+    Amount: 89
+    Unit: mg/100g
+BreadVitaminB9
+    Amount: 0.026
+    Unit: mg/100g
+GreekYogurtZinc
+    Amount: 0.89
+    Unit: mg/100g
+GreekYogurtVitaminE
+    Amount: 0.25
+    Unit: mg/100g
+DijonMustardVitaminE
+    Amount: 5.1
+    Unit: mg/100g
+DijonMustardZinc
+    Amount: 0.1
+    Unit: mg/100g
+PaprikaVitaminE
+    Amount: 2.0
+    Unit: mg/100g
+PaprikaZinc
+    Amount: 0.3
+    Unit: mg/100g
+PaprikaOmega-3
+    Amount: 31
+    Unit: mg/100g
+PaprikaVitaminB9
+    Amount: 0.005
+    Unit: mg/100g
+CroutonsVitaminE
+    Amount: 0.4
+    Unit: mg/100g
+CroutonsZinc
+    Amount: 0.89
+    Unit: mg/100g
+BreadVitaminE
+    Amount: 2.66
+    Unit: mg/100g
+BreadOmega-3
+    Amount: 89
+    Unit: mg/100g
+BreadVitaminB9
+    Amount: 0.085
+    Unit: mg/100g
+GreekYogurtVitaminE
+    Amount: 0.25
+    Unit: mg/100g
+GreekYogurtZinc
+    Amount: 1.2
+    Unit: mg/100g
+RanchVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+RanchZinc
+    Amount: 0.1
+    Unit: mg/100g
+RanchOmega-3
+    Amount: 100
+    Unit: mg/100g
+CaesarDressingVitaminE
+    Amount: 4.7
+    Unit: mg/100g
+CaesarDressingOmega-3
+    Amount: 566
+    Unit: mg/100g
+MayonnaiseVitaminE
+    Amount: 13
+    Unit: mg/100g
+MayonnaiseZinc
+    Amount: 0.18
+    Unit: mg/100g
+MayonnaiseOmega-3
+    Amount: 1000
+    Unit: mg/100g
+HeavyCreamVitaminE
+    Amount: 3
+    Unit: mg/100g
+HeavyCreamZinc
+    Amount: 1
+    Unit: mg/100g
+GreekYogurtZinc
+    Amount: 0.89
+    Unit: mg/100g
+GreekYogurtVitaminE
+    Amount: 0.25
+    Unit: mg/100g
+ItalianDressingVitaminE
+    Amount: 1
+    Unit: mg/100g
+ItalianDressingOmega-3
+    Amount: 100
+    Unit: mg/100g
+BalsamicVinaigretteOmega-3
+    Amount: 400
+    Unit: mg/100g
+RedWineVinaigretteVitaminE
+    Amount: 3
+    Unit: mg/100g
+LimeJuiceVitaminE
+    Amount: 0.08
+    Unit: mg/100g
+LimeJuiceZinc
+    Amount: 0.03
+    Unit: mg/100g
+LimeJuiceOmega-3
+    Amount: 19
+    Unit: mg/100g
+LimeJuiceVitaminB9
+    Amount: 0.0038
+    Unit: mg/100g
+OliveOilVitaminE
+    Amount: 14
+    Unit: mg/100g
+OliveOilOmega-3
+    Amount: 103
+    Unit: mg/100g
+HoneyZinc
+    Amount: 0.05
+    Unit: mg/100g
+HoneyVitaminB9
+    Amount: 0.00042
+    Unit: mg/100g
+MapleSyrupZinc
+    Amount: 0.3
+    Unit: mg/100g
+KetchupVitaminE
+    Amount: 1.5
+    Unit: mg/100g
+KetchupZinc
+    Amount: 0.17
+    Unit: mg/100g
+LemonJuiceVitaminE
+    Amount: 0.37
+    Unit: mg/100g
+LemonJuiceVitaminB9
+    Amount: 0.011
+    Unit: mg/100g
+LimeJuiceVitaminE
+    Amount: 0.08
+    Unit: mg/100g
+LimeJuiceVitaminB9
+    Amount: 0.01
+    Unit: mg/100g
+OliveOilVitaminE
+    Amount: 14
+    Unit: mg/100g
+OliveOilOmega-3
+    Amount: 103
+    Unit: mg/100g
+HoneyZinc
+    Amount: 0.05
+    Unit: mg/100g
+MapleSyrupZinc
+    Amount: 0.82
+    Unit: mg/100g
+KetchupVitaminE
+    Amount: 1.5
+    Unit: mg/100g
+KetchupZinc
+    Amount: 0.17
+    Unit: mg/100g
