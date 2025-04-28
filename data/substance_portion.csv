@@ -1229,3 +1229,14 @@ CookedHamPotassium,SubstancePortion,386,mg/100g
 CookedHamProtein,SubstancePortion,22300,mg/100g
 CookedHamSodium,SubstancePortion,1442,mg/100g
 CookedHamZinc,SubstancePortion,2.61,mg/100g
+CrabmeatCholesterol,SubstancePortion,53000,mg/100g
+CrabmeatFat,SubstancePortion,1500,mg/100g
+CrabmeatFoodEnergy,SubstancePortion,97,cal/100g
+CrabmeatIron,SubstancePortion,0.76,mg/100g
+CrabmeatPotassium,SubstancePortion,262,mg/100g
+CrabmeatProtein,SubstancePortion,19000,mg/100g
+CrabmeatSodium,SubstancePortion,1072,mg/100g
+CrabmeatVitaminA,SubstancePortion,0.009,mg/100g
+CrabmeatVitaminC,SubstancePortion,7.6,mg/100g
+CrabmeatVitaminE,SubstancePortion,2.1,mg/100g
+CrabmeatZinc,SubstancePortion,7.6,mg/100g

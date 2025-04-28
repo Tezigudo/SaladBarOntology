@@ -3,7 +3,7 @@ import re
 from termcolor import colored
 
 # Configuration
-DRY_RUN = True # Set to True to simulate only (no real write)
+DRY_RUN = False # Set to True to simulate only (no real write)
 
 # Load your RDF graph
 g = Graph()
@@ -79,7 +79,7 @@ for portion_uri in ingredient_portions:
 
     if amount:
         if not DRY_RUN:
-            g.add((portion_uri, HAS_AMOUNT, Literal(int(amount))))
+            g.add((portion_uri, HAS_AMOUNT, Literal(float(amount))))
     if unit:
         normalized_unit = normalize_unit(unit)
         if not DRY_RUN:

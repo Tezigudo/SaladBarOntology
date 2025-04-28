@@ -3688,3 +3688,36 @@ CookedHamSodium
 CookedHamZinc
     Amount: 2.61
     Unit: mg/100g
+CrabmeatCholesterol
+    Amount: 53000
+    Unit: mg/100g
+CrabmeatFat
+    Amount: 1500
+    Unit: mg/100g
+CrabmeatFoodEnergy
+    Amount: 97
+    Unit: cal/100g
+CrabmeatIron
+    Amount: 0.76
+    Unit: mg/100g
+CrabmeatPotassium
+    Amount: 262
+    Unit: mg/100g
+CrabmeatProtein
+    Amount: 19000
+    Unit: mg/100g
+CrabmeatSodium
+    Amount: 1072
+    Unit: mg/100g
+CrabmeatVitaminA
+    Amount: 0.009
+    Unit: mg/100g
+CrabmeatVitaminC
+    Amount: 7.6
+    Unit: mg/100g
+CrabmeatVitaminE
+    Amount: 2.1
+    Unit: mg/100g
+CrabmeatZinc
+    Amount: 7.6
+    Unit: mg/100g
