@@ -3,7 +3,7 @@ import re
 from termcolor import colored
 
 # Configuration
-DRY_RUN = False  # Set to False to actually modify RDF
+DRY_RUN = True  # Set to False to actually modify RDF
 
 # Load your RDF graph
 g = Graph()

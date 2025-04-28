@@ -3433,3 +3433,75 @@ HoneyZinc
 KetchupVitaminE
     Amount: 1.5
     Unit: mg/100g
+WalnutCarbohydrate
+    Amount: 14000
+    Unit: mg/100g
+WalnutFat
+    Amount: 65000
+    Unit: mg/100g
+WalnutFoodEnergy
+    Amount: 654
+    Unit: cal/100g
+WalnutIron
+    Amount: 3
+    Unit: mg/100g
+WalnutPotassium
+    Amount: 441
+    Unit: mg/100g
+WalnutProtein
+    Amount: 15000
+    Unit: mg/100g
+WalnutSodium
+    Amount: 2
+    Unit: mg/100g
+WalnutVitaminA
+    Amount: 0.012
+    Unit: mg/100g
+WalnutVitaminC
+    Amount: 0.4
+    Unit: mg/100g
+WalnutVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+WalnutZinc
+    Amount: 0.88
+    Unit: mg/100g
+WalnutOmega-3
+    Amount: 9100
+    Unit: mg/100g
+WalnutVitaminB9
+    Amount: 0.098
+    Unit: mg/100g
+RedGrapeCarbohydrate
+    Amount: 17700
+    Unit: mg/100g
+RedGrapeFoodEnergy
+    Amount: 69
+    Unit: cal/100g
+RedGrapeIron
+    Amount: 0.9
+    Unit: mg/100g
+RedGrapePotassium
+    Amount: 487.3
+    Unit: mg/100g
+RedGrapeProtein
+    Amount: 1200
+    Unit: mg/100g
+RedGrapeSodium
+    Amount: 5.1
+    Unit: mg/100g
+RedGrapeVitaminA
+    Amount: 0.0018
+    Unit: mg/100g
+RedGrapeVitaminC
+    Amount: 3.3
+    Unit: mg/100g
+RedGrapeVitaminE
+    Amount: 0.2
+    Unit: mg/100g
+RedGrapeZinc
+    Amount: 0.04
+    Unit: mg/100g
+RedGrapeVitaminB9
+    Amount: 0.002
+    Unit: mg/100g

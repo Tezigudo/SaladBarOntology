@@ -26,4 +26,3 @@ for instance in instances_to_remove:
 g.serialize(destination="salad_ontology.rdf", format="xml")
 
 print("\n✅ All individuals deleted successfully!")
-print("🎯 Saved cleaned file as 'salad_ontology_clean.rdf'.")
