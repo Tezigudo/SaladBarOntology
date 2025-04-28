@@ -130,8 +130,13 @@ for idx, row in df.iterrows():
         continue
 
     final_amount = float(amount)
+
+    # Fix units
     if unit == "μg/100g":
-        final_amount = final_amount / 1000  # Convert μg ➔ mg
+        final_amount = final_amount / 1000  # μg ➔ mg
+        unit = "mg/100g"
+    elif unit == "g/100g":
+        final_amount = final_amount * 1000  # g ➔ mg
         unit = "mg/100g"
 
     if not DRY_RUN:
