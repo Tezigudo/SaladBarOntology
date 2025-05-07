@@ -1,5 +1,6 @@
 from rdflib import Graph, Namespace, OWL, RDF, RDFS
 from rdflib.term import BNode, Literal
+import random
 
 # Load the ontology
 g = Graph()
@@ -9,105 +10,274 @@ g.parse("salad_ontology.rdf", format="xml")
 sbo = Namespace("http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#")
 g.bind("s", sbo)
 
-with open("ontology_summary_full.txt", "w") as output_file:
+with open("ontology_summary_focused.txt", "w") as output_file:
     def print_n3(item):
         return item.n3(g.namespace_manager)
-
+    
     # Build subclass and superclass maps
     classes = set(g.subjects(RDF.type, OWL.Class))
     subclass_map = {}
     superclass_map = {}
-
     for sub, sup in g.subject_objects(RDFS.subClassOf):
         if isinstance(sub, BNode) or isinstance(sup, BNode):
             continue
         subclass_map.setdefault(sup, []).append(sub)
         superclass_map.setdefault(sub, []).append(sup)
-
+    
     # Find root classes (those that are not a subclass of any class)
     roots = [cls for cls in classes if cls not in superclass_map]
     if OWL.Thing not in roots:
         roots.append(OWL.Thing)
-
-    # Write class hierarchy recursively
+    
+    # Write class hierarchy recursively with restrictions
     def write_class_tree(class_uri, indent=0, visited=None):
         if visited is None:
             visited = set()
         if class_uri in visited:
             return
         visited.add(class_uri)
-
+        
         output_file.write("  " * indent + f"- {print_n3(class_uri)}\n")
-
+        
+        # Get class label if available
+        for label in g.objects(class_uri, RDFS.label):
+            output_file.write("  " * (indent + 1) + f"Label: {label}\n")
+        
         # Class restrictions
-        for _, restriction in g.predicate_objects(subject=class_uri):
+        for s, p, restriction in g.triples((class_uri, RDFS.subClassOf, None)):
             if isinstance(restriction, BNode):
                 types = list(g.objects(restriction, RDF.type))
                 if OWL.Restriction in types:
                     on_property = next(g.objects(restriction, OWL.onProperty), None)
-                    restriction_type = next((p for p in [OWL.allValuesFrom, OWL.someValuesFrom, OWL.hasValue]
-                                             if (restriction, p, None) in g), None)
-                    restriction_value = next(g.objects(restriction, restriction_type), None) if restriction_type else None
-                    if on_property and restriction_type and restriction_value:
-                        output_file.write("  " * (indent + 1) +
-                                          f"(Restriction) {print_n3(on_property)} {print_n3(restriction_type)} {print_n3(restriction_value)}\n")
-
+                    
+                    # Check for all possible restriction types
+                    restriction_types = [
+                        (OWL.allValuesFrom, "allValuesFrom"),
+                        (OWL.someValuesFrom, "someValuesFrom"),
+                        (OWL.hasValue, "hasValue"),
+                        (OWL.minCardinality, "minCardinality"),
+                        (OWL.maxCardinality, "maxCardinality"),
+                        (OWL.cardinality, "cardinality")
+                    ]
+                    
+                    for restriction_type, type_name in restriction_types:
+                        restriction_value = next(g.objects(restriction, restriction_type), None)
+                        if on_property and restriction_value is not None:
+                            output_file.write("  " * (indent + 1) + 
+                                            f"Restriction: {print_n3(on_property)} {type_name} {print_n3(restriction_value)}\n")
+        
         # Class properties (via domain)
         for prop in g.subjects(RDFS.domain, class_uri):
-            output_file.write("  " * (indent + 1) + f"(Has Property) {print_n3(prop)}\n")
-
+            prop_range = next(g.objects(prop, RDFS.range), None)
+            range_str = f" → {print_n3(prop_range)}" if prop_range else ""
+            output_file.write("  " * (indent + 1) + f"Property: {print_n3(prop)}{range_str}\n")
+ 
         # Recurse into subclasses
         for sub in sorted(subclass_map.get(class_uri, []), key=lambda x: print_n3(x)):
             write_class_tree(sub, indent + 1, visited)
-
-    # Write instances for each class
-    def write_instances_for_class(class_uri):
-        output_file.write(f"\nInstances of {print_n3(class_uri)} (up to 2):\n")
-
-        q_instances = f"""
-        SELECT DISTINCT ?instance
-        WHERE {{
-            ?instance a {class_uri.n3()} .
-        }}
-        LIMIT 2
-        """
-        try:
-            instances = [row['instance'] for row in g.query(q_instances)]
-        except Exception as e:
-            output_file.write(f"  Query error: {e}\n")
+    
+    # Find a salad instance for detailed exploration
+    def find_salad_instance():
+        # First try to find instances of classes with "Salad" in the name
+        salad_classes = []
+        for cls in classes:
+            if "Salad" in str(cls):
+                salad_classes.append(cls)
+        
+        # Try each salad class and look for instances
+        for salad_class in salad_classes:
+            instances = list(g.subjects(RDF.type, salad_class))
+            if instances:
+                output_file.write(f"Found salad instance of class {print_n3(salad_class)}\n")
+                return random.choice(instances)
+        
+        # If no direct salad instances found, look for subclasses of salad classes
+        for salad_class in salad_classes:
+            for subclass in g.subjects(RDFS.subClassOf, salad_class):
+                if isinstance(subclass, BNode):
+                    continue
+                instances = list(g.subjects(RDF.type, subclass))
+                if instances:
+                    output_file.write(f"Found salad subclass instance of {print_n3(subclass)}\n")
+                    return random.choice(instances)
+        
+        # If still no salad instances, search for any instance with "Salad" in its URI
+        for subject in g.subjects(RDF.type, OWL.NamedIndividual):
+            if "Salad" in str(subject):
+                output_file.write(f"Found instance with 'Salad' in name: {print_n3(subject)}\n")
+                return subject
+        
+        # If no salad instances found at all, explicitly tell the user
+        output_file.write("No salad instances found in the ontology. Using an alternative instance.\n")
+        
+        # Try classes that might be salad components
+        potential_component_classes = []
+        for cls in classes:
+            class_str = str(cls).lower()
+            if any(term in class_str for term in ["vegetable", "ingredient", "topping", "dressing"]):
+                potential_component_classes.append(cls)
+        
+        # Try to find instances of potential component classes
+        for component_cls in potential_component_classes:
+            instances = list(g.subjects(RDF.type, component_cls))
+            if instances:
+                return random.choice(instances)
+        
+        # Last resort: return any random instance
+        all_instances = list(g.subjects(RDF.type, OWL.NamedIndividual))
+        if all_instances:
+            return random.choice(all_instances)
+                
+        return None
+    
+    # Recursively explore an instance and its related instances
+    def explore_instance(instance, depth=0, max_depth=5, visited=None):
+        if visited is None:
+            visited = set()
+            
+        if depth > max_depth or instance in visited:
             return
-
-        if not instances:
-            output_file.write("  No instances found.\n")
-            return
-
-        visited = set()
-
-        def write_properties(instance, indent=1):
-            if instance in visited:
-                output_file.write("  " * indent + f"Individual: {print_n3(instance)} (already visited)\n")
-                return
-            visited.add(instance)
-            output_file.write("  " * indent + f"Individual: {print_n3(instance)}\n")
-            for p, o in g.predicate_objects(instance):
-                if isinstance(o, Literal):
-                    output_file.write("  " * (indent + 1) + f"{print_n3(p)}: {o}\n")
-                else:
-                    output_file.write("  " * (indent + 1) + f"{print_n3(p)}: {print_n3(o)}\n")
-                    if (o, RDF.type, OWL.NamedIndividual) in g or (o, RDF.type, None) in g:
-                        write_properties(o, indent + 2)
-
-        for instance in instances:
-            write_properties(instance)
+            
+        visited.add(instance)
+        
+        # Get instance types
+        types = list(g.objects(instance, RDF.type))
+        type_str = ", ".join([print_n3(t) for t in types if not isinstance(t, BNode)])
+        output_file.write("  " * depth + f"{print_n3(instance)} (Types: {type_str})\n")
+        
+        # Get instance label if available
+        for label in g.objects(instance, RDFS.label):
+            output_file.write("  " * (depth + 1) + f"Label: {label}\n")
+        
+        # Get all properties and their values
+        for p, o in sorted(g.predicate_objects(instance), key=lambda x: print_n3(x[0])):
+            # Skip type, already displayed above
+            if p == RDF.type:
+                continue
+                
+            # Get property label if available
+            prop_label = next(g.objects(p, RDFS.label), None)
+            prop_display = f"{print_n3(p)}" + (f" ({prop_label})" if prop_label else "")
+            
+            if isinstance(o, Literal):
+                output_file.write("  " * (depth + 1) + f"{prop_display}: {o}\n")
+            else:
+                # Get object label if available
+                obj_label = next(g.objects(o, RDFS.label), None)
+                obj_display = f"{print_n3(o)}" + (f" ({obj_label})" if obj_label else "")
+                
+                # Get object types
+                obj_types = list(g.objects(o, RDF.type))
+                obj_type_str = ", ".join([print_n3(t) for t in obj_types if not isinstance(t, BNode)])
+                if obj_type_str:
+                    obj_display += f" [Types: {obj_type_str}]"
+                
+                output_file.write("  " * (depth + 1) + f"{prop_display}: {obj_display}\n")
+                
+                # Recursively explore this object
+                explore_instance(o, depth + 2, max_depth, visited)
+    
+    # List all object and data properties with domains and ranges
+    def list_properties():
+        output_file.write("=== OBJECT PROPERTIES ===\n\n")
+        
+        # Get all object properties
+        object_properties = list(g.subjects(RDF.type, OWL.ObjectProperty))
+        object_properties.sort(key=lambda x: print_n3(x))
+        
+        for prop in object_properties:
+            output_file.write(f"Property: {print_n3(prop)}\n")
+            
+            # Get label if available
+            for label in g.objects(prop, RDFS.label):
+                output_file.write(f"  Label: {label}\n")
+                
+            # Get domains
+            domains = list(g.objects(prop, RDFS.domain))
+            if domains:
+                domain_str = ", ".join([print_n3(d) for d in domains])
+                output_file.write(f"  Domain: {domain_str}\n")
+            
+            # Get ranges
+            ranges = list(g.objects(prop, RDFS.range))
+            if ranges:
+                range_str = ", ".join([print_n3(r) for r in ranges])
+                output_file.write(f"  Range: {range_str}\n")
+            
+            # Get property characteristics
+            characteristics = []
+            if (prop, RDF.type, OWL.FunctionalProperty) in g:
+                characteristics.append("Functional")
+            if (prop, RDF.type, OWL.TransitiveProperty) in g:
+                characteristics.append("Transitive")
+            if (prop, RDF.type, OWL.SymmetricProperty) in g:
+                characteristics.append("Symmetric")
+            if (prop, RDF.type, OWL.AsymmetricProperty) in g:
+                characteristics.append("Asymmetric")
+            if (prop, RDF.type, OWL.ReflexiveProperty) in g:
+                characteristics.append("Reflexive")
+            if (prop, RDF.type, OWL.IrreflexiveProperty) in g:
+                characteristics.append("Irreflexive")
+            
+            if characteristics:
+                output_file.write(f"  Characteristics: {', '.join(characteristics)}\n")
+                
+            # Get inverse properties
+            for inv in g.objects(prop, OWL.inverseOf):
+                output_file.write(f"  Inverse Of: {print_n3(inv)}\n")
+                
             output_file.write("\n")
-
+        
+        output_file.write("\n=== DATA PROPERTIES ===\n\n")
+        
+        # Get all data properties
+        data_properties = list(g.subjects(RDF.type, OWL.DatatypeProperty))
+        data_properties.sort(key=lambda x: print_n3(x))
+        
+        for prop in data_properties:
+            output_file.write(f"Property: {print_n3(prop)}\n")
+            
+            # Get label if available
+            for label in g.objects(prop, RDFS.label):
+                output_file.write(f"  Label: {label}\n")
+                
+            # Get domains
+            domains = list(g.objects(prop, RDFS.domain))
+            if domains:
+                domain_str = ", ".join([print_n3(d) for d in domains])
+                output_file.write(f"  Domain: {domain_str}\n")
+            
+            # Get ranges
+            ranges = list(g.objects(prop, RDFS.range))
+            if ranges:
+                range_str = ", ".join([print_n3(r) for r in ranges])
+                output_file.write(f"  Range: {range_str}\n")
+            
+            # Check if functional
+            if (prop, RDF.type, OWL.FunctionalProperty) in g:
+                output_file.write(f"  Characteristic: Functional\n")
+                
+            output_file.write("\n")
+    
     # === MAIN EXECUTION ===
     output_file.write(f"The ontology contains {len(g)} triples.\n\n")
-    output_file.write("Class Hierarchy (Protégé-style):\n\n")
+    
+    # Part 1: Output Class Hierarchy with restrictions
+    output_file.write("=== CLASS HIERARCHY ===\n\n")
     visited_classes = set()
     for root in sorted(roots, key=lambda x: print_n3(x)):
         write_class_tree(root, visited=visited_classes)
-
-    output_file.write("\nInstance Details:\n")
-    for class_uri in sorted(classes, key=lambda x: str(x)):
-        write_instances_for_class(class_uri)
+    
+    # Part 2: List all properties with domains and ranges
+    output_file.write("\n\n")
+    list_properties()
+    
+    # Part 3: Detailed exploration of a salad instance
+    output_file.write("\n\n=== DETAILED SALAD EXPLORATION ===\n\n")
+    
+    salad_instance = find_salad_instance()
+    if salad_instance:
+        output_file.write(f"Starting exploration from: {print_n3(salad_instance)}\n\n")
+        explore_instance(salad_instance, depth=0, max_depth=10)
+    else:
+        output_file.write("No suitable salad instance found in the ontology.\n")
