@@ -211,7 +211,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
     
 
@@ -1013,13 +1013,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasUnit"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
