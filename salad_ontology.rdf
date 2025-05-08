@@ -350,7 +350,14 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dressing -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dressing"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dressing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasSubstancePortion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
