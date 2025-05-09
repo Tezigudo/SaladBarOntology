@@ -5,7 +5,7 @@ from rdflib.namespace import RDF, XSD
 # Initialize RDF graph
 g = rdflib.Graph()
 # Load ontology (adjust path to your ontology file)
-ontology_file = "../../salad_ontology.rdf"  # Update with your file path
+ontology_file = "salad_ontology.rdf"  # Update with your file path
 try:
     g.parse(ontology_file, format="xml")
 except Exception as e:
