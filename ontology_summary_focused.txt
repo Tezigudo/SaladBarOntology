@@ -1,15 +1,17 @@
-The ontology contains 8860 triples.
+The ontology contains 8879 triples.
 
 === CLASS HIERARCHY ===
 
 - owl:Thing
 - s:Dressing
+  Restriction: s:hasSubstancePortion someValuesFrom s:SubstancePortion
   - s:CitrusBased
   - s:Creamy
   - s:Emulsified
   - s:Fermented
   - s:NutBased
   - s:OilBased
+  - s:SweetBased
   - s:Vinaigrette
 - s:DressingPortion
   Restriction: s:hasDressing someValuesFrom s:Dressing
@@ -42,7 +44,7 @@ The ontology contains 8860 triples.
     - s:Stem
 - s:IngredientPortion
   Restriction: s:hasIngredient someValuesFrom s:Ingredient
-  Restriction: s:hasAmount someValuesFrom xsd:integer
+  Restriction: s:hasAmount someValuesFrom xsd:decimal
   Restriction: s:hasUnit someValuesFrom xsd:string
   Property: s:hasIngredient → s:Ingredient
 - s:Person
@@ -111,9 +113,8 @@ The ontology contains 8860 triples.
 - s:Substance
 - s:SubstancePortion
   Restriction: s:hasSubstance someValuesFrom s:Substance
-  Restriction: s:hasAmount someValuesFrom xsd:integer
+  Restriction: s:hasAmount someValuesFrom xsd:decimal
   Property: s:hasSubstance → s:Substance
-- s:SweetBased
 
 
 === OBJECT PROPERTIES ===
@@ -158,42 +159,60 @@ Property: s:hasSubstancePortion
 Property: s:hasAmount
   Range: xsd:decimal
 
+Property: s:hasTotalCalcium
+  Range: xsd:decimal
+
+Property: s:hasTotalCarbohydrate
+  Range: xsd:decimal
+
+Property: s:hasTotalCholesterol
+  Range: xsd:decimal
+
+Property: s:hasTotalFat
+  Range: xsd:decimal
+
+Property: s:hasTotalFoodEnergy
+  Range: xsd:decimal
+
+Property: s:hasTotalIron
+  Range: xsd:decimal
+
+Property: s:hasTotalLutein
+  Range: xsd:decimal
+
+Property: s:hasTotalOmega-3
+  Range: xsd:decimal
+
+Property: s:hasTotalPotassium
+  Range: xsd:decimal
+
+Property: s:hasTotalProtein
+  Range: xsd:decimal
+
+Property: s:hasTotalSodium
+  Range: xsd:decimal
+
 Property: s:hasTotalSubstance
   Domain: s:SaladNutrientTotal
   Range: xsd:decimal
 
+Property: s:hasTotalVitaminA
+  Range: xsd:decimal
 
-Property: s:hasTotalCalcium   subPropertyOf: s:hasTotalSubstance
+Property: s:hasTotalVitaminB9
+  Range: xsd:decimal
 
-Property: s:hasTotalCarbohydrate   subPropertyOf: s:hasTotalSubstance
+Property: s:hasTotalVitaminC
+  Range: xsd:decimal
 
-Property: s:hasTotalCholesterol   subPropertyOf: s:hasTotalSubstance
+Property: s:hasTotalVitaminE
+  Range: xsd:decimal
 
-Property: s:hasTotalFat   subPropertyOf: s:hasTotalSubstance
+Property: s:hasTotalZeaxanthin
+  Range: xsd:decimal
 
-Property: s:hasTotalFoodEnergy   subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalIron   subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalLutein   subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalOmega-3   subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalPotassium  subPropertyOf: s:hasTotalSubstance
- 
-Property: s:hasTotalProtein   subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalSodium    subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalVitaminA    subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalVitaminB9    subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalVitaminC    subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalZeaxanthin    subPropertyOf: s:hasTotalSubstance
-
-Property: s:hasTotalZinc    subPropertyOf: s:hasTotalSubstance
+Property: s:hasTotalZinc
+  Range: xsd:decimal
 
 Property: s:hasUnit
   Range: xsd:string
@@ -206,70 +225,151 @@ Found salad instance of class s:Salad
 Starting exploration from: s:Panzanella
 
 s:Panzanella (Types: owl:NamedIndividual, s:Salad)
+  s:hasDressingPortion: s:DijonMustard5ml [Types: owl:NamedIndividual, s:DressingPortion]
+    s:DijonMustard5ml (Types: owl:NamedIndividual, s:DressingPortion)
+      s:hasAmount: 5.0
+      s:hasDressing: s:DijonMustard [Types: owl:NamedIndividual, s:Emulsified]
+        s:DijonMustard (Types: owl:NamedIndividual, s:Emulsified)
+          s:hasSubstancePortion: s:DijonMustardCalcium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardCalcium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 58.0
+              s:hasSubstance: s:Calcium [Types: owl:NamedIndividual, s:Substance]
+                s:Calcium (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardCarbohydrate [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardCarbohydrate (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 7780.0
+              s:hasSubstance: s:Carbohydrate [Types: owl:NamedIndividual, s:Substance]
+                s:Carbohydrate (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardFat [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardFat (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 3110.0
+              s:hasSubstance: s:Fat [Types: owl:NamedIndividual, s:Substance]
+                s:Fat (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardFoodEnergy [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardFoodEnergy (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 66.0
+              s:hasSubstance: s:FoodEnergy [Types: owl:NamedIndividual, s:Substance]
+                s:FoodEnergy (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: cal/100g
+          s:hasSubstancePortion: s:DijonMustardIron [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardIron (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 1.6
+              s:hasSubstance: s:Iron [Types: owl:NamedIndividual, s:Substance]
+                s:Iron (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardOmega-3 [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardOmega-3 (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 100.0
+              s:hasSubstance: s:Omega-3 [Types: owl:NamedIndividual, s:Substance]
+                s:Omega-3 (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardPotassium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardPotassium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 152.0
+              s:hasSubstance: s:Potassium [Types: owl:NamedIndividual, s:Substance]
+                s:Potassium (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardProtein [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardProtein (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 3950.0
+              s:hasSubstance: s:Protein [Types: owl:NamedIndividual, s:Substance]
+                s:Protein (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardSodium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardSodium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 2383.0
+              s:hasSubstance: s:Sodium [Types: owl:NamedIndividual, s:Substance]
+                s:Sodium (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardVitaminA [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardVitaminA (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.02
+              s:hasSubstance: s:VitaminA [Types: owl:NamedIndividual, s:Substance]
+                s:VitaminA (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardVitaminB9 [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardVitaminB9 (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.015
+              s:hasSubstance: s:VitaminB9 [Types: owl:NamedIndividual, s:Substance]
+                s:VitaminB9 (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardVitaminC [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardVitaminC (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.3
+              s:hasSubstance: s:VitaminC [Types: owl:NamedIndividual, s:Substance]
+                s:VitaminC (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardVitaminE [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardVitaminE (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 5.1
+              s:hasSubstance: s:VitaminE [Types: owl:NamedIndividual]
+                s:VitaminE (Types: owl:NamedIndividual)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:DijonMustardZinc [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:DijonMustardZinc (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.1
+              s:hasSubstance: s:Zinc [Types: owl:NamedIndividual, s:Substance]
+                s:Zinc (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+      s:hasUnit: grams
   s:hasDressingPortion: s:OliveOil60ml [Types: owl:NamedIndividual, s:DressingPortion]
     s:OliveOil60ml (Types: owl:NamedIndividual, s:DressingPortion)
       s:hasAmount: 60.0
-      s:hasIngredient: s:OliveOil [Types: owl:NamedIndividual, s:OilBased]
+      s:hasDressing: s:OliveOil [Types: owl:NamedIndividual, s:OilBased]
         s:OliveOil (Types: owl:NamedIndividual, s:OilBased)
           s:hasSubstancePortion: s:OliveOilCalcium [Types: owl:NamedIndividual, s:SubstancePortion]
             s:OliveOilCalcium (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 1.0
               s:hasSubstance: s:Calcium [Types: owl:NamedIndividual, s:Substance]
-                s:Calcium (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:OliveOilFat [Types: owl:NamedIndividual, s:SubstancePortion]
             s:OliveOilFat (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 100000.0
               s:hasSubstance: s:Fat [Types: owl:NamedIndividual, s:Substance]
-                s:Fat (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:OliveOilFoodEnergy [Types: owl:NamedIndividual, s:SubstancePortion]
             s:OliveOilFoodEnergy (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 884.0
               s:hasSubstance: s:FoodEnergy [Types: owl:NamedIndividual, s:Substance]
-                s:FoodEnergy (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: cal/100g
           s:hasSubstancePortion: s:OliveOilIron [Types: owl:NamedIndividual, s:SubstancePortion]
             s:OliveOilIron (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 0.56
               s:hasSubstance: s:Iron [Types: owl:NamedIndividual, s:Substance]
-                s:Iron (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:OliveOilOmega-3 [Types: owl:NamedIndividual, s:SubstancePortion]
             s:OliveOilOmega-3 (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 103.0
               s:hasSubstance: s:Omega-3 [Types: owl:NamedIndividual, s:Substance]
-                s:Omega-3 (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:OliveOilPotassium [Types: owl:NamedIndividual, s:SubstancePortion]
             s:OliveOilPotassium (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 1.0
               s:hasSubstance: s:Potassium [Types: owl:NamedIndividual, s:Substance]
-                s:Potassium (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:OliveOilSodium [Types: owl:NamedIndividual, s:SubstancePortion]
             s:OliveOilSodium (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 2.0
               s:hasSubstance: s:Sodium [Types: owl:NamedIndividual, s:Substance]
-                s:Sodium (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:OliveOilVitaminE [Types: owl:NamedIndividual, s:SubstancePortion]
             s:OliveOilVitaminE (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 14.0
               s:hasSubstance: s:VitaminE [Types: owl:NamedIndividual]
-                s:VitaminE (Types: owl:NamedIndividual)
               s:hasUnit: mg/100g
       s:hasUnit: millilitres
   s:hasDressingPortion: s:RedWineVinaigrette60ml [Types: owl:NamedIndividual, s:DressingPortion]
     s:RedWineVinaigrette60ml (Types: owl:NamedIndividual, s:DressingPortion)
       s:hasAmount: 60.0
-      s:hasIngredient: s:RedWineVinaigrette [Types: owl:NamedIndividual, s:Vinaigrette]
+      s:hasDressing: s:RedWineVinaigrette [Types: owl:NamedIndividual, s:Vinaigrette]
         s:RedWineVinaigrette (Types: owl:NamedIndividual, s:Vinaigrette)
           s:hasSubstancePortion: s:RedWineVinaigretteCarbohydrate [Types: owl:NamedIndividual, s:SubstancePortion]
             s:RedWineVinaigretteCarbohydrate (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 7000.0
               s:hasSubstance: s:Carbohydrate [Types: owl:NamedIndividual, s:Substance]
-                s:Carbohydrate (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:RedWineVinaigretteFat [Types: owl:NamedIndividual, s:SubstancePortion]
             s:RedWineVinaigretteFat (Types: owl:NamedIndividual, s:SubstancePortion)
@@ -326,7 +426,6 @@ s:Panzanella (Types: owl:NamedIndividual, s:Salad)
             s:BasilProtein (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 2540.0
               s:hasSubstance: s:Protein [Types: owl:NamedIndividual, s:Substance]
-                s:Protein (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:BasilSodium [Types: owl:NamedIndividual, s:SubstancePortion]
             s:BasilSodium (Types: owl:NamedIndividual, s:SubstancePortion)
@@ -337,13 +436,11 @@ s:Panzanella (Types: owl:NamedIndividual, s:Salad)
             s:BasilVitaminA (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 0.527
               s:hasSubstance: s:VitaminA [Types: owl:NamedIndividual, s:Substance]
-                s:VitaminA (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:BasilVitaminC [Types: owl:NamedIndividual, s:SubstancePortion]
             s:BasilVitaminC (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 18.0
               s:hasSubstance: s:VitaminC [Types: owl:NamedIndividual, s:Substance]
-                s:VitaminC (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
       s:hasUnit: grams
   s:hasIngredientPortion: s:Bread140g [Types: owl:NamedIndividual, s:IngredientPortion]
@@ -400,89 +497,11 @@ s:Panzanella (Types: owl:NamedIndividual, s:Salad)
             s:BreadVitaminB9 (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 0.085
               s:hasSubstance: s:VitaminB9 [Types: owl:NamedIndividual, s:Substance]
-                s:VitaminB9 (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
           s:hasSubstancePortion: s:BreadVitaminE [Types: owl:NamedIndividual, s:SubstancePortion]
             s:BreadVitaminE (Types: owl:NamedIndividual, s:SubstancePortion)
               s:hasAmount: 2.66
               s:hasSubstance: s:VitaminE [Types: owl:NamedIndividual]
-              s:hasUnit: mg/100g
-      s:hasUnit: grams
-  s:hasIngredientPortion: s:DijonMustard5g [Types: owl:NamedIndividual, s:IngredientPortion]
-    s:DijonMustard5g (Types: owl:NamedIndividual, s:IngredientPortion)
-      s:hasAmount: 5.0
-      s:hasIngredient: s:DijonMustard [Types: owl:NamedIndividual, s:Condiments, s:Emulsified]
-        s:DijonMustard (Types: owl:NamedIndividual, s:Condiments, s:Emulsified)
-          s:hasSubstancePortion: s:DijonMustardCalcium [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardCalcium (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 58.0
-              s:hasSubstance: s:Calcium [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardCarbohydrate [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardCarbohydrate (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 7780.0
-              s:hasSubstance: s:Carbohydrate [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardFat [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardFat (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 3110.0
-              s:hasSubstance: s:Fat [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardFoodEnergy [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardFoodEnergy (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 66.0
-              s:hasSubstance: s:FoodEnergy [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: cal/100g
-          s:hasSubstancePortion: s:DijonMustardIron [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardIron (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 1.6
-              s:hasSubstance: s:Iron [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardOmega-3 [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardOmega-3 (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 100.0
-              s:hasSubstance: s:Omega-3 [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardPotassium [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardPotassium (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 152.0
-              s:hasSubstance: s:Potassium [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardProtein [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardProtein (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 3950.0
-              s:hasSubstance: s:Protein [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardSodium [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardSodium (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 2383.0
-              s:hasSubstance: s:Sodium [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardVitaminA [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardVitaminA (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 0.02
-              s:hasSubstance: s:VitaminA [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardVitaminB9 [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardVitaminB9 (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 0.015
-              s:hasSubstance: s:VitaminB9 [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardVitaminC [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardVitaminC (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 0.3
-              s:hasSubstance: s:VitaminC [Types: owl:NamedIndividual, s:Substance]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardVitaminE [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardVitaminE (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 5.1
-              s:hasSubstance: s:VitaminE [Types: owl:NamedIndividual]
-              s:hasUnit: mg/100g
-          s:hasSubstancePortion: s:DijonMustardZinc [Types: owl:NamedIndividual, s:SubstancePortion]
-            s:DijonMustardZinc (Types: owl:NamedIndividual, s:SubstancePortion)
-              s:hasAmount: 0.1
-              s:hasSubstance: s:Zinc [Types: owl:NamedIndividual, s:Substance]
-                s:Zinc (Types: owl:NamedIndividual, s:Substance)
               s:hasUnit: mg/100g
       s:hasUnit: grams
   s:hasIngredientPortion: s:Garlic6g [Types: owl:NamedIndividual, s:IngredientPortion]
