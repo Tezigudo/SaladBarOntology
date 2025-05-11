@@ -267,6 +267,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergy"/>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Berry">
