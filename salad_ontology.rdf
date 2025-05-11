@@ -298,6 +298,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CheeseAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CheeseAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chicken -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chicken">
@@ -400,6 +408,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSalad -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSalad">
@@ -452,6 +468,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Fruit">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy"/>
     </owl:Class>
     
 
@@ -618,6 +642,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion">
@@ -655,6 +687,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LegumeAndGrain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LegumeAndGrainAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LegumeAndGrainAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy"/>
     </owl:Class>
     
 
@@ -796,6 +836,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MeatAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MeatAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MeatSalad -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MeatSalad">
@@ -812,6 +860,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiscellaneousAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiscellaneousAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MusclePumpSalad -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MusclePumpSalad">
@@ -824,6 +880,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NutAndSeeds">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NutAndSeedsAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NutAndSeedsAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy"/>
     </owl:Class>
     
 
@@ -1022,6 +1086,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstanceAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstanceAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion">
@@ -1067,6 +1139,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Vegetable">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VegetableAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VegetableAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientAllergy"/>
     </owl:Class>
     
 
