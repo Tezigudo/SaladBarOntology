@@ -100,6 +100,135 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCarbohydrate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCarbohydrate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCholesterol -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCholesterol">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalFat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalFat">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalFoodEnergy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalFoodEnergy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalIron -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalIron">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalLutein -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalLutein">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalOmega-3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalOmega-3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalPotassium -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalPotassium">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalProtein -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalProtein">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSodium -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSodium">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminA">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminB9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminB9">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminC -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminC">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZeaxanthin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZeaxanthin">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZinc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZinc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -114,167 +243,6 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCalcium -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCalcium">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCarbohydrate -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCarbohydrate">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCholesterol -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCholesterol">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalFat -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalFat">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalFoodEnergy -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalFoodEnergy">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalIron -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalIron">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalLutein -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalLutein">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalOmega-3 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalOmega-3">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalPotassium -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalPotassium">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalProtein -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalProtein">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSodium -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSodium">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminA -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminA">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminB9 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminB9">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminC -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminC">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminE -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminE">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZeaxanthin -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZeaxanthin">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZinc -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZinc">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
     
@@ -986,7 +954,26 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalSubstance"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1125,7 +1112,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8875.5</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -2196,7 +2182,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">168369.5</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -3686,7 +3671,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18285.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -3717,7 +3701,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">94765.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -4686,7 +4669,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23823.6</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -4922,7 +4904,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">148321.5</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -5140,7 +5121,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">140430.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -5166,7 +5146,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12010.95</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -5842,7 +5821,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25162.4</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -7019,14 +6997,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSaladNutrition -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSaladNutrition">
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39676.5</hasTotalProtein>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EnergyBoost -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EnergyBoost">
@@ -7111,7 +7081,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17263.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -7786,7 +7755,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3963.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -8268,7 +8236,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26635.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -13544,7 +13511,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52826.6</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -14140,7 +14106,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31318.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -14589,7 +14554,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14333.5</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -16519,7 +16483,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">86285.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -17042,7 +17005,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10063.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 
@@ -17592,7 +17554,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10507.0</hasTotalProtein>
     </owl:NamedIndividual>
     
 

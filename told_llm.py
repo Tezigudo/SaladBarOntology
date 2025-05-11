@@ -177,70 +177,90 @@ with open("ontology_summary_focused.txt", "w") as output_file:
                 # Recursively explore this object
                 explore_instance(o, depth + 2, max_depth, visited)
     
-    # List all object and data properties with domains and ranges
+    def print_property(prop, indent=0, visited=None):
+        if visited is None:
+            visited = set()
+        
+        if prop in visited:
+            return
+        
+        visited.add(prop)
+        
+        indent_str = "  " * indent
+        output_file.write(f"{indent_str}Property: {print_n3(prop)}\n")
+        
+        # Get label if available
+        for label in g.objects(prop, RDFS.label):
+            output_file.write(f"{indent_str}  Label: {label}\n")
+        
+        # Get domains
+        domains = list(g.objects(prop, RDFS.domain))
+        if domains:
+            domain_str = ", ".join([print_n3(d) for d in domains])
+            output_file.write(f"{indent_str}  Domain: {domain_str}\n")
+        
+        # Get ranges
+        ranges = list(g.objects(prop, RDFS.range))
+        if ranges:
+            range_str = ", ".join([print_n3(r) for r in ranges])
+            output_file.write(f"{indent_str}  Range: {range_str}\n")
+        
+        # Get property characteristics (for object properties)
+        characteristics = []
+        if (prop, RDF.type, OWL.FunctionalProperty) in g:
+            characteristics.append("Functional")
+        if (prop, RDF.type, OWL.TransitiveProperty) in g:
+            characteristics.append("Transitive")
+        if (prop, RDF.type, OWL.SymmetricProperty) in g:
+            characteristics.append("Symmetric")
+        if (prop, RDF.type, OWL.AsymmetricProperty) in g:
+            characteristics.append("Asymmetric")
+        if (prop, RDF.type, OWL.ReflexiveProperty) in g:
+            characteristics.append("Reflexive")
+        if (prop, RDF.type, OWL.IrreflexiveProperty) in g:
+            characteristics.append("Irreflexive")
+        
+        if characteristics:
+            output_file.write(f"{indent_str}  Characteristics: {', '.join(characteristics)}\n")
+        
+        # Get inverse properties (for object properties)
+        for inv in g.objects(prop, OWL.inverseOf):
+            output_file.write(f"{indent_str}  Inverse Of: {print_n3(inv)}\n")
+        
+        output_file.write("\n")
+        
+        # Get subproperties
+        subproperties = list(g.subjects(RDFS.subPropertyOf, prop))
+        subproperties.sort(key=lambda x: print_n3(x))
+        for subprop in subproperties:
+            output_file.write(f"{indent_str}  Subproperty:\n")
+            print_property(subprop, indent + 2, visited)
+
     def list_properties():
         output_file.write("=== OBJECT PROPERTIES ===\n\n")
         
-        # Get all object properties
+        # Get all object properties that are not subproperties
         object_properties = list(g.subjects(RDF.type, OWL.ObjectProperty))
-        object_properties.sort(key=lambda x: print_n3(x))
+        top_level_props = [p for p in object_properties if not list(g.objects(p, RDFS.subPropertyOf))]
+        top_level_props.sort(key=lambda x: print_n3(x))
         
-        for prop in object_properties:
-            output_file.write(f"Property: {print_n3(prop)}\n")
-            
-            # Get label if available
-            for label in g.objects(prop, RDFS.label):
-                output_file.write(f"  Label: {label}\n")
-                
-            # Get domains
-            domains = list(g.objects(prop, RDFS.domain))
-            if domains:
-                domain_str = ", ".join([print_n3(d) for d in domains])
-                output_file.write(f"  Domain: {domain_str}\n")
-            
-            # Get ranges
-            ranges = list(g.objects(prop, RDFS.range))
-            if ranges:
-                range_str = ", ".join([print_n3(r) for r in ranges])
-                output_file.write(f"  Range: {range_str}\n")
-            
-            # Get property characteristics
-            characteristics = []
-            if (prop, RDF.type, OWL.FunctionalProperty) in g:
-                characteristics.append("Functional")
-            if (prop, RDF.type, OWL.TransitiveProperty) in g:
-                characteristics.append("Transitive")
-            if (prop, RDF.type, OWL.SymmetricProperty) in g:
-                characteristics.append("Symmetric")
-            if (prop, RDF.type, OWL.AsymmetricProperty) in g:
-                characteristics.append("Asymmetric")
-            if (prop, RDF.type, OWL.ReflexiveProperty) in g:
-                characteristics.append("Reflexive")
-            if (prop, RDF.type, OWL.IrreflexiveProperty) in g:
-                characteristics.append("Irreflexive")
-            
-            if characteristics:
-                output_file.write(f"  Characteristics: {', '.join(characteristics)}\n")
-                
-            # Get inverse properties
-            for inv in g.objects(prop, OWL.inverseOf):
-                output_file.write(f"  Inverse Of: {print_n3(inv)}\n")
-                
-            output_file.write("\n")
+        for prop in top_level_props:
+            print_property(prop)
         
         output_file.write("\n=== DATA PROPERTIES ===\n\n")
         
-        # Get all data properties
+        # Get all data properties that are not subproperties
         data_properties = list(g.subjects(RDF.type, OWL.DatatypeProperty))
-        data_properties.sort(key=lambda x: print_n3(x))
+        top_level_data_props = [p for p in data_properties if not list(g.objects(p, RDFS.subPropertyOf))]
+        top_level_data_props.sort(key=lambda x: print_n3(x))
         
-        for prop in data_properties:
+        for prop in top_level_data_props:
             output_file.write(f"Property: {print_n3(prop)}\n")
             
             # Get label if available
             for label in g.objects(prop, RDFS.label):
                 output_file.write(f"  Label: {label}\n")
-                
+            
             # Get domains
             domains = list(g.objects(prop, RDFS.domain))
             if domains:
@@ -256,9 +276,16 @@ with open("ontology_summary_focused.txt", "w") as output_file:
             # Check if functional
             if (prop, RDF.type, OWL.FunctionalProperty) in g:
                 output_file.write(f"  Characteristic: Functional\n")
-                
+            
+            # Get subproperties
+            subproperties = list(g.subjects(RDFS.subPropertyOf, prop))
+            subproperties.sort(key=lambda x: print_n3(x))
+            for subprop in subproperties:
+                output_file.write(f"  Subproperty:\n")
+                print_property(subprop, indent=2)
+            
             output_file.write("\n")
-    
+        
     # === MAIN EXECUTION ===
     output_file.write(f"The ontology contains {len(g)} triples.\n\n")
     
