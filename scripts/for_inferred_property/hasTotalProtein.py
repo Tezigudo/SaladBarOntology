@@ -13,7 +13,7 @@ PROPERTY = S.hasTotalProtein
 
 def update_nutrient_for_salad(g, salad_name, nutrient_name=NUTRIENT_NAME):
     """
-    Update the total amount for a specific nutrient (Protein) for a given salad by linking to existing SaladSubstance.
+    Update the total amount for a specific nutrient (Protein) for a given salad by creating or updating SaladSubstance and linking it.
     
     Args:
         g (Graph): The RDF graph to work with
@@ -121,8 +121,15 @@ def update_nutrient_for_salad(g, salad_name, nutrient_name=NUTRIENT_NAME):
     
     added_links = set()
     
-    if nutrient_name in nutrient_totals and existing_substance:  # Only update if instance exists
+    if nutrient_name in nutrient_totals:
         total_amount, unit = nutrient_totals[nutrient_name]
+        # Create or update SaladSubstance instance
+        g.add((substance_uri, RDF.type, S.SaladSubstance))
+        g.add((substance_uri, S.hasAmount, Literal(total_amount, datatype=XSD.decimal)))
+        display_unit = "cal" if nutrient_name == "FoodEnergy" else "mg"
+        g.add((substance_uri, S.hasUnit, Literal(display_unit, datatype=XSD.string)))
+        print(f"Created/Updated SaladSubstance instance: {substance_instance_name} with amount {total_amount} {display_unit}")
+        
         link_tuple = (nutrient_total_uri, PROPERTY, substance_uri)
         if link_tuple not in added_links:
             g.add(link_tuple)
@@ -160,10 +167,8 @@ def process_all_salads_for_nutrient(nutrient_name=NUTRIENT_NAME):
         print(f"Processing salad: {salad_name} for {nutrient_name}")
         update_nutrient_for_salad(g, salad_name, nutrient_name)
     
-    # Save to a temporary file first, then copy to ensure proper update
-    temp_file = "temp_salad_ontology.rdf"
+    temp_file = "salad_ontology.rdf"
     g.serialize(destination=temp_file, format="xml")
-    shutil.copy(temp_file, "salad_ontology.rdf")
     print(f"All salads processed for {nutrient_name}. Updated ontology saved as 'salad_ontology.rdf'.")
 
 if __name__ == "__main__":
