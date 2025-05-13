@@ -16722,7 +16722,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseNutrition">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-        <hasTotalCalcium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc"/>
     </owl:NamedIndividual>
     
 

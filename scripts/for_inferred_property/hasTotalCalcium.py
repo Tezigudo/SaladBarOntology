@@ -1,38 +1,39 @@
 import rdflib
 from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF, XSD
+import shutil
 
 # Define namespaces
 S = Namespace("http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#")
 
-# Constant for Calcium unit
-CALCIUM_UNIT = "mg/100g"
+# Expected units for each substance
+expected_units = {
+    "Calcium": "mg/100g",
+}
 
-# Constant for Calcium property
-CALCIUM_PROPERTY = S.hasTotalCalcium
+# Nutrient property map (only specific properties, no superproperty)
+nutrient_property_map = {
+    "Calcium": S.hasTotalCalcium,
+}
 
-def calculate_nutrient_for_salad(g, salad_name, nutrient_name="Calcium", unit=CALCIUM_UNIT, property=CALCIUM_PROPERTY):
+def calculate_total_nutrition_for_salad(g, salad_name):
     """
-    Calculate total amount for Calcium for a given salad and update or create SaladSubstance instances.
+    Calculate total nutrition for a given salad and update or create SaladNutrientTotal and SaladSubstance instances.
     
     Args:
         g (Graph): The RDF graph to work with
         salad_name (str): Name of the salad instance (e.g., 'CapreseSalad')
-        nutrient_name (str): Name of the nutrient to calculate (default: 'Calcium')
-        unit (str): Unit for the nutrient (default: 'mg/100g')
-        property (URIRef): Property for the nutrient (default: hasTotalCalcium)
     """
     salad_uri = S[salad_name]
     nutrient_total_name = f"{salad_name}Nutrition"
     nutrient_total_uri = S[nutrient_total_name]
     
-    # Debug: Check for existing SaladSubstance instances for this nutrient at the start
-    substance_instance_name = f"{salad_name}{nutrient_name}"
-    substance_uri = S[substance_instance_name]
-    existing_substance = None
-    for s, p, o in g.triples((substance_uri, RDF.type, S.SaladSubstance)):
-        existing_substance = str(s).split("#")[-1]
-    print(f"Existing SaladSubstance for {salad_name} {nutrient_name} at start: {existing_substance if existing_substance else 'None'}")
+    # Debug: Check for existing SaladSubstance instances at the start
+    existing_substances = []
+    for s, p, o in g.triples((None, RDF.type, S.SaladSubstance)):
+        if str(s).startswith(str(S) + salad_name):
+            existing_substances.append(str(s).split("#")[-1])
+    print(f"Existing SaladSubstance instances for {salad_name} at start: {existing_substances}")
 
     # SPARQL query to retrieve all IngredientPortion and DressingPortion instances
     query_portions = """
@@ -52,7 +53,7 @@ def calculate_nutrient_for_salad(g, salad_name, nutrient_name="Calcium", unit=CA
     """ % salad_name
 
     results = g.query(query_portions)
-    total_amount = 0.0
+    nutrient_totals = {}
     
     for row in results:
         portion_uri = row.portion
@@ -82,12 +83,12 @@ def calculate_nutrient_for_salad(g, salad_name, nutrient_name="Calcium", unit=CA
             substance_unit = str(sub_row.unit)
             substance_name = substance_uri.split("#")[-1]
             
-            if substance_name != nutrient_name:
+            if substance_name not in expected_units:
                 continue
                 
-            if substance_unit != unit:
-                print(f"Warning: Unit mismatch for {substance_name}: expected {unit}, found {substance_unit}")
-                continue
+            expected_unit = expected_units[substance_name]
+            if substance_unit != expected_unit:
+                print(f"Warning: Unit mismatch for {substance_name}: expected {expected_unit}, found {substance_unit}")
             
             if unit.lower() == "grams" or (portion_type == S.IngredientPortion and unit.lower() == "g"):
                 scaling_factor = amount / 100.0
@@ -97,16 +98,27 @@ def calculate_nutrient_for_salad(g, salad_name, nutrient_name="Calcium", unit=CA
                 print(f"Warning: Unknown unit {unit} for portion {portion_uri}, using scaling factor 1.0")
                 scaling_factor = 1.0
                 
-            total_amount += substance_amount * scaling_factor
+            total_nutrient = substance_amount * scaling_factor
+            
+            if substance_name in nutrient_totals:
+                nutrient_totals[substance_name][0] += total_nutrient
+            else:
+                nutrient_totals[substance_name] = [total_nutrient, expected_unit]
     
-    # Remove existing SaladSubstance instance for this nutrient
-    if (substance_uri, RDF.type, S.SaladSubstance) in g:
+    # Remove all existing SaladSubstance instances for this salad
+    substances_to_remove = []
+    for s, p, o in g.triples((None, RDF.type, S.SaladSubstance)):
+        if str(s).startswith(str(S) + salad_name):
+            substances_to_remove.append(s)
+    print(f"Found {len(substances_to_remove)} existing SaladSubstance instances to remove for {salad_name}")
+    for substance_uri in substances_to_remove:
         g.remove((substance_uri, None, None))
-        print(f"Removed existing SaladSubstance for {substance_instance_name}")
+        print(f"Removed triples for {substance_uri}")
 
-    # Clear existing property link
-    for s, p, o in g.triples((nutrient_total_uri, property, None)):
-        g.remove((s, p, o))
+    # Clear all links from nutrient_total_uri
+    for prop in list(nutrient_property_map.values()):  # Only clear specific properties
+        for s, p, o in g.triples((nutrient_total_uri, prop, None)):
+            g.remove((s, p, o))
     
     if (nutrient_total_uri, RDF.type, S.SaladNutrientTotal) not in g:
         g.add((nutrient_total_uri, RDF.type, S.SaladNutrientTotal))
@@ -120,26 +132,27 @@ def calculate_nutrient_for_salad(g, salad_name, nutrient_name="Calcium", unit=CA
     
     added_links = set()
     
-    if total_amount > 0:
+    for substance_name, (total_amount, unit) in nutrient_totals.items():
+        substance_instance_name = f"{salad_name}{substance_name}"
+        substance_uri = S[substance_instance_name]
+        
+        # Since we removed all existing SaladSubstance instances, create new ones
         g.add((substance_uri, RDF.type, S.SaladSubstance))
         g.add((substance_uri, S.hasAmount, Literal(total_amount, datatype=XSD.decimal)))
-        g.add((substance_uri, S.hasUnit, Literal("mg", datatype=XSD.string)))  # Using 'mg' as display unit for most nutrients
+        display_unit = "cal" if substance_name == "FoodEnergy" else "mg"
+        g.add((substance_uri, S.hasUnit, Literal(display_unit, datatype=XSD.string)))
         print(f"Created new SaladSubstance instance: {substance_instance_name}")
         
-        link_tuple = (nutrient_total_uri, property, substance_uri)
-        if link_tuple not in added_links:
-            g.add(link_tuple)
-            added_links.add(link_tuple)
-            print(f"Added specific property link: {property.split('#')[-1]} to {substance_instance_name}")
+        if substance_name in nutrient_property_map:
+            link_tuple = (nutrient_total_uri, nutrient_property_map[substance_name], substance_uri)
+            if link_tuple not in added_links:
+                g.add(link_tuple)
+                added_links.add(link_tuple)
+                print(f"Added specific property link: {nutrient_property_map[substance_name].split('#')[-1]} to {substance_instance_name}")
 
-def process_all_salads_for_nutrient(nutrient_name="Calcium", unit=CALCIUM_UNIT, property=CALCIUM_PROPERTY):
+def process_all_salads():
     """
-    Retrieve all Salad instances and calculate their total for a specific nutrient (Calcium).
-    
-    Args:
-        nutrient_name (str): Name of the nutrient to calculate (default: 'Calcium')
-        unit (str): Unit for the nutrient (default: 'mg/100g')
-        property (URIRef): Property for the nutrient (default: hasTotalCalcium)
+    Retrieve all Salad instances and calculate their total nutrition.
     """
     g = Graph()
     try:
@@ -162,13 +175,13 @@ def process_all_salads_for_nutrient(nutrient_name="Calcium", unit=CALCIUM_UNIT, 
     print(f"Found {len(salad_names)} salads: {salad_names}")
     
     for salad_name in salad_names:
-        print(f"Processing salad: {salad_name} for {nutrient_name}")
-        calculate_nutrient_for_salad(g, salad_name, nutrient_name, unit, property)
+        print(f"\nProcessing salad: {salad_name}")
+        calculate_total_nutrition_for_salad(g, salad_name)
     
     # Save to a temporary file first, then copy to ensure proper update
     temp_file = "salad_ontology.rdf"
     g.serialize(destination=temp_file, format="xml")
-    print(f"All salads processed for {nutrient_name}. Updated ontology saved as 'salad_ontology.rdf'.")
+    print("\nAll salads processed. Updated ontology saved as 'salad_ontology.rdf'.")
 
 if __name__ == "__main__":
-    process_all_salads_for_nutrient("Calcium", CALCIUM_UNIT, CALCIUM_PROPERTY)
+    process_all_salads()
