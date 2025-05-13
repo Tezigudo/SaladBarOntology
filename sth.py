@@ -57,21 +57,21 @@ def update_nutrient_for_salad(g, salad_name, nutrient_name=NUTRIENT_NAME):
     print(f"Existing SaladSubstance for {{salad_name}} {{nutrient_name}} at start: {{existing_substance if existing_substance else 'None'}}")
 
     # SPARQL query to retrieve all IngredientPortion and DressingPortion instances
-    query_portions = \"\"\"
+    query_portions = f"""
     PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     SELECT ?portion ?portionType ?amount ?unit ?component ?componentType
-    WHERE {{
+    WHERE {{{{
         ?salad s:hasIngredientPortion | s:hasDressingPortion ?portion .
         ?portion rdf:type ?portionType .
         ?portion s:hasAmount ?amount .
         ?portion s:hasUnit ?unit .
         ?portion s:hasIngredient | s:hasDressing ?component .
         ?component rdf:type ?componentType .
-        FILTER (?salad = <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#%%s>)
+        FILTER (?salad = <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#{{salad_name}}>)
         FILTER (?portionType IN (s:IngredientPortion, s:DressingPortion))
-    }}
-    \"\"\" % salad_name
+    }}}}
+    """
 
     results = g.query(query_portions)
     nutrient_totals = {{}}
@@ -83,18 +83,18 @@ def update_nutrient_for_salad(g, salad_name, nutrient_name=NUTRIENT_NAME):
         unit = str(row.unit)
         component_uri = row.component
         
-        query_substances = \"\"\"
+        query_substances = f"""
         PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         SELECT ?substancePortion ?substance ?amount ?unit
-        WHERE {{
+        WHERE {{{{
             ?component s:hasSubstancePortion ?substancePortion .
             ?substancePortion s:hasSubstance ?substance .
             ?substancePortion s:hasAmount ?amount .
             ?substancePortion s:hasUnit ?unit .
-            FILTER (?component = <%%s>)
-        }}
-        \"\"\" % component_uri
+            FILTER (?component = <{{component_uri}}>)
+        }}}}
+        """
 
         substance_results = g.query(query_substances)
         
@@ -173,14 +173,14 @@ def process_all_salads_for_nutrient(nutrient_name=NUTRIENT_NAME):
     except FileNotFoundError:
         print("Error: salad_ontology.rdf not found. Starting with an empty graph.")
     
-    query_salads = \"\"\"
+    query_salads = """
     PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     SELECT ?salad
     WHERE {{
         ?salad rdf:type s:Salad .
     }}
-    \"\"\"
+    """
     
     results = g.query(query_salads)
     salad_names = [str(row.salad).split("#")[-1] for row in results]
@@ -191,6 +191,7 @@ def process_all_salads_for_nutrient(nutrient_name=NUTRIENT_NAME):
         print(f"Processing salad: {{salad_name}} for {{nutrient_name}}")
         update_nutrient_for_salad(g, salad_name, nutrient_name)
     
+    # Save to a temporary file first, then copy to ensure proper update
     temp_file = "salad_ontology.rdf"
     g.serialize(destination=temp_file, format="xml")
     print(f"All salads processed for {{nutrient_name}}. Updated ontology saved as 'salad_ontology.rdf'.")
@@ -201,7 +202,7 @@ if __name__ == "__main__":
 
 # Generate scripts for each nutrient
 for nutrient_name, expected_unit, property_name in nutrients:
-    file_name = f"hasTotal{''.join(word.capitalize() for word in nutrient_name.split('-'))}.py"
+    file_name = f"scripts/for_inferred_property/hasTotal{''.join(word.capitalize() for word in nutrient_name.split('-'))}.py"
     artifact_id = str(uuid.uuid4())
     artifact_version_id = str(uuid.uuid4())
     script_content = script_template.format(
