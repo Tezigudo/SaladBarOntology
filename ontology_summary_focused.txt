@@ -1,4 +1,4 @@
-The ontology contains 10458 triples.
+The ontology contains 10591 triples.
 
 === CLASS HIERARCHY ===
 
@@ -248,71 +248,284 @@ Property: s:hasUnit
 
 === DETAILED SALAD EXPLORATION ===
 
-Found salad instance of class s:SaladNutrientTotal
-Starting exploration from: s:SaladNicoiseNutrition
+Found salad instance of class s:Salad
+Starting exploration from: s:CobbSalad
 
-s:SaladNicoiseNutrition (Types: owl:NamedIndividual, s:SaladNutrientTotal)
-  s:hasTotalCalcium: s:SaladNicoiseCalcium [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseCalcium (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 305.75
-      s:hasUnit: mg
-  s:hasTotalCarbohydrate: s:SaladNicoiseCarbohydrate [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseCarbohydrate (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 106130.0
-      s:hasUnit: mg
-  s:hasTotalCholesterol: s:SaladNicoiseCholesterol [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseCholesterol (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 439.5
-      s:hasUnit: mg
-  s:hasTotalFat: s:SaladNicoiseFat [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseFat (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 220570.0
-      s:hasUnit: mg
-  s:hasTotalFoodEnergy: s:SaladNicoiseFoodEnergy [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseFoodEnergy (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 2725.0
-      s:hasUnit: cal
-  s:hasTotalIron: s:SaladNicoiseIron [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseIron (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 13.433
-      s:hasUnit: mg
-  s:hasTotalLutein: s:SaladNicoiseLutein [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseLutein (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 2.7627
-      s:hasUnit: mg
-  s:hasTotalOmega_3: s:SaladNicoiseOmega-3 [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseOmega-3 (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 2465.4
-      s:hasUnit: mg
-  s:hasTotalPotassium: s:SaladNicoisePotassium [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoisePotassium (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 4282.0
-      s:hasUnit: mg
-  s:hasTotalProtein: s:SaladNicoiseProtein [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseProtein (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 86285.0
-      s:hasUnit: mg
-  s:hasTotalSodium: s:SaladNicoiseSodium [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseSodium (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 737.575
-      s:hasUnit: mg
-  s:hasTotalVitaminA: s:SaladNicoiseVitaminA [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseVitaminA (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 3.3212
-      s:hasUnit: mg
-  s:hasTotalVitaminB9: s:SaladNicoiseVitaminB9 [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseVitaminB9 (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 0.4628
-      s:hasUnit: mg
-  s:hasTotalVitaminC: s:SaladNicoiseVitaminC [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseVitaminC (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 156.25
-      s:hasUnit: mg
-  s:hasTotalZeaxanthin: s:SaladNicoiseZeaxanthin [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseZeaxanthin (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 2.7627
-      s:hasUnit: mg
-  s:hasTotalZinc: s:SaladNicoiseZinc [Types: owl:NamedIndividual, s:SaladSubstance]
-    s:SaladNicoiseZinc (Types: owl:NamedIndividual, s:SaladSubstance)
-      s:hasAmount: 5.952
-      s:hasUnit: mg
+s:CobbSalad (Types: owl:NamedIndividual, s:Salad)
+  s:hasDressingPortion: s:RanchDressing120ml [Types: owl:NamedIndividual, s:DressingPortion]
+    s:RanchDressing120ml (Types: owl:NamedIndividual, s:DressingPortion)
+      s:hasAmount: 120
+      s:hasDressing: s:RanchDressing [Types: owl:NamedIndividual, s:Creamy]
+        s:RanchDressing (Types: owl:NamedIndividual, s:Creamy)
+          s:hasSubstancePortion: s:RanchDressingZeaxanthin [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:RanchDressingZeaxanthin (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.004
+              s:hasSubstance: s:Zeaxanthin [Types: owl:NamedIndividual, s:Substance]
+                s:Zeaxanthin (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:RanchDressingOmega-3 [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:RanchDressingOmega-3 (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 490.0
+              s:hasSubstance: s:Omega-3 [Types: owl:NamedIndividual, s:Substance]
+                s:Omega-3 (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:RanchDressingVitaminE [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:RanchDressingVitaminE (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 2.2
+              s:hasSubstance: s:VitaminE [Types: owl:NamedIndividual]
+                s:VitaminE (Types: owl:NamedIndividual)
+                  s:hasAmount: 168.8
+                  s:hasAmount: 1868.7199999999998
+                  s:hasUnit: mg
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:RanchDressingProtein [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:RanchDressingProtein (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 1300.0
+              s:hasSubstance: s:Protein [Types: owl:NamedIndividual, s:Substance]
+                s:Protein (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+      s:hasUnit: millilitres
+  s:hasIngredientPortion: s:Avocado150g [Types: owl:NamedIndividual, s:IngredientPortion]
+    s:Avocado150g (Types: owl:NamedIndividual, s:IngredientPortion)
+      s:hasAmount: 150.0
+      s:hasIngredient: s:Avocado [Types: owl:NamedIndividual, s:Berry]
+        s:Avocado (Types: owl:NamedIndividual, s:Berry)
+          s:hasSubstancePortion: s:AvocadoProtein [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:AvocadoProtein (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 2000.0
+              s:hasSubstance: s:Protein [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:AvocadoZinc [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:AvocadoZinc (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.64
+              s:hasSubstance: s:Zinc [Types: owl:NamedIndividual, s:Substance]
+                s:Zinc (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:AvocadoZeaxanthin [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:AvocadoZeaxanthin (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.185
+              s:hasSubstance: s:Zeaxanthin [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:AvocadoPotassium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:AvocadoPotassium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 485.0
+              s:hasSubstance: s:Potassium [Types: owl:NamedIndividual, s:Substance]
+                s:Potassium (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+      s:hasUnit: grams
+  s:hasIngredientPortion: s:Bacon180g [Types: owl:NamedIndividual, s:IngredientPortion]
+    s:Bacon180g (Types: owl:NamedIndividual, s:IngredientPortion)
+      s:hasAmount: 180.0
+      s:hasIngredient: s:Bacon [Types: owl:NamedIndividual, s:Pork]
+        s:Bacon (Types: owl:NamedIndividual, s:Pork)
+          s:hasSubstancePortion: s:BaconCholesterol [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:BaconCholesterol (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 110.0
+              s:hasSubstance: s:Cholesterol [Types: owl:NamedIndividual, s:Substance]
+                s:Cholesterol (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:BaconFat [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:BaconFat (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 42000.0
+              s:hasSubstance: s:Fat [Types: owl:NamedIndividual, s:Substance]
+                s:Fat (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:BaconOmega-3 [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:BaconOmega-3 (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 230.0
+              s:hasSubstance: s:Omega-3 [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:BaconSodium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:BaconSodium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 1717.0
+              s:hasSubstance: s:Sodium [Types: owl:NamedIndividual, s:Substance]
+                s:Sodium (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+      s:hasUnit: grams
+  s:hasIngredientPortion: s:BlueCheese75g [Types: owl:NamedIndividual, s:IngredientPortion]
+    s:BlueCheese75g (Types: owl:NamedIndividual, s:IngredientPortion)
+      s:hasAmount: 75.0
+      s:hasIngredient: s:BlueCheese [Types: owl:NamedIndividual, s:Cheese]
+        s:BlueCheese (Types: owl:NamedIndividual, s:Cheese)
+      s:hasUnit: grams
+  s:hasIngredientPortion: s:CookedChicken150g [Types: owl:NamedIndividual, s:IngredientPortion]
+    s:CookedChicken150g (Types: owl:NamedIndividual, s:IngredientPortion)
+      s:hasAmount: 150.0
+      s:hasIngredient: s:CookedChicken [Types: owl:NamedIndividual, s:Chicken]
+        s:CookedChicken (Types: owl:NamedIndividual, s:Chicken)
+          s:hasSubstancePortion: s:CookedChickenCalcium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:CookedChickenCalcium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 6.0
+              s:hasSubstance: s:Calcium [Types: owl:NamedIndividual, s:Substance]
+                s:Calcium (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:CookedChickenFoodEnergy [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:CookedChickenFoodEnergy (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 157.0
+              s:hasSubstance: s:FoodEnergy [Types: owl:NamedIndividual, s:Substance]
+                s:FoodEnergy (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: cal/100g
+          s:hasSubstancePortion: s:CookedChickenProtein [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:CookedChickenProtein (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 32100.0
+              s:hasSubstance: s:Protein [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:CookedChickenCholesterol [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:CookedChickenCholesterol (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 116.0
+              s:hasSubstance: s:Cholesterol [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+      s:hasUnit: grams
+  s:hasIngredientPortion: s:GreenOnion30g [Types: owl:NamedIndividual, s:IngredientPortion]
+    s:GreenOnion30g (Types: owl:NamedIndividual, s:IngredientPortion)
+      s:hasAmount: 30.0
+      s:hasIngredient: s:GreenOnion [Types: owl:NamedIndividual, s:Root]
+        s:GreenOnion (Types: owl:NamedIndividual, s:Root)
+      s:hasUnit: grams
+  s:hasIngredientPortion: s:HardBoiledEggs150g [Types: owl:NamedIndividual, s:IngredientPortion]
+    s:HardBoiledEggs150g (Types: owl:NamedIndividual, s:IngredientPortion)
+      s:hasAmount: 150.0
+      s:hasIngredient: s:HardBoiledEggs [Types: owl:NamedIndividual, s:Egg]
+        s:HardBoiledEggs (Types: owl:NamedIndividual, s:Egg)
+          s:hasSubstancePortion: s:HardBoiledEggsZeaxanthin [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:HardBoiledEggsZeaxanthin (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.3
+              s:hasSubstance: s:Zeaxanthin [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:HardBoiledEggsProtein [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:HardBoiledEggsProtein (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 12580.0
+              s:hasSubstance: s:Protein [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:HardBoiledEggsVitaminE [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:HardBoiledEggsVitaminE (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 1.05
+              s:hasSubstance: s:VitaminE [Types: owl:NamedIndividual]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:HardBoiledEggsSodium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:HardBoiledEggsSodium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 124.0
+              s:hasSubstance: s:Sodium [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+      s:hasUnit: grams
+  s:hasIngredientPortion: s:IcebergLettuce100g [Types: owl:NamedIndividual, s:IngredientPortion]
+    s:IcebergLettuce100g (Types: owl:NamedIndividual, s:IngredientPortion)
+      s:hasAmount: 100.0
+      s:hasIngredient: s:IcebergLettuce [Types: owl:NamedIndividual, s:Leaf]
+        s:IcebergLettuce (Types: owl:NamedIndividual, s:Leaf)
+          s:hasSubstancePortion: s:IcebergLettuceSodium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:IcebergLettuceSodium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 10.0
+              s:hasSubstance: s:Sodium [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:IcebergLettuceFoodEnergy [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:IcebergLettuceFoodEnergy (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 14.0
+              s:hasSubstance: s:FoodEnergy [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: cal/100g
+          s:hasSubstancePortion: s:IcebergLettuceProtein [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:IcebergLettuceProtein (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 900.0
+              s:hasSubstance: s:Protein [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:IcebergLettuceVitaminB9 [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:IcebergLettuceVitaminB9 (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 0.029
+              s:hasSubstance: s:VitaminB9 [Types: owl:NamedIndividual, s:Substance]
+                s:VitaminB9 (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+      s:hasUnit: grams
+  s:hasIngredientPortion: s:Tomato150g [Types: owl:NamedIndividual, s:IngredientPortion]
+    s:Tomato150g (Types: owl:NamedIndividual, s:IngredientPortion)
+      s:hasAmount: 150.0
+      s:hasIngredient: s:Tomato [Types: owl:NamedIndividual, s:Berry]
+        s:Tomato (Types: owl:NamedIndividual, s:Berry)
+          s:hasSubstancePortion: s:TomatoVitaminC [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:TomatoVitaminC (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 13.7
+              s:hasSubstance: s:VitaminC [Types: owl:NamedIndividual, s:Substance]
+                s:VitaminC (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:TomatoCarbohydrate [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:TomatoCarbohydrate (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 3900.0
+              s:hasSubstance: s:Carbohydrate [Types: owl:NamedIndividual, s:Substance]
+                s:Carbohydrate (Types: owl:NamedIndividual, s:Substance)
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:TomatoPotassium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:TomatoPotassium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 237.0
+              s:hasSubstance: s:Potassium [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+          s:hasSubstancePortion: s:TomatoCalcium [Types: owl:NamedIndividual, s:SubstancePortion]
+            s:TomatoCalcium (Types: owl:NamedIndividual, s:SubstancePortion)
+              s:hasAmount: 10.0
+              s:hasSubstance: s:Calcium [Types: owl:NamedIndividual, s:Substance]
+              s:hasUnit: mg/100g
+      s:hasUnit: grams
+  s:hasNutrient: s:CobbSaladNutrition [Types: owl:NamedIndividual, s:SaladNutrientTotal]
+    s:CobbSaladNutrition (Types: owl:NamedIndividual, s:SaladNutrientTotal)
+      s:hasTotalCalcium: s:CobbSaladCalcium [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladCalcium (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 153.0
+          s:hasUnit: mg
+      s:hasTotalCarbohydrate: s:CobbSaladCarbohydrate [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladCarbohydrate (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 32949.0
+          s:hasUnit: mg
+      s:hasTotalCholesterol: s:CobbSaladCholesterol [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladCholesterol (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 651.0
+          s:hasUnit: mg
+      s:hasTotalFat: s:CobbSaladFat [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladFat (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 172745.0
+          s:hasUnit: mg
+      s:hasTotalFoodEnergy: s:CobbSaladFoodEnergy [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladFoodEnergy (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 2238.8
+          s:hasUnit: cal
+      s:hasTotalIron: s:CobbSaladIron [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladIron (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 6.011
+          s:hasUnit: mg
+      s:hasTotalLutein: s:CobbSaladLutein [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladLutein (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 1.0168
+          s:hasUnit: mg
+      s:hasTotalOmega_3: s:CobbSaladOmega-3 [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladOmega-3 (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 1452.0
+          s:hasUnit: mg
+      s:hasTotalPotassium: s:CobbSaladPotassium [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladPotassium (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 2944.5
+          s:hasUnit: mg
+      s:hasTotalProtein: s:CobbSaladProtein [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladProtein (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 140430.0
+          s:hasUnit: mg
+      s:hasTotalSodium: s:CobbSaladSodium [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladSodium (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 4456.3
+          s:hasUnit: mg
+      s:hasTotalVitaminA: s:CobbSaladVitaminA [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladVitaminA (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 2.27002
+          s:hasUnit: mg
+      s:hasTotalVitaminB9: s:CobbSaladVitaminB9 [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladVitaminB9 (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 0.2603
+          s:hasUnit: mg
+      s:hasTotalVitaminC: s:CobbSaladVitaminC [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladVitaminC (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 38.35
+          s:hasUnit: mg
+      s:hasTotalZeaxanthin: s:CobbSaladZeaxanthin [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladZeaxanthin (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 1.0168
+          s:hasUnit: mg
+      s:hasTotalZinc: s:CobbSaladZinc [Types: owl:NamedIndividual, s:SaladSubstance]
+        s:CobbSaladZinc (Types: owl:NamedIndividual, s:SaladSubstance)
+          s:hasAmount: 5.694
+          s:hasUnit: mg

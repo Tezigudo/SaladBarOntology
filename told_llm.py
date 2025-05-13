@@ -29,6 +29,23 @@ with open("ontology_summary_focused.txt", "w", encoding="utf8") as output_file:
     if OWL.Thing not in roots:
         roots.append(OWL.Thing)
     
+    # Function to check if a class is a subclass of another (including itself)
+    def is_subclass(cls, target_class):
+        if cls == target_class:
+            return True
+        visited = set()
+        to_check = [cls]
+        while to_check:
+            current = to_check.pop()
+            if current in visited:
+                continue
+            visited.add(current)
+            for sup in superclass_map.get(current, []):
+                if sup == target_class:
+                    return True
+                to_check.append(sup)
+        return False
+    
     # Write class hierarchy recursively with restrictions
     def write_class_tree(class_uri, indent=0, visited=None):
         if visited is None:
@@ -78,30 +95,24 @@ with open("ontology_summary_focused.txt", "w", encoding="utf8") as output_file:
     
     # Find a salad instance for detailed exploration
     def find_salad_instance():
-        # First try to find instances of classes with "Salad" in the name
-        salad_classes = []
-        for cls in classes:
-            if "Salad" in str(cls):
-                salad_classes.append(cls)
+        # Explicitly look for instances of sbo:Salad
+        salad_class = sbo.Salad
+        instances = list(g.subjects(RDF.type, salad_class))
+        if instances:
+            output_file.write(f"Found salad instance of class {print_n3(salad_class)}\n")
+            return random.choice(instances)
         
-        # Try each salad class and look for instances
-        for salad_class in salad_classes:
-            instances = list(g.subjects(RDF.type, salad_class))
+        # If no direct instances of sbo:Salad, look for subclasses of sbo:Salad
+        salad_subclasses = list(g.subjects(RDFS.subClassOf, salad_class))
+        for subclass in salad_subclasses:
+            if isinstance(subclass, BNode):
+                continue
+            instances = list(g.subjects(RDF.type, subclass))
             if instances:
-                output_file.write(f"Found salad instance of class {print_n3(salad_class)}\n")
+                output_file.write(f"Found salad subclass instance of {print_n3(subclass)}\n")
                 return random.choice(instances)
         
-        # If no direct salad instances found, look for subclasses of salad classes
-        for salad_class in salad_classes:
-            for subclass in g.subjects(RDFS.subClassOf, salad_class):
-                if isinstance(subclass, BNode):
-                    continue
-                instances = list(g.subjects(RDF.type, subclass))
-                if instances:
-                    output_file.write(f"Found salad subclass instance of {print_n3(subclass)}\n")
-                    return random.choice(instances)
-        
-        # If still no salad instances, search for any instance with "Salad" in its URI
+        # If no salad instances found, search for any instance with "Salad" in its URI
         for subject in g.subjects(RDF.type, OWL.NamedIndividual):
             if "Salad" in str(subject):
                 output_file.write(f"Found instance with 'Salad' in name: {print_n3(subject)}\n")
@@ -149,12 +160,33 @@ with open("ontology_summary_focused.txt", "w", encoding="utf8") as output_file:
         for label in g.objects(instance, RDFS.label):
             output_file.write("  " * (depth + 1) + f"Label: {label}\n")
         
-        # Get all properties and their values
-        for p, o in sorted(g.predicate_objects(instance), key=lambda x: print_n3(x[0])):
+        # Check if instance is Ingredient or Dressing (including subclasses)
+        is_ingredient_or_dressing = any(is_subclass(t, sbo.Ingredient) or is_subclass(t, sbo.Dressing) for t in types if not isinstance(t, BNode))
+        
+        # Collect substance portions and other properties
+        substance_portions = []
+        other_properties = []
+        
+        for p, o in g.predicate_objects(instance):
             # Skip type, already displayed above
             if p == RDF.type:
                 continue
                 
+            # Check if this is a substance portion link
+            if p == sbo.hasSubstancePortion and not isinstance(o, Literal):
+                substance_portions.append((p, o))
+            else:
+                other_properties.append((p, o))
+        
+        # Process substance portions for Ingredient or Dressing (randomized, max 4)
+        if is_ingredient_or_dressing and substance_portions:
+            random.shuffle(substance_portions)
+            substance_portions = substance_portions[:4]
+        
+        # Combine properties for processing (substance portions first, then others)
+        properties = substance_portions + sorted(other_properties, key=lambda x: print_n3(x[0]))
+        
+        for p, o in properties:
             # Get property label if available
             prop_label = next(g.objects(p, RDFS.label), None)
             prop_display = f"{print_n3(p)}" + (f" ({prop_label})" if prop_label else "")
