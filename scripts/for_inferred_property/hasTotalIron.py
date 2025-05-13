@@ -8,152 +8,212 @@ S = Namespace("http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontolo
 
 # Expected units for each substance
 expected_units = {
-    "Iron": "mg/100g",
+    "Iron": "mg/100g"
 }
 
-# Nutrient property map (only specific properties, no superproperty)
+# Nutrient property map (specific properties, no superproperty)
 nutrient_property_map = {
-    "Iron": S.hasTotalIron,
+    "Iron": S.hasTotalIron
 }
 
 def calculate_total_nutrition_for_salad(g, salad_name):
     """
-    Calculate total nutrition for a given salad and update or create SaladNutrientTotal and SaladSubstance instances.
-    
-    Args:
-        g (Graph): The RDF graph to work with
-        salad_name (str): Name of the salad instance (e.g., 'CapreseSalad')
+    Calculate total nutrition for a given salad using SPARQL queries
     """
     salad_uri = S[salad_name]
     nutrient_total_name = f"{salad_name}Nutrition"
     nutrient_total_uri = S[nutrient_total_name]
     
-    # Debug: Check for existing SaladSubstance instances at the start
-    existing_substances = []
-    for s, p, o in g.triples((None, RDF.type, S.SaladSubstance)):
-        if str(s).startswith(str(S) + salad_name):
-            existing_substances.append(str(s).split("#")[-1])
-    print(f"Existing SaladSubstance instances for {salad_name} at start: {existing_substances}")
-
-    # SPARQL query to retrieve all IngredientPortion and DressingPortion instances
-    query_portions = """
+    # Debug: Check for existing SaladSubstance instances using SPARQL
+    check_query = """
     PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    SELECT ?portion ?portionType ?amount ?unit ?component ?componentType
+    SELECT ?substance
     WHERE {
-        ?salad s:hasIngredientPortion | s:hasDressingPortion ?portion .
-        ?portion rdf:type ?portionType .
-        ?portion s:hasAmount ?amount .
-        ?portion s:hasUnit ?unit .
-        ?portion s:hasIngredient | s:hasDressing ?component .
-        ?component rdf:type ?componentType .
-        FILTER (?salad = <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#%s>)
-        FILTER (?portionType IN (s:IngredientPortion, s:DressingPortion))
+        ?substance rdf:type s:SaladSubstance .
+        FILTER(STRSTARTS(STR(?substance), STR(s:%s)))
     }
     """ % salad_name
+    
+    existing_substances = [str(row.substance).split("#")[-1] for row in g.query(check_query)]
+    print(f"Existing SaladSubstance instances for {salad_name} at start: {existing_substances}")
 
-    results = g.query(query_portions)
+    # Create a comma-separated list of all nutrient names for the SPARQL filter
+    nutrient_names_list = ", ".join([f'"{name}"' for name in nutrient_property_map.keys()])
+
+    # Comprehensive SPARQL query to calculate nutrition totals in one go
+    calc_query = """
+    PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    
+    SELECT ?substanceName (SUM(?scaledAmount) as ?totalAmount) ?substanceUnit
+    WHERE {
+      # Get all ingredient and dressing portions for this salad
+      <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#%s> 
+          s:hasIngredientPortion|s:hasDressingPortion ?portion .
+      
+      ?portion s:hasAmount ?portionAmount ;
+               s:hasUnit ?portionUnit ;
+               (s:hasIngredient|s:hasDressing) ?component .
+      
+      # Get substance portions from the components
+      ?component s:hasSubstancePortion ?substancePortion .
+      ?substancePortion s:hasSubstance ?substance ;
+                        s:hasAmount ?substanceAmount ;
+                        s:hasUnit ?substanceUnit .
+      
+      # Extract substance name from URI
+      BIND(STRAFTER(STR(?substance), "#") AS ?substanceName)
+      
+      # Calculate scaling factor based on portion units
+      BIND(
+        IF(LCASE(?portionUnit) = "grams" || (STRENDS(STR(?portion), "IngredientPortion") && LCASE(?portionUnit) = "g"),
+           ?portionAmount / 100.0,
+           IF(LCASE(?portionUnit) = "millilitres" || (STRENDS(STR(?portion), "DressingPortion") && LCASE(?portionUnit) = "ml"),
+              ?portionAmount / 100.0,
+              1.0)
+        ) AS ?scalingFactor
+      )
+      
+      # Apply scaling to substance amount
+      BIND(?substanceAmount * ?scalingFactor AS ?scaledAmount)
+      
+      # Filter to only include substances we're interested in
+      FILTER(?substanceName IN (%s))
+    }
+    GROUP BY ?substanceName ?substanceUnit
+    """ % (salad_name, nutrient_names_list)
+    
+    nutrient_results = g.query(calc_query)
     nutrient_totals = {}
     
-    for row in results:
-        portion_uri = row.portion
-        portion_type = row.portionType
-        amount = float(row.amount)
-        unit = str(row.unit)
-        component_uri = row.component
+    for row in nutrient_results:
+        substance_name = str(row.substanceName)
+        total_amount = float(row.totalAmount)
+        substance_unit = str(row.substanceUnit)
         
-        query_substances = """
-        PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
-        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        SELECT ?substancePortion ?substance ?amount ?unit
-        WHERE {
-            ?component s:hasSubstancePortion ?substancePortion .
-            ?substancePortion s:hasSubstance ?substance .
-            ?substancePortion s:hasAmount ?amount .
-            ?substancePortion s:hasUnit ?unit .
-            FILTER (?component = <%s>)
-        }
-        """ % component_uri
-
-        substance_results = g.query(query_substances)
-        
-        for sub_row in substance_results:
-            substance_uri = sub_row.substance
-            substance_amount = float(sub_row.amount)
-            substance_unit = str(sub_row.unit)
-            substance_name = substance_uri.split("#")[-1]
-            
-            if substance_name not in expected_units:
-                print(f"Warning: Substance {substance_name} not in expected units, skipping.")
-                continue
-                
+        if substance_name in expected_units:
             expected_unit = expected_units[substance_name]
             if substance_unit != expected_unit:
                 print(f"Warning: Unit mismatch for {substance_name}: expected {expected_unit}, found {substance_unit}")
-            
-            if unit.lower() == "grams" or (portion_type == S.IngredientPortion and unit.lower() == "g"):
-                scaling_factor = amount / 100.0
-            elif unit.lower() == "millilitres" or (portion_type == S.DressingPortion and unit.lower() == "ml"):
-                scaling_factor = amount / 100.0  # 1ml ≈ 1g for simplicity
-            else:
-                print(f"Warning: Unknown unit {unit} for portion {portion_uri}, using scaling factor 1.0")
-                scaling_factor = 1.0
-                
-            total_nutrient = substance_amount * scaling_factor
-            
-            if substance_name in nutrient_totals:
-                nutrient_totals[substance_name][0] += total_nutrient
-            else:
-                nutrient_totals[substance_name] = [total_nutrient, expected_unit]
+        
+        nutrient_totals[substance_name] = [total_amount, substance_unit]
     
-    # Remove all existing SaladSubstance instances for this salad
-    substances_to_remove = []
-    for s, p, o in g.triples((None, RDF.type, S.SaladSubstance)):
-        if str(s).startswith(str(S) + salad_name):
-            substances_to_remove.append(s)
-    print(f"Found {len(substances_to_remove)} existing SaladSubstance instances to remove for {salad_name}")
-    for substance_uri in substances_to_remove:
-        g.remove((substance_uri, None, None))
-        print(f"Removed triples for {substance_uri}")
-
-    # Clear all links from nutrient_total_uri
-    for prop in list(nutrient_property_map.values()):  # Only clear specific properties
-        for s, p, o in g.triples((nutrient_total_uri, prop, None)):
-            g.remove((s, p, o))
+    # SPARQL Update to remove all existing SaladSubstance instances for this salad
+    delete_query = """
+    PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     
-    if (nutrient_total_uri, RDF.type, S.SaladNutrientTotal) not in g:
-        g.add((nutrient_total_uri, RDF.type, S.SaladNutrientTotal))
+    DELETE {
+      ?substance ?p ?o .
+    }
+    WHERE {
+      ?substance rdf:type s:SaladSubstance .
+      ?substance ?p ?o .
+      FILTER(STRSTARTS(STR(?substance), STR(s:%s)))
+    }
+    """ % salad_name
+    
+    # Execute the delete query
+    g.update(delete_query)
+    print(f"Removed existing SaladSubstance instances for {salad_name}")
+    
+    # SPARQL Update to clear nutrition links
+    for prop in list(nutrient_property_map.values()):
+        prop_name = str(prop).split('#')[-1]
+        clear_query = """
+        PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+        
+        DELETE {
+          <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#%s> s:%s ?o .
+        }
+        WHERE {
+          <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#%s> s:%s ?o .
+        }
+        """ % (nutrient_total_name, prop_name, nutrient_total_name, prop_name)
+        
+        g.update(clear_query)
+    
+    # Check if SaladNutrientTotal instance exists and create if needed
+    check_nutrient_total = """
+    PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    
+    ASK {
+      s:%s rdf:type s:SaladNutrientTotal .
+    }
+    """ % nutrient_total_name
+    
+    if not g.query(check_nutrient_total).askAnswer:
+        create_nutrient_total = """
+        PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        
+        INSERT DATA {
+          s:%s rdf:type s:SaladNutrientTotal .
+        }
+        """ % nutrient_total_name
+        
+        g.update(create_nutrient_total)
         print(f"Created new SaladNutrientTotal instance: {nutrient_total_name}")
     else:
         print(f"Updating existing SaladNutrientTotal instance: {nutrient_total_name}")
     
-    if (salad_uri, S.hasNutrient, nutrient_total_uri) not in g:
-        g.add((salad_uri, S.hasNutrient, nutrient_total_uri))
+    # Check and create hasNutrient link if needed
+    check_has_nutrient = """
+    PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+    
+    ASK {
+      s:%s s:hasNutrient s:%s .
+    }
+    """ % (salad_name, nutrient_total_name)
+    
+    if not g.query(check_has_nutrient).askAnswer:
+        create_has_nutrient = """
+        PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+        
+        INSERT DATA {
+          s:%s s:hasNutrient s:%s .
+        }
+        """ % (salad_name, nutrient_total_name)
+        
+        g.update(create_has_nutrient)
         print(f"Added hasNutrient link from {salad_name} to {nutrient_total_name}")
     
-    added_links = set()
-    
+    # Create new SaladSubstance instances and link them
     for substance_name, (total_amount, unit) in nutrient_totals.items():
         substance_instance_name = f"{salad_name}{substance_name}"
-        substance_uri = S[substance_instance_name]
-        
-        # Since we removed all existing SaladSubstance instances, create new ones
-        g.add((substance_uri, RDF.type, S.SaladSubstance))
-        g.add((substance_uri, S.hasAmount, Literal(total_amount, datatype=XSD.decimal)))
         display_unit = "cal" if substance_name == "FoodEnergy" else "mg"
-        g.add((substance_uri, S.hasUnit, Literal(display_unit, datatype=XSD.string)))
-        print(f"Created new SaladSubstance instance: {substance_instance_name}")
         
-        if substance_name in nutrient_property_map:
-            link_tuple = (nutrient_total_uri, nutrient_property_map[substance_name], substance_uri)
-            if link_tuple not in added_links:
-                g.add(link_tuple)
-                added_links.add(link_tuple)
-                print(f"Added specific property link: {nutrient_property_map[substance_name].split('#')[-1]} to {substance_instance_name}")
+        create_substance = """
+        PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        
+        INSERT DATA {
+          s:%s rdf:type s:SaladSubstance ;
+                s:hasAmount "%s"^^xsd:decimal ;
+                s:hasUnit "%s"^^xsd:string .
+          
+          s:%s s:%s s:%s .
+        }
+        """ % (
+            substance_instance_name, 
+            total_amount, 
+            display_unit,
+            nutrient_total_name,
+            nutrient_property_map[substance_name].split('#')[-1],
+            substance_instance_name
+        ) if substance_name in nutrient_property_map else ""
+        
+        if create_substance:
+            g.update(create_substance)
+            print(f"Created SaladSubstance instance: {substance_instance_name} and linked with property")
 
 def process_all_salads():
     """
-    Retrieve all Salad instances and calculate their total nutrition.
+    Retrieve all Salad instances using SPARQL and calculate their total nutrition.
     """
     g = Graph()
     try:
@@ -161,17 +221,20 @@ def process_all_salads():
     except FileNotFoundError:
         print("Error: salad_ontology.rdf not found. Starting with an empty graph.")
     
+    # SPARQL query to get all salads
     query_salads = """
     PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    SELECT ?salad
+    
+    SELECT ?saladName
     WHERE {
         ?salad rdf:type s:Salad .
+        BIND(STRAFTER(STR(?salad), "#") AS ?saladName)
     }
     """
     
     results = g.query(query_salads)
-    salad_names = [str(row.salad).split("#")[-1] for row in results]
+    salad_names = [str(row.saladName) for row in results]
     
     print(f"Found {len(salad_names)} salads: {salad_names}")
     
@@ -179,9 +242,8 @@ def process_all_salads():
         print(f"\nProcessing salad: {salad_name}")
         calculate_total_nutrition_for_salad(g, salad_name)
     
-    # Save to a temporary file first, then copy to ensure proper update
-    temp_file = "salad_ontology.rdf"
-    g.serialize(destination=temp_file, format="xml")
+    # Save the updated ontology
+    g.serialize(destination="salad_ontology.rdf", format="xml")
     print("\nAll salads processed. Updated ontology saved as 'salad_ontology.rdf'.")
 
 if __name__ == "__main__":
