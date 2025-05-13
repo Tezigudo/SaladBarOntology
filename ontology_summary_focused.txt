@@ -1,9 +1,10 @@
-The ontology contains 9039 triples.
+The ontology contains 9051 triples.
 
 === CLASS HIERARCHY ===
 
 - owl:Thing
 - s:Allergy
+  - s:DressingAllergy
   - s:IngredientAllergy
     - s:CheeseAllergy
     - s:EggAllergy
@@ -74,7 +75,7 @@ The ontology contains 9039 triples.
   Property: s:hasIngredient → s:Ingredient
 - s:Person
   Restriction: s:hasSpecificPurpose someValuesFrom s:SpecificPurpose
-  Property: s:hasAllergy → s:Allergy
+  Property: s:hasAllergy
   Property: s:hasSpecificPurpose → s:SpecificPurpose
 - s:Salad
   Restriction: s:hasDressingPortion someValuesFrom s:DressingPortion
@@ -150,7 +151,6 @@ The ontology contains 9039 triples.
 
 Property: s:hasAllergy
   Domain: s:Person
-  Range: s:Allergy
 
 Property: s:hasDressing
   Domain: s:DressingPortion
@@ -246,6 +246,8 @@ Property: s:hasUnit
 === DETAILED SALAD EXPLORATION ===
 
 Found salad instance of class s:SaladNutrientTotal
-Starting exploration from: s:CapreseSaladNutrition
+Starting exploration from: s:SaladNicoiseNutrition
 
-s:CapreseSaladNutrition (Types: owl:NamedIndividual, s:SaladNutrientTotal)
+s:SaladNicoiseNutrition (Types: owl:NamedIndividual, s:SaladNutrientTotal)
+  s:hasTotalCalcium: s:Zinc [Types: owl:NamedIndividual, s:Substance]
+    s:Zinc (Types: owl:NamedIndividual, s:Substance)

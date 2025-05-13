@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#"
      xml:base="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology"
+     xmlns:s="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -7824,12 +7825,7 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FoodEnergy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FoodEnergy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Substance"/>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1578.62</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3623.7000000000007</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">645.4</hasAmount>
-        <hasUnit>mg</hasUnit>
     </owl:NamedIndividual>
     
 
@@ -17777,7 +17773,6 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">168.8</hasAmount>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1868.7199999999998</hasAmount>
         <hasUnit>mg</hasUnit>
@@ -18990,10 +18985,7 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zeaxanthin -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zeaxanthin">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Substance"/>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">905.3</hasAmount>
-        <hasUnit>mg</hasUnit>
     </owl:NamedIndividual>
     
 
@@ -19001,21 +18993,7 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Substance"/>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">105.80000000000001</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">173.0</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">221.89999999999998</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">222.5</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">306.0</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">465.68</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">469.04</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">561.14</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">590.4</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">611.5</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">841.98</hasAmount>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">842.0</hasAmount>
-        <hasUnit>mg</hasUnit>
     </owl:NamedIndividual>
     
 

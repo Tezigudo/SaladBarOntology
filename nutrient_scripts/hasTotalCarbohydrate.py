@@ -1,7 +1,4 @@
-import os
 
-# Big template with __NUTRIENT__ and __PROPERTY__ as our only replace‐tokens
-template = r'''
 import rdflib
 from rdflib import Graph, Literal, Namespace
 from rdflib.namespace import RDF, XSD
@@ -9,7 +6,7 @@ import shutil
 
 S = Namespace("http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#")
 
-def calculate___NUTRIENT___for_salad(g, salad_name):
+def calculate_Carbohydrate_for_salad(g, salad_name):
     salad_uri = S[salad_name]
     nutrient_total_name = f"{salad_name}Nutrition"
     nutrient_total_uri = S[nutrient_total_name]
@@ -30,8 +27,8 @@ def calculate___NUTRIENT___for_salad(g, salad_name):
     """
     results = g.query(query)
     total_amount = 0.0
-    expected_unit = "__UNIT__"
-    nutrient_property = S.__PROPERTY__
+    expected_unit = "mg/100g"
+    nutrient_property = S.hasTotalCarbohydrate
 
     for row in results:
         amount = float(row.amount)
@@ -52,7 +49,7 @@ def calculate___NUTRIENT___for_salad(g, salad_name):
         """.replace("${component}", component)
         for sr in g.query(sub_q):
             name = str(sr.substance).split("#")[-1]
-            if name != "__NUTRIENT__":
+            if name != "Carbohydrate":
                 continue
             val = float(sr.amount)
             u = str(sr.unit)
@@ -62,10 +59,10 @@ def calculate___NUTRIENT___for_salad(g, salad_name):
             total_amount += val * factor
 
     # write it out
-    sub_uri = S[f"{salad_name}__NUTRIENT__"]
+    sub_uri = S[f"{salad_name}Carbohydrate"]
     g.set((sub_uri, RDF.type, S.SaladSubstance))
     g.set((sub_uri, S.hasAmount, Literal(total_amount, datatype=XSD.decimal)))
-    display = "cal" if "__NUTRIENT__"=="FoodEnergy" else "mg"
+    display = "cal" if "Carbohydrate"=="FoodEnergy" else "mg"
     g.set((sub_uri, S.hasUnit, Literal(display, datatype=XSD.string)))
     g.set((nutrient_total_uri, RDF.type, S.SaladNutrientTotal))
     g.set((salad_uri, S.hasNutrient, nutrient_total_uri))
@@ -82,43 +79,8 @@ def process_salads():
     """
     for r in g.query(q):
         n = str(r.salad).split("#")[-1]
-        calculate___NUTRIENT___for_salad(g, n)
+        calculate_Carbohydrate_for_salad(g, n)
     g.serialize("salad_ontology.rdf", format="xml")
 
 if __name__ == "__main__":
     process_salads()
-'''
-
-# Nutrients → (property, unit)
-nutrients = {
-    "Calcium":    ("hasTotalCalcium", "mg/100g"),
-    "Carbohydrate":("hasTotalCarbohydrate","mg/100g"),
-    "Cholesterol":("hasTotalCholesterol","mg/100g"),
-    "Fat":        ("hasTotalFat",    "mg/100g"),
-    "FoodEnergy": ("hasTotalFoodEnergy","cal/100g"),
-    "Iron":       ("hasTotalIron",   "mg/100g"),
-    "Lutein":     ("hasTotalLutein", "mg/100g"),
-    "Omega-3":    ("hasTotalOmega_3","mg/100g"),
-    "Potassium":  ("hasTotalPotassium","mg/100g"),
-    "Protein":    ("hasTotalProtein","mg/100g"),
-    "Sodium":     ("hasTotalSodium","mg/100g"),
-    "VitaminA":   ("hasTotalVitaminA","mg/100g"),
-    "VitaminB9":  ("hasTotalVitaminB9","mg/100g"),
-    "VitaminC":   ("hasTotalVitaminC","mg/100g"),
-    "VitaminE":   ("hasTotalVitaminE","mg/100g"),
-    "Zeaxanthin": ("hasTotalZeaxanthin","mg/100g"),
-    "Zinc":       ("hasTotalZinc",   "mg/100g"),
-}
-
-out_dir = "nutrient_scripts"
-os.makedirs(out_dir, exist_ok=True)
-
-for name, (prop, unit) in nutrients.items():
-    code = (template
-            .replace("__NUTRIENT__", name)
-            .replace("__PROPERTY__", prop)
-            .replace("__UNIT__", unit))
-    path = os.path.join(out_dir, f"{prop}.py")
-    with open(path, "w", encoding="utf8") as f:
-        f.write(code)
-    print("Generated", path)

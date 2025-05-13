@@ -22,7 +22,6 @@ expected_units = {
     "VitaminA": "mg/100g",
     "VitaminB9": "mg/100g",
     "VitaminC": "mg/100g",
-    "VitaminE": "mg/100g",
     "Zeaxanthin": "mg/100g",
     "Zinc": "mg/100g"
 }
@@ -211,9 +210,8 @@ def process_all_salads():
         calculate_total_nutrition_for_salad(g, salad_name)
     
     # Save to a temporary file first, then copy to ensure proper update
-    temp_file = "temp_salad_ontology.rdf"
+    temp_file = "salad_ontology.rdf"
     g.serialize(destination=temp_file, format="xml")
-    shutil.copy(temp_file, "salad_ontology.rdf")
     print("\nAll salads processed. Updated ontology saved as 'salad_ontology.rdf'.")
 
 if __name__ == "__main__":
