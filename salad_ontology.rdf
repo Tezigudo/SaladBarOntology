@@ -19023,6 +19023,15 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BerryAllergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LeafAllergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RootAllergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StemAllergy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Egg"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Fruit"/>
@@ -19058,6 +19067,15 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenAllergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FishAllergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PorkAllergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SeafoodAllergy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CitrusBased"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Creamy"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Emulsified"/>
@@ -19074,6 +19092,14 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Condiments"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dairy"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Toppings"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CondimentsAllergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DairyAllergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ToppingsAllergy"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
