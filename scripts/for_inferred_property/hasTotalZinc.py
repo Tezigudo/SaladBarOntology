@@ -100,25 +100,6 @@ def calculate_total_nutrition_for_salad(g, salad_name):
         
         nutrient_totals[substance_name] = [total_amount, substance_unit]
     
-    # SPARQL Update to remove all existing SaladSubstance instances for this salad
-    delete_query = """
-    PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    
-    DELETE {
-      ?substance ?p ?o .
-    }
-    WHERE {
-      ?substance rdf:type s:SaladSubstance .
-      ?substance ?p ?o .
-      FILTER(STRSTARTS(STR(?substance), STR(s:%s)))
-    }
-    """ % salad_name
-    
-    # Execute the delete query
-    g.update(delete_query)
-    print(f"Removed existing SaladSubstance instances for {salad_name}")
-    
     # SPARQL Update to clear nutrition links
     for prop in list(nutrient_property_map.values()):
         prop_name = str(prop).split('#')[-1]

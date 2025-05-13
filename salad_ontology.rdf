@@ -1025,12 +1025,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAllergy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergy"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasSpecificPurpose"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SpecificPurpose"/>
             </owl:Restriction>
@@ -1354,43 +1348,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280.57</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">311034.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.16</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7980.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1361.54</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1475</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2586</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -1419,43 +1441,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">947.56</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20755.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">155.78</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.67794</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0372</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">190.32</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AmbrosiaZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2586</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -2533,43 +2583,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">789.31</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">395928.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64.8</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">150680.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3509.34</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.814</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.71195</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -2597,45 +2675,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1581.476</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6913.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">168425.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">808.21</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0823</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.12105</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">188.095</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.71195</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -4132,43 +4248,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">421.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38650.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53310.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">703.8</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.501</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.82215</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -4196,45 +4340,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">339.7899</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">483.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18285.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">841.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5234</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2118</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.18</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.82215</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -4272,43 +4454,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1811.85</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47243.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">268.6</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99553.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1453.4</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3355</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8364</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -4336,45 +4546,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.9</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1979.15</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">94765.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2167.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.22965</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.102</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">95.86</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8364</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -5350,43 +5598,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">234.52</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26389.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">61.46</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24436.4</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">403.93</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3163</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.13595</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -5414,45 +5690,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">147.18096</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1367.92</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23823.6</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">983.8</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.87255</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.26918</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">114.695</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.13595</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -5695,43 +6009,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">111.25</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51003.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">837.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40237.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1134.1</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6775</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.209</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -5759,45 +6101,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2333.75</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">148321.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">784.35</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.18419</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0769175</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">111.635</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.209</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -6022,43 +6402,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">153.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32949.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">651.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">172745.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2238.8</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.011</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0168</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -6086,45 +6494,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1452.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2944.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">140430.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4456.3</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.27002</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2603</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.35</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0168</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -6157,43 +6603,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">322.7</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92984.25</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">756.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81686.95</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1090.32</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8325</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8146</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -6221,45 +6695,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1815.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1546.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12010.95</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1702.25</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.047105</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.273092</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">241.2435</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8146</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -6942,43 +7454,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">232.84</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85458.4</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">690.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">78673.4</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1086.87</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.7834</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.41949</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -7006,45 +7546,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1500.31</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouiePotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouiePotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouiePotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2095.9</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25162.4</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1716.18</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.49494</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.381678</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64.029</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.41949</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -8312,37 +8890,61 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">420.99</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74378.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50132.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">769.74</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.99</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.48628</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -8369,45 +8971,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.08</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2660.93</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17263.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">534.7</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.96624</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6375</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">235.47</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.48628</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -9089,37 +9729,61 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">110.95</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64553.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1580.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">256.75</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.53</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.412</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -9146,45 +9810,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">125.85</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">832.3</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3963.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.3</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2676</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0435</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240.065</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.412</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -9673,43 +10375,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84.4</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50220.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">133.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">172150.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1809.5</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.984</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.374</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -9737,45 +10467,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92.7</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1346.9</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26635.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3432.8</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9145</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1435</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">130.8</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.374</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -15058,43 +15826,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">934.36</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">124268.1</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90.85</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">128361.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1853.79</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.8305</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.23</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -15122,45 +15918,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">191.49545</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2816.96</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53024.1</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1584.02</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5925</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.28243</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">143.975</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.23</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -15763,43 +16597,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">452.65</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65940.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59.25</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39114.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">733.6</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.72</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1904</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -15827,45 +16689,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.06225</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">521.65</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31318.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1591.7</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.97675</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0865</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.55</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1904</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -16321,43 +17221,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">86.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31663.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">438.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31366.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">457.5</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.044</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3731</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -16385,45 +17313,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">915.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">342.1</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14444.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1146.95</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6666</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.073664</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.115</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3731</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -18360,43 +19326,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">305.75</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">106130.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">439.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220570.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2725.0</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.433</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7627</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -18424,45 +19418,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2465.4</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoisePotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoisePotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoisePotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4282.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">86285.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">737.575</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3212</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4628</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.25</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7627</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -18992,37 +20024,61 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">295.2</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43761.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81923.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">906.2</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.032</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.84096</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -19049,45 +20105,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">82.404</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1459.4</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10063.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">104.4</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.6543</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2746</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">245.58</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.84096</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -19648,43 +20742,71 @@
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCalcium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCalcium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCalcium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52.9</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCarbohydrate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCarbohydrate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCarbohydrate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70924.5</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCholesterol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCholesterol"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladCholesterol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">252.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladFat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladFat"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladFat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53050.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladFoodEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladFoodEnergy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladFoodEnergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">751.75</hasAmount>
+        <hasUnit>cal</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladIron -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladIron"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladIron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.032</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladLutein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladLutein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladLutein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.10789</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -19712,45 +20834,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladOmega-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladOmega-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5150.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladPotassium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladPotassium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladPotassium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1209.25</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladProtein -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladProtein"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladProtein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10507.0</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladSodium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladSodium"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladSodium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">469.25</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0622</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminB9 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminB9"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminB9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.089064</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminC"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.605</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladZeaxanthin -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladZeaxanthin"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladZeaxanthin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.10789</hasAmount>
+        <hasUnit>mg</hasUnit>
+    </owl:NamedIndividual>
     
 
 
@@ -21004,6 +22164,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ComposedSalad"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dressing"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DressingPortion"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ingredient"/>

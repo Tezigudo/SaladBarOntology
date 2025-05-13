@@ -1,4 +1,4 @@
-The ontology contains 9051 triples.
+The ontology contains 10458 triples.
 
 === CLASS HIERARCHY ===
 
@@ -188,6 +188,9 @@ Property: s:hasTotalSubstance
   Range: s:SaladSubstance
 
   Subproperty:
+    Property: s:hasTotalCalcium
+
+  Subproperty:
     Property: s:hasTotalCarbohydrate
 
   Subproperty:
@@ -249,5 +252,67 @@ Found salad instance of class s:SaladNutrientTotal
 Starting exploration from: s:SaladNicoiseNutrition
 
 s:SaladNicoiseNutrition (Types: owl:NamedIndividual, s:SaladNutrientTotal)
-  s:hasTotalCalcium: s:Zinc [Types: owl:NamedIndividual, s:Substance]
-    s:Zinc (Types: owl:NamedIndividual, s:Substance)
+  s:hasTotalCalcium: s:SaladNicoiseCalcium [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseCalcium (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 305.75
+      s:hasUnit: mg
+  s:hasTotalCarbohydrate: s:SaladNicoiseCarbohydrate [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseCarbohydrate (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 106130.0
+      s:hasUnit: mg
+  s:hasTotalCholesterol: s:SaladNicoiseCholesterol [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseCholesterol (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 439.5
+      s:hasUnit: mg
+  s:hasTotalFat: s:SaladNicoiseFat [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseFat (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 220570.0
+      s:hasUnit: mg
+  s:hasTotalFoodEnergy: s:SaladNicoiseFoodEnergy [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseFoodEnergy (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 2725.0
+      s:hasUnit: cal
+  s:hasTotalIron: s:SaladNicoiseIron [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseIron (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 13.433
+      s:hasUnit: mg
+  s:hasTotalLutein: s:SaladNicoiseLutein [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseLutein (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 2.7627
+      s:hasUnit: mg
+  s:hasTotalOmega_3: s:SaladNicoiseOmega-3 [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseOmega-3 (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 2465.4
+      s:hasUnit: mg
+  s:hasTotalPotassium: s:SaladNicoisePotassium [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoisePotassium (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 4282.0
+      s:hasUnit: mg
+  s:hasTotalProtein: s:SaladNicoiseProtein [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseProtein (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 86285.0
+      s:hasUnit: mg
+  s:hasTotalSodium: s:SaladNicoiseSodium [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseSodium (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 737.575
+      s:hasUnit: mg
+  s:hasTotalVitaminA: s:SaladNicoiseVitaminA [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseVitaminA (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 3.3212
+      s:hasUnit: mg
+  s:hasTotalVitaminB9: s:SaladNicoiseVitaminB9 [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseVitaminB9 (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 0.4628
+      s:hasUnit: mg
+  s:hasTotalVitaminC: s:SaladNicoiseVitaminC [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseVitaminC (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 156.25
+      s:hasUnit: mg
+  s:hasTotalZeaxanthin: s:SaladNicoiseZeaxanthin [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseZeaxanthin (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 2.7627
+      s:hasUnit: mg
+  s:hasTotalZinc: s:SaladNicoiseZinc [Types: owl:NamedIndividual, s:SaladSubstance]
+    s:SaladNicoiseZinc (Types: owl:NamedIndividual, s:SaladSubstance)
+      s:hasAmount: 5.952
+      s:hasUnit: mg
