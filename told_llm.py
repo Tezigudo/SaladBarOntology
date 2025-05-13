@@ -10,7 +10,7 @@ g.parse("salad_ontology.rdf", format="xml")
 sbo = Namespace("http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#")
 g.bind("s", sbo)
 
-with open("ontology_summary_focused.txt", "w") as output_file:
+with open("ontology_summary_focused.txt", "w", encoding="utf-8") as output_file:
     def print_n3(item):
         return item.n3(g.namespace_manager)
     
