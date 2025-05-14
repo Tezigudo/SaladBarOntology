@@ -27598,7 +27598,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
+        <rdfs:comment>Vitamin C &gt; 33 mg  Vitamin A &gt; 1000 mcg  Omega-3 &gt; 1 g</rdfs:comment>
         <rdfs:label>GoodSkinSalad</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
