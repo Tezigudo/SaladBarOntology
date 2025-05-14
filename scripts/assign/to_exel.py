@@ -116,7 +116,7 @@ def export_ontology_to_xlsx_with_swrl(owl_file, output_xlsx):
 if __name__ == "__main__":
     # Example usage
     owl_file = "salad_ontology.rdf"  # Replace with your OWL file path
-    output_xlsx = "ontology_output_with_swrl.xlsx"
+    output_xlsx = "data/salad_ontology.xlsx"
     if os.path.exists(owl_file):
         export_ontology_to_xlsx_with_swrl(owl_file, output_xlsx)
     else:
