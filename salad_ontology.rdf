@@ -4170,7 +4170,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladLutein">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.82215</hasAmount>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hasAmount>
         <hasUnit>mg</hasUnit>
     </owl:NamedIndividual>
     
@@ -4244,7 +4244,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminA">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5234</hasAmount>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.234</hasAmount>
         <hasUnit>mg</hasUnit>
     </owl:NamedIndividual>
     
@@ -4274,7 +4274,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladZeaxanthin">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
-        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.82215</hasAmount>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</hasAmount>
         <hasUnit>mg</hasUnit>
     </owl:NamedIndividual>
     
