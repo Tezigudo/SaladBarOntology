@@ -1,2 +1,0 @@
-# LowOmega3Salad
-
