@@ -570,14 +570,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GrainSalad -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GrainSalad">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PlantAndGrainSalad"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HighCalciumSalad -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HighCalciumSalad">
@@ -1021,14 +1013,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Root">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Vegetable"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RootSalad -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RootSalad">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PlantAndGrainSalad"/>
     </owl:Class>
     
 
