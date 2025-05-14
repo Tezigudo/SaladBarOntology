@@ -142,7 +142,7 @@ with open("ontology_summary_focused.txt", "w", encoding="utf8") as output_file:
         return None
     
     # Recursively explore an instance and its related instances
-    def explore_instance(instance, depth=0, max_depth=5, visited=None):
+    def explore_instance(instance, depth=0, max_depth=3, visited=None):
         if visited is None:
             visited = set()
             
