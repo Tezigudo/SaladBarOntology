@@ -5861,7 +5861,10 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MeatSalad"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PoultrySalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SeafoodSalad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mayonnaise75ml"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Apple120g"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Celery100g"/>
@@ -17091,6 +17094,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PlantAndGrainSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DijonMustard15ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mayonnaise60ml"/>
@@ -19893,6 +19897,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tabbouleh -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tabbouleh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PlantAndGrainSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LemonJuice60ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OliveOil80ml"/>
@@ -26564,7 +26569,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                                                                                 <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
                                                                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#F"/>
-                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FAmt"/>
+                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#A"/>
                                                                             </rdf:Description>
                                                                         </rdf:first>
                                                                         <rdf:rest>
