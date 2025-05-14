@@ -26433,7 +26433,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/S"/>
                                 <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/N"/>
                             </rdf:Description>
-                        </rdf:first>
+                        </rdf:first> 
                         <rdf:rest>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
