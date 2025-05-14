@@ -2518,6 +2518,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladSodium"/>
@@ -2526,7 +2527,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BeanSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -4187,6 +4187,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladSodium"/>
@@ -4195,7 +4196,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -4394,6 +4394,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladSodium"/>
@@ -4402,7 +4403,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -5545,6 +5545,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladSodium"/>
@@ -5553,7 +5554,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -5958,6 +5958,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladSodium"/>
@@ -5966,7 +5967,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -6351,6 +6351,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladSodium"/>
@@ -6359,7 +6360,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -6553,6 +6553,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawSodium"/>
@@ -6561,7 +6562,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ColeslawOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -7405,6 +7405,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouiePotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieSodium"/>
@@ -7413,7 +7414,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabLouieOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -8824,6 +8824,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushSodium"/>
@@ -8832,7 +8833,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FattoushOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -9667,6 +9667,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladSodium"/>
@@ -9675,7 +9676,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FruitSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -10336,6 +10336,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladSodium"/>
@@ -10344,7 +10345,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -15800,6 +15800,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaSodium"/>
@@ -15808,7 +15809,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PanzanellaOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -16570,6 +16570,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladSodium"/>
@@ -16578,7 +16579,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PastaSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -17194,6 +17194,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladSodium"/>
@@ -17202,7 +17203,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -19317,6 +19317,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoisePotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseSodium"/>
@@ -19325,7 +19326,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoiseOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -20011,6 +20011,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehSodium"/>
@@ -20019,7 +20020,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TabboulehOmega-3"/>
     </owl:NamedIndividual>
     
 
@@ -20729,6 +20729,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalFoodEnergy rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladFoodEnergy"/>
         <hasTotalIron rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladIron"/>
         <hasTotalLutein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladLutein"/>
+        <hasTotalOmega-3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladOmega-3"/>
         <hasTotalPotassium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladPotassium"/>
         <hasTotalProtein rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladProtein"/>
         <hasTotalSodium rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladSodium"/>
@@ -20737,7 +20738,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasTotalVitaminC rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladVitaminC"/>
         <hasTotalZeaxanthin rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladZeaxanthin"/>
         <hasTotalZinc rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladZinc"/>
-        <hasTotalOmega_3 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaldorfSaladOmega-3"/>
     </owl:NamedIndividual>
     
 
