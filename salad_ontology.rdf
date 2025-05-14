@@ -5861,7 +5861,10 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickenSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MeatSalad"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PoultrySalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SeafoodSalad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mayonnaise75ml"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Apple120g"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Celery100g"/>
@@ -17091,6 +17094,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PotatoSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PlantAndGrainSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DijonMustard15ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mayonnaise60ml"/>
@@ -19893,6 +19897,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tabbouleh -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Tabbouleh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PlantAndGrainSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LemonJuice60ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OliveOil80ml"/>
@@ -22257,6 +22262,9 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#B9mcg">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#B">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LuAmt">
@@ -26397,7 +26405,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                                                                                 <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
                                                                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#F"/>
-                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FAmt"/>
+                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#A"/>
                                                                             </rdf:Description>
                                                                         </rdf:first>
                                                                         <rdf:rest>
@@ -26406,7 +26414,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                                                                 <rdf:first>
                                                                                     <rdf:Description>
                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
                                                                                         <swrl:arguments>
                                                                                             <rdf:Description>
                                                                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
@@ -26414,8 +26422,14 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                                                                                 <rdf:rest>
                                                                                                     <rdf:Description>
                                                                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</rdf:first>
-                                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                        <rdf:first rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#A"/>
+                                                                                                        <rdf:rest>
+                                                                                                            <rdf:Description>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.001</rdf:first>
+                                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                            </rdf:Description>
+                                                                                                        </rdf:rest>
                                                                                                     </rdf:Description>
                                                                                                 </rdf:rest>
                                                                                             </rdf:Description>
@@ -26427,10 +26441,21 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                                         <rdf:first>
                                                                                             <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasNutrient"/>
-                                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#S"/>
-                                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#N3"/>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                                                                                <swrl:arguments>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                        <rdf:first rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FAmt"/>
+                                                                                                        <rdf:rest>
+                                                                                                            <rdf:Description>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</rdf:first>
+                                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                            </rdf:Description>
+                                                                                                        </rdf:rest>
+                                                                                                    </rdf:Description>
+                                                                                                </swrl:arguments>
                                                                                             </rdf:Description>
                                                                                         </rdf:first>
                                                                                         <rdf:rest>
@@ -26439,9 +26464,9 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                                                                                 <rdf:first>
                                                                                                     <rdf:Description>
                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCarbohydrate"/>
-                                                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#N3"/>
-                                                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#C"/>
+                                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasNutrient"/>
+                                                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#S"/>
+                                                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#N3"/>
                                                                                                     </rdf:Description>
                                                                                                 </rdf:first>
                                                                                                 <rdf:rest>
@@ -26449,10 +26474,10 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                                                         <rdf:first>
                                                                                                             <rdf:Description>
-                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
-                                                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#C"/>
-                                                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CAmt"/>
+                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalCarbohydrate"/>
+                                                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#N3"/>
+                                                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#C"/>
                                                                                                             </rdf:Description>
                                                                                                         </rdf:first>
                                                                                                         <rdf:rest>
@@ -26460,24 +26485,67 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                                                                 <rdf:first>
                                                                                                                     <rdf:Description>
-                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
-                                                                                                                        <swrl:arguments>
-                                                                                                                            <rdf:Description>
-                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                                                                <rdf:first rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CAmt"/>
-                                                                                                                                <rdf:rest>
-                                                                                                                                    <rdf:Description>
-                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</rdf:first>
-                                                                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                                                                    </rdf:Description>
-                                                                                                                                </rdf:rest>
-                                                                                                                            </rdf:Description>
-                                                                                                                        </swrl:arguments>
+                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
+                                                                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#C"/>
+                                                                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#B"/>
                                                                                                                     </rdf:Description>
                                                                                                                 </rdf:first>
-                                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                                <rdf:rest>
+                                                                                                                    <rdf:Description>
+                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                        <rdf:first>
+                                                                                                                            <rdf:Description>
+                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                                                                                                <swrl:arguments>
+                                                                                                                                    <rdf:Description>
+                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                                        <rdf:first rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CAmt"/>
+                                                                                                                                        <rdf:rest>
+                                                                                                                                            <rdf:Description>
+                                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                                                <rdf:first rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#B"/>
+                                                                                                                                                <rdf:rest>
+                                                                                                                                                    <rdf:Description>
+                                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.001</rdf:first>
+                                                                                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                                                                    </rdf:Description>
+                                                                                                                                                </rdf:rest>
+                                                                                                                                            </rdf:Description>
+                                                                                                                                        </rdf:rest>
+                                                                                                                                    </rdf:Description>
+                                                                                                                                </swrl:arguments>
+                                                                                                                            </rdf:Description>
+                                                                                                                        </rdf:first>
+                                                                                                                        <rdf:rest>
+                                                                                                                            <rdf:Description>
+                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                                                                <rdf:first>
+                                                                                                                                    <rdf:Description>
+                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                                                                                                                        <swrl:arguments>
+                                                                                                                                            <rdf:Description>
+                                                                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                                                <rdf:first rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CAmt"/>
+                                                                                                                                                <rdf:rest>
+                                                                                                                                                    <rdf:Description>
+                                                                                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</rdf:first>
+                                                                                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                                                                    </rdf:Description>
+                                                                                                                                                </rdf:rest>
+                                                                                                                                            </rdf:Description>
+                                                                                                                                        </swrl:arguments>
+                                                                                                                                    </rdf:Description>
+                                                                                                                                </rdf:first>
+                                                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                                                            </rdf:Description>
+                                                                                                                        </rdf:rest>
+                                                                                                                    </rdf:Description>
+                                                                                                                </rdf:rest>
                                                                                                             </rdf:Description>
                                                                                                         </rdf:rest>
                                                                                                     </rdf:Description>
