@@ -491,14 +491,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSalad -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSalad">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CatagorizedSalad"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Emulsified -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Emulsified">
@@ -1595,6 +1587,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -1771,6 +1764,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AsparagusVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -1969,6 +1963,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AvocadoVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.66</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -2154,6 +2149,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BaconVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.43</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -2679,6 +2675,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BellPepperVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.37</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -3019,8 +3016,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueCheese">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
     </owl:NamedIndividual>
     
 
@@ -3040,8 +3035,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueCheeseCrumbles">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueCheeseCrumblesCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueCheeseCrumblesCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueCheeseCrumblesCholesterol"/>
@@ -3184,6 +3177,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueCheeseCrumblesVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -3370,6 +3364,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlueberriesVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.57</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -3557,6 +3552,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BostonLettuceVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.01</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -3589,7 +3585,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Bread">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Toppings"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gluten"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadFat"/>
@@ -3741,6 +3736,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BreadVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.66</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -3751,7 +3747,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Bulgur">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LegumeAndGrain"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gluten"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BulgurCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BulgurCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BulgurFat"/>
@@ -3906,6 +3901,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BulgurVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.01</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -4072,6 +4068,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarDressingVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -4694,6 +4691,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CarrotsVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.48</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -4718,14 +4716,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.17</hasAmount>
         <hasUnit>mg/100g</hasUnit>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
     </owl:NamedIndividual>
     
 
@@ -4987,6 +4977,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryLeavesVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.27</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -5235,6 +5226,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CeleryVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.27</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -5267,8 +5259,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CheddarCheese">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CheddarCheeseCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CheddarCheeseCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CheddarCheeseCholesterol"/>
@@ -5434,6 +5424,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CheddarCheeseVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.71</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -5837,6 +5828,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CherryTomatoVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.54</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -6095,6 +6087,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChickpeasVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -6794,7 +6787,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHam">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pork"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamCholesterol"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedHamFat"/>
@@ -6922,7 +6914,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedPasta">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LegumeAndGrain"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gluten"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedPastaCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedPastaCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedPastaFat"/>
@@ -7065,6 +7056,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedPastaVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.06</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -7214,6 +7206,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CookedTurkeyVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.09</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -7235,7 +7228,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Crab">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Seafood"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabCholesterol"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabFat"/>
@@ -7586,7 +7578,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Crabmeat">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Seafood"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatCholesterol"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatFat"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CrabmeatFoodEnergy"/>
@@ -7705,7 +7696,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Croutons">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Toppings"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gluten"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsFat"/>
@@ -7835,6 +7825,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CroutonsVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -8020,6 +8011,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CucumberVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.03</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -8041,7 +8033,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHam">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pork"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamCholesterol"/>
@@ -8172,6 +8163,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliHamVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.24</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -8193,7 +8185,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkey">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Chicken"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyCholesterol"/>
@@ -8312,6 +8303,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DeliTurkeyVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -8451,6 +8443,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DicedChickenVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.27</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -8657,6 +8650,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DijonMustardVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -8677,6 +8671,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EggSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DijonMustard15ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mayonnaise90ml"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackPepper2g"/>
@@ -8952,8 +8947,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCheese">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCheeseCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCheeseCholesterol"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCheeseFat"/>
@@ -9095,6 +9088,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCheeseVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -9116,8 +9110,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCubesOrCrumbles">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCubesOrCrumblesCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCubesOrCrumblesCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCubesOrCrumblesCholesterol"/>
@@ -9272,6 +9264,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FetaCubesOrCrumblesVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.18</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -9293,7 +9286,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Figs">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DriedFruit"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsFat"/>
@@ -9436,6 +9428,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FigsVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -9465,8 +9458,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshMozzarella">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshMozzarellaCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshMozzarellaCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#FreshMozzarellaCholesterol"/>
@@ -9948,6 +9939,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarbanzoBeansVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -10121,6 +10113,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GarlicVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.08</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -10134,22 +10127,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.16</hasAmount>
         <hasUnit>mg/100g</hasUnit>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gelatin -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gelatin">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gluten -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gluten">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
     </owl:NamedIndividual>
     
 
@@ -10199,6 +10176,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GrapesRaisinsVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.12</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -10231,6 +10209,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GrapesVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.17</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -10595,6 +10574,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreekYogurtVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -10793,6 +10773,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenBeansVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -11152,6 +11133,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenCabbageVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -11365,6 +11347,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GreenOnionsVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.55</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -11397,7 +11380,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HardBoiledEggs">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Egg"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ovalbumin"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HardBoiledEggsCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HardBoiledEggsCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HardBoiledEggsCholesterol"/>
@@ -11609,6 +11591,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HardBoiledEggsVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.05</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -11774,6 +11757,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyCreamVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -11795,8 +11779,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCream">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dairy"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HeavyWhippingCreamCholesterol"/>
@@ -11894,12 +11876,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.55</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HighCalciumSalad_i -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HighCalciumSalad_i"/>
     
 
 
@@ -12036,7 +12012,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Horseradish">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Condiments"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#HorseradishFat"/>
@@ -12353,6 +12328,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IcebergLettuceVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.18</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -12524,6 +12500,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ItalianDressingVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -12753,6 +12730,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KetchupVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -12915,6 +12893,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KidneyBeansVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.54</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -13077,6 +13056,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#KiwiVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -13090,14 +13070,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.14</hasAmount>
         <hasUnit>mg/100g</hasUnit>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
     </owl:NamedIndividual>
     
 
@@ -13270,6 +13242,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LemonJuiceVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.37</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -13457,6 +13430,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LettuceVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.22</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -13655,6 +13629,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LimeJuiceVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.08</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -13871,6 +13846,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MandarinOrangesVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -13892,7 +13868,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mango">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DriedFruit"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoFat"/>
@@ -14015,7 +13990,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoVitaminA">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminA"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3246</hasAmount>
         <hasUnit>mg/100g</hasUnit>
@@ -14049,6 +14023,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MangoVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.46</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -14199,7 +14174,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherries">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PreparedFruit"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MaraschinoCherriesFat"/>
@@ -14526,6 +14500,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MayonnaiseVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -14558,8 +14533,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallows">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Toppings"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gelatin"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallowsCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallowsFoodEnergy"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MiniMarshmallowsProtein"/>
@@ -14777,8 +14750,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mozzarella">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MozzarellaCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MozzarellaCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MozzarellaCholesterol"/>
@@ -14955,6 +14926,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MozzarellaVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.05</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -15139,6 +15111,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#NapaCabbageVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.01</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -15373,6 +15346,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OliveOilVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -15513,6 +15487,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OlivesVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.81</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -15717,14 +15692,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Protein"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10700.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ovalbumin -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ovalbumin">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
     </owl:NamedIndividual>
     
 
@@ -16100,6 +16067,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PaprikaVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -16121,8 +16089,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParmesanCheese">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Cheese"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParmesanCheeseCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParmesanCheeseCholesterol"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParmesanCheeseFat"/>
@@ -16276,6 +16242,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParmesanCheeseVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -16474,6 +16441,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParsleyVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.96</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -16916,6 +16884,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PickleRelishVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.58</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -17100,6 +17069,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PineappleVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -17874,6 +17844,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RanchDressingVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -17917,6 +17888,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RanchVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -18243,6 +18215,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedCabbageVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -18404,6 +18377,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedGrapeVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -18601,6 +18575,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedOnionVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -18841,6 +18816,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RedWineVinaigretteVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -19040,6 +19016,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RomaineLettuceVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.12</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -19216,6 +19193,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladDressingVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -19592,6 +19570,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ShallotsVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -19786,6 +19765,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#StrawberriesVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -19799,14 +19779,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.14</hasAmount>
         <hasUnit>mg/100g</hasUnit>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
     </owl:NamedIndividual>
     
 
@@ -20343,6 +20315,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TomatoVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.54</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -20515,6 +20488,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#TunaVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -20644,6 +20618,16 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminC">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Substance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE">
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">168.8</hasAmount>
+        <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1868.7199999999998</hasAmount>
+        <hasUnit>mg</hasUnit>
     </owl:NamedIndividual>
     
 
@@ -21004,6 +20988,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WalnutVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -21166,6 +21151,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WaxBeansVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.94</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -21350,6 +21336,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteCabbageVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -21525,6 +21512,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteOnionVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.03</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -21675,6 +21663,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteWineVinaigretteVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -21778,6 +21767,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WorcestershireSauceVitaminE">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
+        <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VitaminE"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</hasAmount>
         <hasUnit>mg/100g</hasUnit>
     </owl:NamedIndividual>
@@ -21909,8 +21899,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Yogurt">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dairy"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtCalcium"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtCarbohydrate"/>
         <hasSubstancePortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#YogurtCholesterol"/>
@@ -22043,7 +22031,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Grapes(raisins)">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DriedFruit"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
     </owl:NamedIndividual>
     
 
@@ -22052,7 +22039,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Pasta(Farfalle,Orzo,etc.)">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#LegumeAndGrain"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gluten"/>
     </owl:NamedIndividual>
     
 
@@ -22071,7 +22057,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#​​HardCookedEggs">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Egg"/>
-        <containAllergen rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ovalbumin"/>
     </owl:NamedIndividual>
     
 
