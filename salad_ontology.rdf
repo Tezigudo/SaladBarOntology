@@ -17392,11 +17392,9 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Preawpan">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
-        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Casein"/>
-        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Gelatin"/>
-        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Lactose"/>
         <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ovalbumin"/>
         <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sulfites"/>
+        <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MuscleBuilding"/>
     </owl:NamedIndividual>
     
 
@@ -22024,19 +22022,10 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_dressing_i -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_dressing_i">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dressing"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_dressing_portion_i -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_dressing_portion_i">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DressingPortion"/>
-        <hasDressing rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_dressing_i"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</hasAmount>
     </owl:NamedIndividual>
     
@@ -22053,7 +22042,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_ingredient_portion_i -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_ingredient_portion_i">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#IngredientPortion"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_ingredient_i"/>
     </owl:NamedIndividual>
     
@@ -22063,17 +22051,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_nutrition_i">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_salad_i -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_salad_i">
-        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
-        <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_dressing_portion_i"/>
-        <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_ingredient_portion_i"/>
-        <hasNutrient rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#eye_care_nutrition_i"/>
     </owl:NamedIndividual>
     
 
