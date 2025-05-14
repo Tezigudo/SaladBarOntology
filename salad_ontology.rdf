@@ -4101,6 +4101,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ComposedSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CaesarDressing60ml"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Croutons50g"/>
@@ -4306,6 +4307,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CapreseSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ComposedSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BalsamicGlaze15ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OliveOil30ml"/>
@@ -5444,6 +5446,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ChefSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ComposedSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RanchDressing30ml"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#BlackOlives15g"/>
@@ -6250,6 +6253,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSalad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#CobbSalad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ComposedSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RanchDressing120ml"/>
         <hasIngredientPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Avocado150g"/>
@@ -6453,6 +6457,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Coleslaw">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#VegetableSalad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#AppleCiderVinaigrette30ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DijonMustard15ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MapleSyrup15ml"/>
@@ -19189,6 +19194,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoise -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNicoise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ComposedSalad"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#OliveOil180ml"/>
         <hasDressingPortion rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#WhiteWineVinaigrette60ml"/>
