@@ -539,88 +539,92 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EyeCareSalad -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EyeCareSalad">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PurposedSalad"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasNutrient"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalLutein"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
-                                                <owl:someValuesFrom>
-                                                    <rdfs:Datatype>
-                                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-                                                        <owl:withRestrictions rdf:parseType="Collection">
-                                                            <rdf:Description>
-                                                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</xsd:minExclusive>
-                                                            </rdf:Description>
-                                                        </owl:withRestrictions>
-                                                    </rdfs:Datatype>
-                                                </owl:someValuesFrom>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminA"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
-                                                <owl:someValuesFrom>
-                                                    <rdfs:Datatype>
-                                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-                                                        <owl:withRestrictions rdf:parseType="Collection">
-                                                            <rdf:Description>
-                                                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</xsd:minExclusive>
-                                                            </rdf:Description>
-                                                        </owl:withRestrictions>
-                                                    </rdfs:Datatype>
-                                                </owl:someValuesFrom>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZeaxanthin"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
-                                                <owl:someValuesFrom>
-                                                    <rdfs:Datatype>
-                                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-                                                        <owl:withRestrictions rdf:parseType="Collection">
-                                                            <rdf:Description>
-                                                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</xsd:minExclusive>
-                                                            </rdf:Description>
-                                                        </owl:withRestrictions>
-                                                    </rdfs:Datatype>
-                                                </owl:someValuesFrom>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PurposedSalad"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasNutrient"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladNutrientTotal"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalLutein"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</xsd:minExclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalVitaminA"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</xsd:minExclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasTotalZeaxanthin"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SaladSubstance"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAmount"/>
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</xsd:minExclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:comment>A salad is classified as an EyeCareSalad if it contains:
 
 Lutein &gt; 5 mg
@@ -700,7 +704,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GrainSalad">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#PlantAndGrainSalad"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#RootSalad"/>
     </owl:Class>
     
 
