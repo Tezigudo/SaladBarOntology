@@ -29,19 +29,20 @@ def rename_uri(uri):
 
 def should_eat_allergen():
     return """
-    PREFIX owl: <http://www.w3.org/2002/07/owl#>
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
-    
-    SELECT ?salad, ?ingredient
-    WHERE {
-        ?salad a :Salad.
-        FILTER NOT EXISTS {
-            ?salad :hasIngredient ?ingredient.
-            ?ingredient :containsAllergen :AllergenA.
-        }
-    :PersonX :hasAllergicTo :AllergenA .
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX s: <http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#>
+
+SELECT ?safeSalad ?person
+WHERE {
+  ?safeSalad a s:Salad.
+  ?person a s:Person.
+  MINUS {
+    ?safeSalad s:isNotFor ?person .
+    FILTER(?person = s:Preawpan)
+  }
+}
     }
     """
 
