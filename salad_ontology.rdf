@@ -17667,8 +17667,8 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Preawpan">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
-        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#ParmesanCheese"/>
-        <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EnergyBoost"/>
+        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion"/>
+        <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EyeCare"/>
     </owl:NamedIndividual>
     
 
