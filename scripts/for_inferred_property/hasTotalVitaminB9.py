@@ -16,9 +16,29 @@ nutrient_property_map = {
     "VitaminB9": S.hasTotalVitaminB9,
 }
 
+# Map substance names to their URIs
+substance_uri_map = {
+    "Calcium": S.Calcium,
+    "Carbohydrate": S.Carbohydrate,
+    "Cholesterol": S.Cholesterol,
+    "Fat": S.Fat,
+    "FoodEnergy": S.FoodEnergy,
+    "Iron": S.Iron,
+    "Lutein": S.Lutein,
+    "Omega-3": S.Omega_3,
+    "Potassium": S.Potassium,
+    "Protein": S.Protein,
+    "Sodium": S.Sodium,
+    "VitaminA": S.VitaminA,
+    "VitaminB9": S.VitaminB9,
+    "VitaminC": S.VitaminC,
+    "Zeaxanthin": S.Zeaxanthin,
+    "Zinc": S.Zinc
+}
+
 def calculate_total_nutrition_for_salad(g, salad_name):
     """
-    Calculate total nutrition for a given salad using SPARQL queries
+    Calculate total nutrition for a given salad using SPARQL queries and add hasSubstance links.
     """
     salad_uri = S[salad_name]
     nutrient_total_name = f"{salad_name}Nutrition"
@@ -99,7 +119,7 @@ def calculate_total_nutrition_for_salad(g, salad_name):
                 print(f"Warning: Unit mismatch for {substance_name}: expected {expected_unit}, found {substance_unit}")
         
         nutrient_totals[substance_name] = [total_amount, substance_unit]
-        
+    
     # SPARQL Update to clear nutrition links
     for prop in list(nutrient_property_map.values()):
         prop_name = str(prop).split('#')[-1]
@@ -162,7 +182,7 @@ def calculate_total_nutrition_for_salad(g, salad_name):
         g.update(create_has_nutrient)
         print(f"Added hasNutrient link from {salad_name} to {nutrient_total_name}")
     
-    # Create new SaladSubstance instances and link them
+    # Create new SaladSubstance instances and link them with hasSubstance
     for substance_name, (total_amount, unit) in nutrient_totals.items():
         substance_instance_name = f"{salad_name}{substance_name}"
         display_unit = "cal" if substance_name == "FoodEnergy" else "mg"
@@ -175,7 +195,8 @@ def calculate_total_nutrition_for_salad(g, salad_name):
         INSERT DATA {
           s:%s rdf:type s:SaladSubstance ;
                 s:hasAmount "%s"^^xsd:decimal ;
-                s:hasUnit "%s"^^xsd:string .
+                s:hasUnit "%s"^^xsd:string ;
+                s:hasSubstance s:%s .
           
           s:%s s:%s s:%s .
         }
@@ -183,14 +204,15 @@ def calculate_total_nutrition_for_salad(g, salad_name):
             substance_instance_name, 
             total_amount, 
             display_unit,
+            substance_name,  # Link to the substance (e.g., s:Calcium)
             nutrient_total_name,
             nutrient_property_map[substance_name].split('#')[-1],
             substance_instance_name
-        ) if substance_name in nutrient_property_map else ""
+        ) if substance_name in nutrient_property_map and substance_name in substance_uri_map else ""
         
         if create_substance:
             g.update(create_substance)
-            print(f"Created SaladSubstance instance: {substance_instance_name} and linked with property")
+            print(f"Created SaladSubstance instance: {substance_instance_name} with hasSubstance link to s:{substance_name}")
 
 def process_all_salads():
     """
