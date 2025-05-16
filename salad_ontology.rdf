@@ -19934,7 +19934,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sittanat">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
-        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion"/>
+        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mozzarella"/>
         <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EnergyBoost"/>
     </owl:NamedIndividual>
     
