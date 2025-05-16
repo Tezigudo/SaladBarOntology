@@ -487,12 +487,6 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#containAllergen"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -750,12 +744,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SubstancePortion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#containAllergen"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -995,14 +983,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasSpecificPurpose"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#SpecificPurpose"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
     
 
 
@@ -9490,6 +9471,18 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.88</hasAmount>
         <hasUnit>mg/100g</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Fifth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Fifth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
+        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mozzarella"/>
+        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ovalbumin"/>
+        <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EnergyBoost"/>
+        <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MuscleBuilding"/>
     </owl:NamedIndividual>
     
 
@@ -19934,7 +19927,7 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sittanat">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
-        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Mozzarella"/>
+        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion"/>
         <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EnergyBoost"/>
     </owl:NamedIndividual>
     
@@ -22763,139 +22756,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#gO3">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>IsNotFor(Dressing)</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#s"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dressing"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#d"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DressingPortion"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#dp"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAllergicTo"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#p"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#a"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasDressingPortion"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#s"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#dp"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasDressing"/>
-                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#dp"/>
-                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#d"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#containAllergen"/>
-                                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#d"/>
-                                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#a"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#isNotFor"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#s"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
@@ -28562,6 +28422,139 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#GoodSkinSalad"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#S"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>IsNotFor(Dressing)</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#s"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Dressing"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#d"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#DressingPortion"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#dp"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Allergen"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#a"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasAllergicTo"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#p"/>
+                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#a"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasDressingPortion"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#s"/>
+                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#dp"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#hasDressing"/>
+                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#dp"/>
+                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#d"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#containAllergen"/>
+                                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#d"/>
+                                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#a"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#isNotFor"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#s"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#p"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
