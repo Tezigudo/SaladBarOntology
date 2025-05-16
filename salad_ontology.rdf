@@ -312,7 +312,7 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#isNotFor -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#isNotFor">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldntFor"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldNotEatSalad"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
     </owl:ObjectProperty>
@@ -328,9 +328,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldntFor -->
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldNotEatSalad -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldntFor"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldNotEatSalad"/>
     
 
 
