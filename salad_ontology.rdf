@@ -312,6 +312,7 @@
     <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#isNotFor -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#isNotFor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldntFor"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
     </owl:ObjectProperty>
@@ -324,6 +325,12 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Salad"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldntFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#shouldntFor"/>
     
 
 
@@ -17707,7 +17714,6 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Preawpan">
         <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
-        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion"/>
         <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Ovalbumin"/>
         <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#MuscleBuilding"/>
     </owl:NamedIndividual>
@@ -19920,6 +19926,16 @@ Vitamin A &gt; 1000 mcg</rdfs:comment>
         <hasSubstance rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Zinc"/>
         <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</hasAmount>
         <hasUnit>mg/100g</hasUnit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sittanat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Sittanat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Person"/>
+        <hasAllergicTo rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#Onion"/>
+        <hasSpecificPurpose rdf:resource="http://www.semanticweb.org/god/ontologies/2025/3/salad-bar-ontology#EnergyBoost"/>
     </owl:NamedIndividual>
     
 
